@@ -1,13 +1,348 @@
 import { Meta } from '@storybook/blocks'
 
-<Meta title="Flock DS / Introduction" />
+<Meta title="Introduction" />
 
-# Flock Design System
-Component library for the Snoonu Merchant Portal.
+<style>{`
+  @keyframes flock-beam-breathe {
+    0%, 100% { opacity: 0.72; }
+    50%       { opacity: 1; }
+  }
 
-**Stack:** React · TypeScript · Storybook 8.6.18
-**Font:** Inter
-**Tokens:** CSS custom properties — never hardcoded.
+  @keyframes flock-fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
 
-## Status
-🚧 In progress — tokens pending from Figma.
+  @keyframes flock-badge-in {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .fi-hero {
+    position: relative;
+    background: #000;
+    min-height: 520px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 72px;
+    overflow: hidden;
+    margin: -16px -16px 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  /* ── beam layers ── */
+  .fi-beam-outer {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 80% 55% at 50% 100%, rgba(217,2,23,0.09) 0%, transparent 70%);
+    animation: flock-beam-breathe 5s ease-in-out infinite;
+    pointer-events: none;
+  }
+  .fi-beam-mid {
+    position: absolute;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%);
+    width: 700px; height: 100%;
+    background: radial-gradient(ellipse 30% 90% at 50% 100%, rgba(255,255,255,0.055) 0%, transparent 75%);
+    animation: flock-beam-breathe 5s ease-in-out infinite 0.8s;
+    pointer-events: none;
+  }
+  .fi-beam-cone {
+    position: absolute;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%);
+    width: 540px; height: 100%;
+    background: linear-gradient(to top, rgba(255,255,255,0.55) 0%, rgba(255,230,230,0.18) 35%, transparent 72%);
+    clip-path: polygon(50% 100%, 34% 0%, 66% 0%);
+    animation: flock-beam-breathe 5s ease-in-out infinite 1.2s;
+    pointer-events: none;
+  }
+  .fi-beam-core {
+    position: absolute;
+    bottom: 0; left: 50%;
+    transform: translateX(-50%);
+    width: 540px; height: 100%;
+    background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.55) 12%, rgba(255,255,255,0.08) 45%, transparent 65%);
+    clip-path: polygon(50% 100%, 47% 0%, 53% 0%);
+    pointer-events: none;
+  }
+  .fi-beam-glow {
+    position: absolute;
+    bottom: -12px; left: 50%;
+    transform: translateX(-50%);
+    width: 240px; height: 72px;
+    background: radial-gradient(ellipse 100% 100%, rgba(255,255,255,0.55) 0%, transparent 70%);
+    filter: blur(10px);
+    animation: flock-beam-breathe 5s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  /* ── hero text ── */
+  .fi-hero-content {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    animation: flock-fade-up 0.9s ease-out forwards;
+  }
+  .fi-eyebrow {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.35);
+    margin: 0 0 14px;
+  }
+  .fi-title {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -0.04em;
+    color: #fff;
+    margin: 0 0 14px;
+  }
+  .fi-title-accent { color: #D90217; }
+  .fi-subtitle {
+    font-size: 15px;
+    color: rgba(255,255,255,0.38);
+    margin: 0;
+    font-weight: 400;
+  }
+
+  /* ── body ── */
+  .fi-body {
+    background: #000;
+    padding: 56px 32px 96px;
+    margin: 0 -16px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  /* ── badge strip ── */
+  .fi-badges {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto 52px;
+    animation: flock-badge-in 0.7s ease-out 0.2s both;
+  }
+  .fi-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    font-size: 12px;
+    color: rgba(255,255,255,0.45);
+    background: rgba(255,255,255,0.03);
+  }
+  .fi-badge-dot {
+    width: 5px; height: 5px;
+    border-radius: 50%;
+    background: #D90217;
+    flex-shrink: 0;
+  }
+
+  /* ── cards grid ── */
+  .fi-grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto 52px;
+  }
+  .fi-grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(255,255,255,0.07);
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .fi-card {
+    background: #080808;
+    padding: 28px;
+  }
+  .fi-card-icon {
+    font-size: 20px;
+    margin-bottom: 14px;
+    display: block;
+  }
+  .fi-card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+    margin: 0 0 8px;
+    font-family: 'Inter', sans-serif;
+  }
+  .fi-card p {
+    font-size: 13px;
+    color: rgba(255,255,255,0.38);
+    margin: 0;
+    line-height: 1.65;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* ── sections ── */
+  .fi-section {
+    max-width: 900px;
+    margin: 0 auto 48px;
+  }
+  .fi-section h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255,255,255,0.85);
+    margin: 0 0 20px;
+    letter-spacing: -0.01em;
+    font-family: 'Inter', sans-serif;
+  }
+  .fi-divider {
+    border: none;
+    border-top: 1px solid rgba(255,255,255,0.06);
+    max-width: 900px;
+    margin: 48px auto;
+  }
+
+  /* ── code block ── */
+  .fi-code {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    padding: 20px 24px;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+    font-size: 13px;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.9;
+  }
+  .fi-code-comment { color: rgba(255,255,255,0.22); }
+  .fi-code-cmd     { color: #D90217; font-weight: 600; }
+  .fi-code-path    { color: rgba(255,255,255,0.55); }
+
+  /* ── token color swatch ── */
+  .fi-swatch {
+    display: inline-block;
+    width: 10px; height: 10px;
+    border-radius: 2px;
+    background: #D90217;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  .fi-inline-code {
+    font-family: 'SFMono-Regular', Consolas, monospace;
+    font-size: 12px;
+    color: rgba(255,255,255,0.45);
+    background: rgba(255,255,255,0.06);
+    padding: 1px 5px;
+    border-radius: 4px;
+  }
+`}</style>
+
+<div className="fi-hero">
+  <div className="fi-beam-outer" />
+  <div className="fi-beam-mid" />
+  <div className="fi-beam-cone" />
+  <div className="fi-beam-core" />
+  <div className="fi-beam-glow" />
+  <div className="fi-hero-content">
+    <p className="fi-eyebrow">Snoonu · Merchant Portal</p>
+    <h1 className="fi-title">Flock&nbsp;<span className="fi-title-accent">DS</span></h1>
+    <p className="fi-subtitle">Design System — single source of truth for the Merchant Portal UI</p>
+  </div>
+</div>
+
+<div className="fi-body">
+
+  <div className="fi-badges">
+    <span className="fi-badge"><span className="fi-badge-dot" />React 18</span>
+    <span className="fi-badge"><span className="fi-badge-dot" />TypeScript</span>
+    <span className="fi-badge"><span className="fi-badge-dot" />Storybook 8</span>
+    <span className="fi-badge"><span className="fi-badge-dot" />Ant Design 6</span>
+    <span className="fi-badge"><span className="fi-badge-dot" />CSS Custom Properties</span>
+    <span className="fi-badge"><span className="fi-badge-dot" />Inter</span>
+  </div>
+
+  <div className="fi-grid-3">
+    <div className="fi-card">
+      <span className="fi-card-icon">🎨</span>
+      <h3>Design Tokens</h3>
+      <p>Colors, spacing, typography, radius, shadows — all CSS custom properties. Zero hardcoded values anywhere.</p>
+    </div>
+    <div className="fi-card">
+      <span className="fi-card-icon">🧩</span>
+      <h3>Components</h3>
+      <p>Merchant-grade components built on Ant Design. Every state — default, hover, focus, disabled, loading, error.</p>
+    </div>
+    <div className="fi-card">
+      <span className="fi-card-icon">📐</span>
+      <h3>Screens</h3>
+      <p>Full page compositions assembled from components. B2B patterns for forms, tables, dashboards.</p>
+    </div>
+  </div>
+
+  <div className="fi-section">
+    <h2>Quick Start</h2>
+    <div className="fi-code">
+      <span className="fi-code-comment"># Clone and install</span><br />
+      <span className="fi-code-cmd">git clone</span> <span className="fi-code-path">https://github.com/tcmms/Flock.git</span><br />
+      <span className="fi-code-cmd">cd</span> <span className="fi-code-path">Flock</span><br />
+      <span className="fi-code-cmd">npm install</span><br />
+      <br />
+      <span className="fi-code-comment"># Run Storybook locally on http://localhost:6006</span><br />
+      <span className="fi-code-cmd">npm run storybook</span>
+    </div>
+  </div>
+
+  <hr className="fi-divider" />
+
+  <div className="fi-section">
+    <h2>Token System</h2>
+    <div className="fi-grid-2">
+      <div className="fi-card">
+        <h3>Colors</h3>
+        <p>Primary: <span className="fi-swatch" /><code className="fi-inline-code">#D90217</code> Ruby/Red. Full semantic palette — success, warning, error, info. All via <code className="fi-inline-code">{'--flock-color-*'}</code>.</p>
+      </div>
+      <div className="fi-card">
+        <h3>Spacing</h3>
+        <p>4px base grid. All spacing values are multiples of 4px and accessed via <code className="fi-inline-code">{'--flock-spacing-*'}</code>.</p>
+      </div>
+      <div className="fi-card">
+        <h3>Typography</h3>
+        <p>Inter font. Scale from <code className="fi-inline-code">--flock-font-size-sm</code> (12px) to <code className="fi-inline-code">--flock-font-size-heading-1</code> (40px).</p>
+      </div>
+      <div className="fi-card">
+        <h3>Radius & Shadows</h3>
+        <p>Consistent border radii and elevation shadows via <code className="fi-inline-code">{'--flock-radius-*'}</code> and <code className="fi-inline-code">{'--flock-shadow-*'}</code>.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr className="fi-divider" />
+
+  <div className="fi-section">
+    <h2>Themes</h2>
+    <div className="fi-grid-2">
+      <div className="fi-card">
+        <span className="fi-card-icon">🔴</span>
+        <h3>OPS — Ruby/Red</h3>
+        <p>Primary theme for the Snoonu Merchant Portal. Ruby red <code className="fi-inline-code">#D90217</code> as brand colour.</p>
+      </div>
+      <div className="fi-card">
+        <span className="fi-card-icon">🟣</span>
+        <h3>FF — Indigo/Purple</h3>
+        <p>Alternative theme. Switch using the paintbrush icon in the Storybook toolbar above.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
