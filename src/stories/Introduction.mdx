@@ -1,113 +1,12 @@
 import { Meta } from '@storybook/blocks'
+import BeamHero from './BeamHero'
 
 <Meta title="Introduction" />
 
 <style>{`
-  @keyframes flock-beam-breathe {
-    0%, 100% { opacity: 0.72; }
-    50%       { opacity: 1; }
-  }
-
-  @keyframes flock-fade-up {
-    from { opacity: 0; transform: translateY(24px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-
   @keyframes flock-badge-in {
     from { opacity: 0; transform: translateY(12px); }
     to   { opacity: 1; transform: translateY(0); }
-  }
-
-  .fi-hero {
-    position: relative;
-    background: #000;
-    min-height: 520px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    padding-bottom: 72px;
-    overflow: hidden;
-    margin: -16px -16px 0;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  }
-
-  /* ── beam layers ── */
-  .fi-beam-outer {
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(ellipse 80% 55% at 50% 100%, rgba(217,2,23,0.09) 0%, transparent 70%);
-    animation: flock-beam-breathe 5s ease-in-out infinite;
-    pointer-events: none;
-  }
-  .fi-beam-mid {
-    position: absolute;
-    bottom: 0; left: 50%;
-    transform: translateX(-50%);
-    width: 700px; height: 100%;
-    background: radial-gradient(ellipse 30% 90% at 50% 100%, rgba(255,255,255,0.055) 0%, transparent 75%);
-    animation: flock-beam-breathe 5s ease-in-out infinite 0.8s;
-    pointer-events: none;
-  }
-  .fi-beam-cone {
-    position: absolute;
-    bottom: 0; left: 50%;
-    transform: translateX(-50%);
-    width: 540px; height: 100%;
-    background: linear-gradient(to top, rgba(255,255,255,0.55) 0%, rgba(255,230,230,0.18) 35%, transparent 72%);
-    clip-path: polygon(50% 100%, 34% 0%, 66% 0%);
-    animation: flock-beam-breathe 5s ease-in-out infinite 1.2s;
-    pointer-events: none;
-  }
-  .fi-beam-core {
-    position: absolute;
-    bottom: 0; left: 50%;
-    transform: translateX(-50%);
-    width: 540px; height: 100%;
-    background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0.55) 12%, rgba(255,255,255,0.08) 45%, transparent 65%);
-    clip-path: polygon(50% 100%, 47% 0%, 53% 0%);
-    pointer-events: none;
-  }
-  .fi-beam-glow {
-    position: absolute;
-    bottom: -12px; left: 50%;
-    transform: translateX(-50%);
-    width: 240px; height: 72px;
-    background: radial-gradient(ellipse 100% 100%, rgba(255,255,255,0.55) 0%, transparent 70%);
-    filter: blur(10px);
-    animation: flock-beam-breathe 5s ease-in-out infinite;
-    pointer-events: none;
-  }
-
-  /* ── hero text ── */
-  .fi-hero-content {
-    position: relative;
-    z-index: 10;
-    text-align: center;
-    animation: flock-fade-up 0.9s ease-out forwards;
-  }
-  .fi-eyebrow {
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.35);
-    margin: 0 0 14px;
-  }
-  .fi-title {
-    font-size: 64px;
-    font-weight: 800;
-    line-height: 1;
-    letter-spacing: -0.04em;
-    color: #fff;
-    margin: 0 0 14px;
-  }
-  .fi-title-accent { color: #D90217; }
-  .fi-subtitle {
-    font-size: 15px;
-    color: rgba(255,255,255,0.38);
-    margin: 0;
-    font-weight: 400;
   }
 
   /* ── body ── */
@@ -248,18 +147,7 @@ import { Meta } from '@storybook/blocks'
   }
 `}</style>
 
-<div className="fi-hero">
-  <div className="fi-beam-outer" />
-  <div className="fi-beam-mid" />
-  <div className="fi-beam-cone" />
-  <div className="fi-beam-core" />
-  <div className="fi-beam-glow" />
-  <div className="fi-hero-content">
-    <p className="fi-eyebrow">Snoonu · Merchant Portal</p>
-    <h1 className="fi-title">Flock&nbsp;<span className="fi-title-accent">DS</span></h1>
-    <p className="fi-subtitle">Design System — single source of truth for the Merchant Portal UI</p>
-  </div>
-</div>
+<BeamHero />
 
 <div className="fi-body">
 
