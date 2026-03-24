@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from 'react'
 const LABEL =
   'Screen recording: Snoonu Merchant Orders Management — example UI built with Flock in about 20 minutes'
 
-const MOV_PATH = '/introduction/dwa-interface-demo.mov'
+/** Relative to preview iframe URL so GitHub Pages (/repo/iframe.html) resolves correctly. */
+const MOV_PATH = 'introduction/dwa-interface-demo.mov'
 
 export function DesignWithAIDemoVideo() {
   const ref = useRef<HTMLVideoElement>(null)
