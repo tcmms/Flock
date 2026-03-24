@@ -1,127 +1,182 @@
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, useMemo } from 'react'
 import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { SpotLight, Sparkles } from '@react-three/drei'
 import * as THREE from 'three'
 
+// Glow disc at the floor — canvas-generated radial gradient texture
+function FloorSplash() {
+  const meshRef = useRef<THREE.Mesh>(null)
+
+  const tex = useMemo(() => {
+    const c = document.createElement('canvas')
+    c.width = c.height = 512
+    const g = c.getContext('2d')!
+    const r = g.createRadialGradient(256, 256, 0, 256, 256, 256)
+    r.addColorStop(0,   'rgba(200, 220, 255, 0.85)')
+    r.addColorStop(0.2, 'rgba(120, 160, 255, 0.55)')
+    r.addColorStop(0.5, 'rgba(50,  90,  220, 0.2)')
+    r.addColorStop(1,   'rgba(0,   0,   0,   0)')
+    g.fillStyle = r
+    g.fillRect(0, 0, 512, 512)
+    return new THREE.CanvasTexture(c)
+  }, [])
+
+  useFrame(({ clock }) => {
+    if (!meshRef.current) return
+    const mat = meshRef.current.material as THREE.MeshBasicMaterial
+    mat.opacity = 0.7 + Math.sin(clock.getElapsedTime() * 0.8) * 0.3
+  })
+
+  return (
+    <mesh
+      ref={meshRef}
+      rotation={[-Math.PI / 2, 0, 0]}
+      position={[0, -2.95, 0]}
+    >
+      <circleGeometry args={[7, 64]} />
+      <meshBasicMaterial
+        map={tex}
+        transparent
+        opacity={0.85}
+        depthWrite={false}
+        blending={THREE.AdditiveBlending}
+      />
+    </mesh>
+  )
+}
+
 function BeamScene() {
   const primaryRef = useRef<THREE.SpotLight>(null)
-  const secondaryRef = useRef<THREE.SpotLight>(null)
   const { scene } = useThree()
 
-  // Ensure spotlight targets are in the scene so they point upward correctly
+  // All targets point down to the floor
   useEffect(() => {
-    const addTarget = (ref: React.RefObject<THREE.SpotLight | null>, targetY: number) => {
+    const lights: Array<React.RefObject<THREE.SpotLight | null>> = [primaryRef]
+    lights.forEach(ref => {
       if (!ref.current) return
-      ref.current.target.position.set(0, targetY, 0)
+      ref.current.target.position.set(0, -3, 0)
       scene.add(ref.current.target)
-    }
-    addTarget(primaryRef, 8)
-    addTarget(secondaryRef, 8)
+    })
     return () => {
-      if (primaryRef.current) scene.remove(primaryRef.current.target)
-      if (secondaryRef.current) scene.remove(secondaryRef.current.target)
+      lights.forEach(ref => {
+        if (ref.current) scene.remove(ref.current.target)
+      })
     }
   }, [scene])
 
-  // Gentle breathing pulse on the main beam
+  // Breathing pulse on the main beam intensity
   useFrame(({ clock }) => {
     if (!primaryRef.current) return
     const t = clock.getElapsedTime()
-    primaryRef.current.intensity = 3.5 + Math.sin(t * 0.7) * 0.8
+    primaryRef.current.intensity = 7 + Math.sin(t * 0.6) * 1.2
   })
 
   return (
     <>
-      <ambientLight intensity={0.015} color="#1a1a3a" />
+      <ambientLight intensity={0.01} color="#0a0a20" />
 
-      {/* Wide violet ambient wash — fills the background */}
+      {/* Wide ambient blue-violet wash — fills the background cone */}
       <SpotLight
-        ref={secondaryRef}
-        position={[0, -3, 0]}
-        color="#5520cc"
-        angle={Math.PI / 4}
-        distance={14}
-        attenuation={9}
-        anglePower={2.5}
-        opacity={0.18}
-        intensity={1.5}
+        position={[0, 7, 0]}
+        color="#2233bb"
+        angle={Math.PI / 3}
+        distance={16}
+        attenuation={10}
+        anglePower={2}
+        opacity={0.28}
+        intensity={3}
         volumetric
         castShadow={false}
       />
 
-      {/* Main blue beam — sharp bright core */}
+      {/* Main thick beam — blue, wide cone */}
       <SpotLight
         ref={primaryRef}
-        position={[0, -3, 0]}
-        color="#2255ff"
-        angle={Math.PI / 9}
-        distance={13}
-        attenuation={4.5}
-        anglePower={7}
-        opacity={0.45}
-        intensity={3.5}
+        position={[0, 7, 0]}
+        color="#88aaff"
+        angle={Math.PI / 8}
+        distance={14}
+        attenuation={3.5}
+        anglePower={6}
+        opacity={0.7}
+        intensity={7}
         volumetric
         castShadow={false}
       />
 
-      {/* Bright inner core — near-white center line */}
+      {/* Bright white core — narrow, blazing */}
       <SpotLight
-        position={[0, -3, 0]}
-        color="#aabbff"
-        angle={Math.PI / 22}
-        distance={11}
-        attenuation={3}
-        anglePower={12}
-        opacity={0.55}
-        intensity={2}
+        position={[0, 7, 0]}
+        color="#ffffff"
+        angle={Math.PI / 24}
+        distance={12}
+        attenuation={2}
+        anglePower={14}
+        opacity={0.9}
+        intensity={5}
         volumetric
         castShadow={false}
       />
 
-      {/* Floating particles inside the beam */}
+      {/* Particles drifting inside the descending beam */}
       <Sparkles
-        count={90}
-        scale={[1.6, 8, 1.6]}
-        size={1.4}
-        speed={0.25}
-        color="#99aaff"
-        position={[0, 0.5, 0]}
-        noise={0.3}
+        count={120}
+        scale={[2, 10, 2]}
+        size={2}
+        speed={0.2}
+        color="#aabbff"
+        position={[0, 2, 0]}
+        noise={0.4}
       />
 
-      {/* Dark reflective floor */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -3, 0]} receiveShadow>
-        <planeGeometry args={[30, 30]} />
-        <meshStandardMaterial color="#03030f" roughness={0.9} metalness={0.05} />
+      {/* Dark base floor */}
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -3, 0]}>
+        <planeGeometry args={[40, 40]} />
+        <meshStandardMaterial color="#020208" roughness={1} metalness={0} />
       </mesh>
+
+      {/* Glow splash disc on the floor */}
+      <FloorSplash />
     </>
   )
 }
 
 export default function BeamHero() {
+  // Strip Storybook's docs container constraints so hero goes full-width
+  useEffect(() => {
+    const el   = document.querySelector<HTMLElement>('.sbdocs-content')
+    const wrap = document.querySelector<HTMLElement>('.sbdocs')
+    const prevMaxWidth = el?.style.maxWidth   ?? ''
+    const prevPadding  = wrap?.style.padding  ?? ''
+    if (el)   el.style.maxWidth  = 'none'
+    if (wrap) wrap.style.padding = '0'
+    return () => {
+      if (el)   el.style.maxWidth  = prevMaxWidth
+      if (wrap) wrap.style.padding = prevPadding
+    }
+  }, [])
+
   return (
     <div
       style={{
         position: 'relative',
         width: '100%',
-        height: '560px',
-        background: '#03030f',
+        height: '600px',
+        background: '#020208',
         overflow: 'hidden',
-        margin: '-16px -16px 0',
         fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
       }}
     >
-      {/* Three.js canvas — full bleed behind text */}
       <Canvas
-        camera={{ position: [0, 0.5, 8], fov: 52 }}
+        camera={{ position: [0, 0.5, 10], fov: 62 }}
         style={{ position: 'absolute', inset: 0 }}
-        gl={{ antialias: true, alpha: false }}
+        gl={{ antialias: true, alpha: false, toneMappingExposure: 2.8 }}
         dpr={[1, 1.5]}
       >
         <BeamScene />
       </Canvas>
 
-      {/* Text overlay — fades up on mount */}
+      {/* Text overlay */}
       <div
         style={{
           position: 'absolute',
@@ -154,11 +209,10 @@ export default function BeamHero() {
             letterSpacing: '-0.04em',
             color: '#fff',
             margin: '0 0 14px',
-            textShadow: '0 0 40px rgba(60,100,255,0.4)',
+            textShadow: '0 0 60px rgba(100,140,255,0.5), 0 0 120px rgba(60,100,255,0.3)',
           }}
         >
-          Flock{' '}
-          <span style={{ color: '#D90217' }}>DS</span>
+          Flock <span style={{ color: '#D90217' }}>DS</span>
         </h1>
 
         <p
