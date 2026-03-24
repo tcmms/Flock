@@ -104,6 +104,7 @@
   --flock-color-control-item-bg-active-hover: #FFA9A6;
 
   /* ─── Misc ─── */
+  --flock-color-black:       #000000;
   --flock-color-white:       #FFFFFF;
   --flock-color-transparent: transparent;
 

@@ -146,13 +146,15 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
     vertical-align: middle;
   }
 
-  .fi-inline-code {
+  /* Higher specificity than Storybook Docs default code element (light chip). */
+  .fi-body code.fi-inline-code {
     font-family: 'SFMono-Regular', Consolas, monospace;
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.82);
-    background: rgba(255, 255, 255, 0.1);
+    color: var(--flock-color-text-light-solid);
+    background: var(--flock-color-black);
     padding: 1px 5px;
     border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
   }
 
   .fi-code-commands {

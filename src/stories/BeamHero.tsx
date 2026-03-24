@@ -1,5 +1,8 @@
 import { useEffect } from 'react'
 import LightPillar from './LightPillar'
+import TextType from './TextType/TextType'
+
+const HERO_TYPE_TEXTS = ['Next-Gen Design. Welcome', 'Flock Design System'] as const
 
 const HERO_CHIPS = [
   'React 18',
@@ -129,13 +132,38 @@ export default function BeamHero() {
           margin: 0 auto;
           text-align: left;
         }
-        .bh-hero-title {
+        /*
+          Docs + Ant Design global typography often wins over a plain .bh-hero-title rule.
+          Scope + !important keeps the display headline size inside MDX.
+        */
+        section.bh-hero-white[data-flock-beam-hero] h1.bh-hero-title,
+        section.bh-hero-white[data-flock-beam-hero] h1.bh-hero-title .bh-hero-type-live,
+        section.bh-hero-white[data-flock-beam-hero] h1.bh-hero-title .text-type,
+        section.bh-hero-white[data-flock-beam-hero] h1.bh-hero-title .text-type__content {
+          margin: 0;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+          font-size: clamp(2.65rem, 7vw, 4rem) !important;
+          font-weight: 800 !important;
+          line-height: 1.08 !important;
+          letter-spacing: -0.04em !important;
+          color: rgba(255, 255, 255, 0.96) !important;
+        }
+        section.bh-hero-white[data-flock-beam-hero] h1.bh-hero-title {
           margin: 0 0 12px;
-          font-size: clamp(2.5rem, 6.5vw, 3.75rem);
-          font-weight: 800;
-          line-height: 1.08;
-          letter-spacing: -0.04em;
-          color: rgba(255, 255, 255, 0.96);
+        }
+        .bh-hero-type-live {
+          display: block;
+        }
+        section.bh-hero-white[data-flock-beam-hero] h1.bh-hero-title .text-type {
+          display: inline !important;
+          white-space: normal !important;
+          vertical-align: baseline;
+        }
+        section.bh-hero-white[data-flock-beam-hero] h1.bh-hero-title .bh-hero-type-cursor {
+          color: var(--flock-color-primary) !important;
+          font-weight: 600 !important;
+          font-size: inherit !important;
+          font-family: inherit !important;
         }
         .bh-hero-lede {
           margin: 0;
@@ -173,6 +201,7 @@ export default function BeamHero() {
 
       <section
         className="bh-hero-white"
+        data-flock-beam-hero=""
         aria-labelledby="bh-hero-title"
       >
         <div className="bh-hero-pillar" aria-hidden>
@@ -193,7 +222,19 @@ export default function BeamHero() {
         </div>
         <div className="bh-hero-inner">
           <h1 id="bh-hero-title" className="bh-hero-title">
-            Flock Design System
+            <span className="bh-hero-type-live" aria-live="polite" aria-atomic="true">
+              <TextType
+                className="bh-hero-text-type"
+                text={[...HERO_TYPE_TEXTS]}
+                loop
+                typingSpeed={45}
+                pauseDuration={2400}
+                deletingSpeed={28}
+                initialDelay={400}
+                cursorCharacter="|"
+                cursorClassName="bh-hero-type-cursor"
+              />
+            </span>
           </h1>
 
           <p className="bh-hero-lede">

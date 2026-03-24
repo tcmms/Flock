@@ -15,7 +15,8 @@ const config: StorybookConfig = {
   async viteFinal(config) {
     return mergeConfig(config, {
       optimizeDeps: {
-        include: ['three'],
+        // Pre-bundle Three + GSAP so MDX → BeamHero → TextType dev imports don’t 500 / “Failed to fetch dynamically imported module”
+        include: ['three', 'gsap'],
       },
       resolve: {
         dedupe: ['three'],
