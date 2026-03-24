@@ -44,17 +44,27 @@ export default function BeamHero() {
         .bh-bg-wash {
           position: absolute; inset: 0;
           background: radial-gradient(ellipse 90% 80% at 50% 0%,
-            rgba(40, 60, 220, 0.55) 0%,
-            rgba(20, 30, 140, 0.25) 40%,
+            rgba(20, 40, 180, 0.18) 0%,
+            rgba(10, 20, 100, 0.08) 40%,
             transparent 70%);
           mix-blend-mode: screen;
           animation: bh-breathe 5s ease-in-out infinite;
         }
+        .bh-outer-halo {
+          position: absolute; inset: 0;
+          background: radial-gradient(ellipse 50% 88% at 50% 0%,
+            rgba(60, 190, 255, 0.4) 0%,
+            rgba(20, 110, 230, 0.15) 45%,
+            transparent 70%);
+          mix-blend-mode: screen;
+          filter: blur(28px);
+          animation: bh-breathe 5s ease-in-out infinite 0.4s;
+        }
         .bh-mid-glow {
           position: absolute; inset: 0;
           background: radial-gradient(ellipse 45% 95% at 50% 0%,
-            rgba(100, 140, 255, 0.75) 0%,
-            rgba(60, 90, 230, 0.35) 35%,
+            rgba(80, 200, 255, 0.85) 0%,
+            rgba(40, 140, 230, 0.35) 35%,
             transparent 65%);
           mix-blend-mode: screen;
           filter: blur(8px);
@@ -64,10 +74,10 @@ export default function BeamHero() {
           position: absolute; inset: 0;
           background: linear-gradient(to bottom,
             rgba(255, 255, 255, 0.95) 0%,
-            rgba(160, 190, 255, 0.55) 30%,
-            rgba(80, 110, 255, 0.2)   65%,
+            rgba(180, 230, 255, 0.65) 30%,
+            rgba(60, 160, 255, 0.22)  65%,
             transparent 85%);
-          clip-path: polygon(50% 0%, 18% 100%, 82% 100%);
+          clip-path: polygon(50% 0%, 30% 100%, 70% 100%);
           mix-blend-mode: screen;
           animation: bh-breathe 5s ease-in-out infinite 0.3s;
         }
@@ -94,13 +104,13 @@ export default function BeamHero() {
           mix-blend-mode: screen;
         }
         .bh-floor-glow {
-          position: absolute; bottom: 0; left: 0; right: 0; height: 160px;
-          background: radial-gradient(ellipse 70% 100% at 50% 100%,
-            rgba(160, 185, 255, 0.65) 0%,
-            rgba(80, 110, 240, 0.28) 40%,
-            transparent 75%);
+          position: absolute; bottom: 0; left: 0; right: 0; height: 220px;
+          background: radial-gradient(ellipse 90% 100% at 50% 100%,
+            rgba(120, 210, 255, 0.85) 0%,
+            rgba(60, 160, 240, 0.4) 35%,
+            transparent 65%);
           mix-blend-mode: screen;
-          filter: blur(6px);
+          filter: blur(14px);
           animation: bh-breathe 5s ease-in-out infinite 0.5s;
         }
         .bh-text {
@@ -115,6 +125,7 @@ export default function BeamHero() {
 
       {/* Stacked gradient beam layers — mix-blend-mode: screen */}
       <div className="bh-bg-wash" />
+      <div className="bh-outer-halo" />
       <div className="bh-mid-glow" />
       <div className="bh-cone" />
       <div className="bh-core" />
