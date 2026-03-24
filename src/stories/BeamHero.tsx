@@ -1,153 +1,12 @@
-import { useRef, useEffect, useMemo } from 'react'
-import { Canvas, useFrame, useThree } from '@react-three/fiber'
-import { SpotLight, Sparkles } from '@react-three/drei'
-import * as THREE from 'three'
-
-// Glow disc at the floor — canvas-generated radial gradient texture
-function FloorSplash() {
-  const meshRef = useRef<THREE.Mesh>(null)
-
-  const tex = useMemo(() => {
-    const c = document.createElement('canvas')
-    c.width = c.height = 512
-    const g = c.getContext('2d')!
-    const r = g.createRadialGradient(256, 256, 0, 256, 256, 256)
-    r.addColorStop(0,   'rgba(200, 220, 255, 0.85)')
-    r.addColorStop(0.2, 'rgba(120, 160, 255, 0.55)')
-    r.addColorStop(0.5, 'rgba(50,  90,  220, 0.2)')
-    r.addColorStop(1,   'rgba(0,   0,   0,   0)')
-    g.fillStyle = r
-    g.fillRect(0, 0, 512, 512)
-    return new THREE.CanvasTexture(c)
-  }, [])
-
-  useFrame(({ clock }) => {
-    if (!meshRef.current) return
-    const mat = meshRef.current.material as THREE.MeshBasicMaterial
-    mat.opacity = 0.7 + Math.sin(clock.getElapsedTime() * 0.8) * 0.3
-  })
-
-  return (
-    <mesh
-      ref={meshRef}
-      rotation={[-Math.PI / 2, 0, 0]}
-      position={[0, -2.95, 0]}
-    >
-      <circleGeometry args={[7, 64]} />
-      <meshBasicMaterial
-        map={tex}
-        transparent
-        opacity={0.85}
-        depthWrite={false}
-        blending={THREE.AdditiveBlending}
-      />
-    </mesh>
-  )
-}
-
-function BeamScene() {
-  const primaryRef = useRef<THREE.SpotLight>(null)
-  const { scene } = useThree()
-
-  // All targets point down to the floor
-  useEffect(() => {
-    const lights: Array<React.RefObject<THREE.SpotLight | null>> = [primaryRef]
-    lights.forEach(ref => {
-      if (!ref.current) return
-      ref.current.target.position.set(0, -3, 0)
-      scene.add(ref.current.target)
-    })
-    return () => {
-      lights.forEach(ref => {
-        if (ref.current) scene.remove(ref.current.target)
-      })
-    }
-  }, [scene])
-
-  // Breathing pulse on the main beam intensity
-  useFrame(({ clock }) => {
-    if (!primaryRef.current) return
-    const t = clock.getElapsedTime()
-    primaryRef.current.intensity = 7 + Math.sin(t * 0.6) * 1.2
-  })
-
-  return (
-    <>
-      <ambientLight intensity={0.01} color="#0a0a20" />
-
-      {/* Wide ambient blue-violet wash — fills the background cone */}
-      <SpotLight
-        position={[0, 7, 0]}
-        color="#2233bb"
-        angle={Math.PI / 3}
-        distance={16}
-        attenuation={10}
-        anglePower={2}
-        opacity={0.28}
-        intensity={3}
-        volumetric
-        castShadow={false}
-      />
-
-      {/* Main thick beam — blue, wide cone */}
-      <SpotLight
-        ref={primaryRef}
-        position={[0, 7, 0]}
-        color="#88aaff"
-        angle={Math.PI / 8}
-        distance={14}
-        attenuation={3.5}
-        anglePower={6}
-        opacity={0.7}
-        intensity={7}
-        volumetric
-        castShadow={false}
-      />
-
-      {/* Bright white core — narrow, blazing */}
-      <SpotLight
-        position={[0, 7, 0]}
-        color="#ffffff"
-        angle={Math.PI / 24}
-        distance={12}
-        attenuation={2}
-        anglePower={14}
-        opacity={0.9}
-        intensity={5}
-        volumetric
-        castShadow={false}
-      />
-
-      {/* Particles drifting inside the descending beam */}
-      <Sparkles
-        count={120}
-        scale={[2, 10, 2]}
-        size={2}
-        speed={0.2}
-        color="#aabbff"
-        position={[0, 2, 0]}
-        noise={0.4}
-      />
-
-      {/* Dark base floor */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -3, 0]}>
-        <planeGeometry args={[40, 40]} />
-        <meshStandardMaterial color="#020208" roughness={1} metalness={0} />
-      </mesh>
-
-      {/* Glow splash disc on the floor */}
-      <FloorSplash />
-    </>
-  )
-}
+import { useEffect } from 'react'
 
 export default function BeamHero() {
-  // Strip Storybook's docs container constraints so hero goes full-width
+  // Strip Storybook docs container constraints so hero goes full-width
   useEffect(() => {
     const el   = document.querySelector<HTMLElement>('.sbdocs-content')
     const wrap = document.querySelector<HTMLElement>('.sbdocs')
-    const prevMaxWidth = el?.style.maxWidth   ?? ''
-    const prevPadding  = wrap?.style.padding  ?? ''
+    const prevMaxWidth = el?.style.maxWidth  ?? ''
+    const prevPadding  = wrap?.style.padding ?? ''
     if (el)   el.style.maxWidth  = 'none'
     if (wrap) wrap.style.padding = '0'
     return () => {
@@ -162,32 +21,108 @@ export default function BeamHero() {
         position: 'relative',
         width: '100%',
         height: '600px',
-        background: '#020208',
+        background: '#000',
         overflow: 'hidden',
         fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
       }}
     >
-      <Canvas
-        camera={{ position: [0, 0.5, 10], fov: 62 }}
-        style={{ position: 'absolute', inset: 0 }}
-        gl={{ antialias: true, alpha: false, toneMappingExposure: 2.8 }}
-        dpr={[1, 1.5]}
-      >
-        <BeamScene />
-      </Canvas>
+      <style>{`
+        @keyframes bh-breathe {
+          0%, 100% { opacity: 0.75; }
+          50%       { opacity: 1; }
+        }
+        @keyframes bh-core-breathe {
+          0%, 100% { opacity: 0.8; }
+          50%       { opacity: 1; }
+        }
+        @keyframes bh-fade-up {
+          from { opacity: 0; transform: translateY(20px); }
+          to   { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ── beam layers ── */
+        .bh-bg-wash {
+          position: absolute; inset: 0;
+          background: radial-gradient(ellipse 90% 80% at 50% 0%,
+            rgba(40, 60, 220, 0.55) 0%,
+            rgba(20, 30, 140, 0.25) 40%,
+            transparent 70%);
+          mix-blend-mode: screen;
+          animation: bh-breathe 5s ease-in-out infinite;
+        }
+        .bh-mid-glow {
+          position: absolute; inset: 0;
+          background: radial-gradient(ellipse 45% 95% at 50% 0%,
+            rgba(100, 140, 255, 0.75) 0%,
+            rgba(60, 90, 230, 0.35) 35%,
+            transparent 65%);
+          mix-blend-mode: screen;
+          filter: blur(8px);
+          animation: bh-breathe 5s ease-in-out infinite 0.8s;
+        }
+        .bh-cone {
+          position: absolute; inset: 0;
+          background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.95) 0%,
+            rgba(160, 190, 255, 0.55) 30%,
+            rgba(80, 110, 255, 0.2)   65%,
+            transparent 85%);
+          clip-path: polygon(50% 0%, 18% 100%, 82% 100%);
+          mix-blend-mode: screen;
+          animation: bh-breathe 5s ease-in-out infinite 0.3s;
+        }
+        .bh-core {
+          position: absolute; inset: 0;
+          background: linear-gradient(to bottom,
+            #ffffff 0%,
+            rgba(200, 220, 255, 0.9) 20%,
+            rgba(120, 160, 255, 0.4) 55%,
+            transparent 78%);
+          clip-path: polygon(50% 0%, 41% 100%, 59% 100%);
+          mix-blend-mode: screen;
+          filter: blur(2px);
+          animation: bh-core-breathe 5s ease-in-out infinite 1.2s;
+        }
+        .bh-sharp {
+          position: absolute; inset: 0;
+          background: linear-gradient(to bottom,
+            #ffffff 0%,
+            rgba(240, 245, 255, 0.7) 15%,
+            rgba(180, 210, 255, 0.2) 40%,
+            transparent 60%);
+          clip-path: polygon(50% 0%, 46% 100%, 54% 100%);
+          mix-blend-mode: screen;
+        }
+        .bh-floor-glow {
+          position: absolute; bottom: 0; left: 0; right: 0; height: 160px;
+          background: radial-gradient(ellipse 70% 100% at 50% 100%,
+            rgba(160, 185, 255, 0.65) 0%,
+            rgba(80, 110, 240, 0.28) 40%,
+            transparent 75%);
+          mix-blend-mode: screen;
+          filter: blur(6px);
+          animation: bh-breathe 5s ease-in-out infinite 0.5s;
+        }
+        .bh-text {
+          position: absolute;
+          bottom: 72px;
+          left: 0; right: 0;
+          text-align: center;
+          z-index: 10;
+          animation: bh-fade-up 0.9s ease-out both;
+        }
+      `}</style>
+
+      {/* Stacked gradient beam layers — mix-blend-mode: screen */}
+      <div className="bh-bg-wash" />
+      <div className="bh-mid-glow" />
+      <div className="bh-cone" />
+      <div className="bh-core" />
+      <div className="bh-sharp" />
+      <div className="bh-floor-glow" />
 
       {/* Text overlay */}
-      <div
-        style={{
-          position: 'absolute',
-          bottom: '72px',
-          left: 0,
-          right: 0,
-          textAlign: 'center',
-          zIndex: 10,
-          animation: 'fi-fade-up 0.9s ease-out both',
-        }}
-      >
+      <div className="bh-text">
         <p
           style={{
             fontSize: '11px',
@@ -226,13 +161,6 @@ export default function BeamHero() {
           Design System — single source of truth for the Merchant Portal UI
         </p>
       </div>
-
-      <style>{`
-        @keyframes fi-fade-up {
-          from { opacity: 0; transform: translateY(20px); }
-          to   { opacity: 1; transform: translateY(0); }
-        }
-      `}</style>
     </div>
   )
 }
