@@ -157,8 +157,8 @@ export default function BeamHero() {
         .bh-text {
           position: absolute;
           bottom: 72px;
-          left: 0; right: 0;
-          text-align: center;
+          left: 56px;
+          text-align: left;
           z-index: 10;
           animation: bh-fade-up 0.9s ease-out both;
         }

@@ -11,7 +11,7 @@ import BeamHero from './BeamHero'
 
   /* ── body ── */
   .fi-body {
-    background: #000;
+    background: #fff;
     padding: 56px 32px 96px;
     margin: 0 -16px;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -22,7 +22,7 @@ import BeamHero from './BeamHero'
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     max-width: 900px;
     margin: 0 auto 52px;
     animation: flock-badge-in 0.7s ease-out 0.2s both;
@@ -32,11 +32,11 @@ import BeamHero from './BeamHero'
     align-items: center;
     gap: 6px;
     padding: 5px 12px;
-    border: 1px solid rgba(255,255,255,0.1);
+    border: 1px solid rgba(0,0,0,0.1);
     border-radius: 20px;
     font-size: 12px;
-    color: rgba(255,255,255,0.45);
-    background: rgba(255,255,255,0.03);
+    color: rgba(0,0,0,0.45);
+    background: rgba(0,0,0,0.03);
   }
   .fi-badge-dot {
     width: 5px; height: 5px;
@@ -50,8 +50,8 @@ import BeamHero from './BeamHero'
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1px;
-    background: rgba(255,255,255,0.07);
-    border: 1px solid rgba(255,255,255,0.07);
+    background: rgba(0,0,0,0.07);
+    border: 1px solid rgba(0,0,0,0.08);
     border-radius: 12px;
     overflow: hidden;
     max-width: 900px;
@@ -61,15 +61,15 @@ import BeamHero from './BeamHero'
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1px;
-    background: rgba(255,255,255,0.07);
-    border: 1px solid rgba(255,255,255,0.07);
+    background: rgba(0,0,0,0.07);
+    border: 1px solid rgba(0,0,0,0.08);
     border-radius: 12px;
     overflow: hidden;
     max-width: 900px;
     margin: 0 auto;
   }
   .fi-card {
-    background: #080808;
+    background: #fafafa;
     padding: 28px;
   }
   .fi-card-icon {
@@ -80,13 +80,13 @@ import BeamHero from './BeamHero'
   .fi-card h3 {
     font-size: 14px;
     font-weight: 600;
-    color: rgba(255,255,255,0.85);
+    color: rgba(0,0,0,0.85);
     margin: 0 0 8px;
     font-family: 'Inter', sans-serif;
   }
   .fi-card p {
     font-size: 13px;
-    color: rgba(255,255,255,0.38);
+    color: rgba(0,0,0,0.45);
     margin: 0;
     line-height: 1.65;
     font-family: 'Inter', sans-serif;
@@ -100,32 +100,32 @@ import BeamHero from './BeamHero'
   .fi-section h2 {
     font-size: 18px;
     font-weight: 600;
-    color: rgba(255,255,255,0.85);
+    color: rgba(0,0,0,0.85);
     margin: 0 0 20px;
     letter-spacing: -0.01em;
     font-family: 'Inter', sans-serif;
   }
   .fi-divider {
     border: none;
-    border-top: 1px solid rgba(255,255,255,0.06);
+    border-top: 1px solid rgba(0,0,0,0.07);
     max-width: 900px;
     margin: 48px auto;
   }
 
   /* ── code block ── */
   .fi-code {
-    background: rgba(255,255,255,0.03);
-    border: 1px solid rgba(255,255,255,0.08);
+    background: #f5f5f5;
+    border: 1px solid rgba(0,0,0,0.08);
     border-radius: 10px;
     padding: 20px 24px;
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     font-size: 13px;
-    color: rgba(255,255,255,0.65);
+    color: rgba(0,0,0,0.65);
     line-height: 1.9;
   }
-  .fi-code-comment { color: rgba(255,255,255,0.22); }
+  .fi-code-comment { color: rgba(0,0,0,0.3); }
   .fi-code-cmd     { color: #D90217; font-weight: 600; }
-  .fi-code-path    { color: rgba(255,255,255,0.55); }
+  .fi-code-path    { color: rgba(0,0,0,0.55); }
 
   /* ── token color swatch ── */
   .fi-swatch {
@@ -140,8 +140,8 @@ import BeamHero from './BeamHero'
   .fi-inline-code {
     font-family: 'SFMono-Regular', Consolas, monospace;
     font-size: 12px;
-    color: rgba(255,255,255,0.45);
-    background: rgba(255,255,255,0.06);
+    color: rgba(0,0,0,0.55);
+    background: rgba(0,0,0,0.06);
     padding: 1px 5px;
     border-radius: 4px;
   }
