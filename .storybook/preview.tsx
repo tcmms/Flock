@@ -27,8 +27,25 @@ const preview: Preview = {
   ],
   parameters: {
     options: {
-      storySort: {
-        order: ['Introduction', 'General', 'Layout', 'Navigation', 'Data Entry', 'Data Display', 'Feedback'],
+      storySort: (a, b) => {
+        const roots = [
+          'Introduction',
+          'General',
+          'Layout',
+          'Navigation',
+          'Data Entry',
+          'Data Display',
+          'Feedback',
+        ]
+        const rank = (title) => {
+          const root = title.split('/')[0]
+          const idx = roots.indexOf(root)
+          return idx === -1 ? roots.length : idx
+        }
+        const ra = rank(a.title)
+        const rb = rank(b.title)
+        if (ra !== rb) return ra - rb
+        return a.title.localeCompare(b.title, undefined, { numeric: true })
       },
     },
     backgrounds: {
@@ -36,6 +53,7 @@ const preview: Preview = {
       values: [
         { name: 'light', value: '#F9FAFB' },
         { name: 'white', value: '#FFFFFF' },
+        { name: 'dark', value: '#0c0c0d' },
       ],
     },
   },

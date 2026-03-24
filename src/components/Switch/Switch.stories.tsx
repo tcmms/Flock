@@ -6,7 +6,7 @@ import { Switch } from './Switch'
  * Built on Ant Design Switch with Flock DS tokens.
  */
 const meta: Meta<typeof Switch> = {
-  title: 'Data Entry/Switch',
+  title: 'General/Switch',
   component: Switch,
   tags: ['autodocs'],
   argTypes: {

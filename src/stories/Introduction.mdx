@@ -1,136 +1,145 @@
 import { Meta } from '@storybook/blocks'
 import BeamHero from './BeamHero'
+import { QuickStartCommands } from './QuickStartCommands'
+import { DesignWithAIDemoVideo } from './DesignWithAIDemoVideo'
+import BasicShapesCircleIcon from '../icons/BasicShapesCircleIcon'
+import ComputersDevicesElectronicsScreenMonitorIcon from '../icons/ComputersDevicesElectronicsScreenMonitorIcon'
+import DesignToolsColorPaletteIcon from '../icons/DesignToolsColorPaletteIcon'
+import DesignToolsPaintRollerPaintIcon from '../icons/DesignToolsPaintRollerPaintIcon'
+import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGridLayersAddIcon'
 
-<Meta title="Introduction" />
+<Meta
+  title="Introduction"
+  parameters={{ backgrounds: { default: 'dark' } }}
+/>
 
 <style>{`
-  @keyframes flock-badge-in {
-    from { opacity: 0; transform: translateY(12px); }
-    to   { opacity: 1; transform: translateY(0); }
+  /* Shared column: one left edge for hero + body (Gestalt: continuity, alignment) */
+  :root {
+    --fi-align: 40px;
+    --fi-content-max: 960px;
   }
 
-  /* ── body ── */
   .fi-body {
-    background: #fff;
-    padding: 56px 32px 96px;
-    margin: 0 -16px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background: #0c0c0d;
+    padding: 0 var(--fi-align) 64px;
+    margin: 0;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
-  /* ── badge strip ── */
-  .fi-badges {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    max-width: 900px;
-    margin: 0 auto 52px;
-    animation: flock-badge-in 0.7s ease-out 0.2s both;
-  }
-  .fi-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 5px 12px;
-    border: 1px solid rgba(0,0,0,0.1);
-    border-radius: 20px;
-    font-size: 12px;
-    color: rgba(0,0,0,0.45);
-    background: rgba(0,0,0,0.03);
-  }
-  .fi-badge-dot {
-    width: 5px; height: 5px;
-    border-radius: 50%;
-    background: #D90217;
-    flex-shrink: 0;
-  }
-
-  /* ── cards grid ── */
   .fi-grid-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-    background: rgba(0,0,0,0.07);
-    border: 1px solid rgba(0,0,0,0.08);
-    border-radius: 12px;
-    overflow: hidden;
-    max-width: 900px;
-    margin: 0 auto 52px;
+    gap: 20px;
+    width: 100%;
+    max-width: var(--fi-content-max);
+    margin: 0 auto 48px;
   }
+
   .fi-grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1px;
-    background: rgba(0,0,0,0.07);
-    border: 1px solid rgba(0,0,0,0.08);
-    border-radius: 12px;
-    overflow: hidden;
-    max-width: 900px;
+    gap: 20px;
+    width: 100%;
+    max-width: var(--fi-content-max);
     margin: 0 auto;
   }
+
+  @media (max-width: 900px) {
+    .fi-grid-3 { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 640px) {
+    .fi-grid-2 { grid-template-columns: 1fr; }
+  }
+
   .fi-card {
-    background: #fafafa;
-    padding: 28px;
+    background: #141416;
+    border-radius: 14px;
+    padding: 24px 28px 28px;
+    text-align: left;
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.04) inset,
+      0 24px 48px -28px rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.08);
   }
+
   .fi-card-icon {
-    font-size: 20px;
-    margin-bottom: 14px;
     display: block;
+    margin-bottom: 18px;
+    line-height: 0;
+    color: #d90217;
   }
+
+  .fi-card-icon svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+
   .fi-card h3 {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
-    color: rgba(0,0,0,0.85);
-    margin: 0 0 8px;
+    color: rgba(255, 255, 255, 0.92);
+    margin: 0 0 10px;
     font-family: 'Inter', sans-serif;
+    letter-spacing: -0.02em;
   }
+
   .fi-card p {
     font-size: 13px;
-    color: rgba(0,0,0,0.45);
+    color: rgba(255, 255, 255, 0.55);
     margin: 0;
-    line-height: 1.65;
+    line-height: 1.68;
     font-family: 'Inter', sans-serif;
   }
 
-  /* ── sections ── */
   .fi-section {
-    max-width: 900px;
-    margin: 0 auto 48px;
-  }
-  .fi-section h2 {
-    font-size: 18px;
-    font-weight: 600;
-    color: rgba(0,0,0,0.85);
-    margin: 0 0 20px;
-    letter-spacing: -0.01em;
-    font-family: 'Inter', sans-serif;
-  }
-  .fi-divider {
-    border: none;
-    border-top: 1px solid rgba(0,0,0,0.07);
-    max-width: 900px;
-    margin: 48px auto;
+    width: 100%;
+    max-width: var(--fi-content-max);
+    margin: 0 auto 40px;
+    text-align: left;
   }
 
-  /* ── code block ── */
+  .fi-section:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .fi-section h2 {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.92);
+    margin: 0 0 12px;
+    letter-spacing: -0.015em;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    line-height: 1.35;
+  }
+
   .fi-code {
-    background: #f5f5f5;
-    border: 1px solid rgba(0,0,0,0.08);
-    border-radius: 10px;
-    padding: 20px 24px;
+    margin: 0;
+    max-width: 100%;
+    background: #1a1a1e;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 22px 26px;
     font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
     font-size: 13px;
-    color: rgba(0,0,0,0.65);
+    color: rgba(255, 255, 255, 0.72);
     line-height: 1.9;
+    text-align: left;
   }
-  .fi-code-comment { color: rgba(0,0,0,0.3); }
-  .fi-code-cmd     { color: #D90217; font-weight: 600; }
-  .fi-code-path    { color: rgba(0,0,0,0.55); }
 
-  /* ── token color swatch ── */
+  .fi-code-comment { color: rgba(255, 255, 255, 0.32); }
+  .fi-code-cmd     { color: #ff6b7a; font-weight: 600; }
+  .fi-code-path    { color: rgba(255, 255, 255, 0.5); }
+
   .fi-swatch {
     display: inline-block;
-    width: 10px; height: 10px;
+    width: 10px;
+    height: 10px;
     border-radius: 2px;
     background: #D90217;
     margin-right: 4px;
@@ -140,10 +149,241 @@ import BeamHero from './BeamHero'
   .fi-inline-code {
     font-family: 'SFMono-Regular', Consolas, monospace;
     font-size: 12px;
-    color: rgba(0,0,0,0.55);
-    background: rgba(0,0,0,0.06);
+    color: rgba(255, 255, 255, 0.82);
+    background: rgba(255, 255, 255, 0.1);
     padding: 1px 5px;
     border-radius: 4px;
+  }
+
+  .fi-code-commands {
+    padding: 20px 22px;
+  }
+
+  .fi-code-commands-hint {
+    margin: 0;
+    font-size: inherit;
+    line-height: 1.9;
+  }
+
+  .fi-code-commands-gap {
+    margin-top: 1.25em;
+  }
+
+  .fi-code-line {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 0;
+    min-height: 2em;
+  }
+
+  .fi-code-line + .fi-code-line {
+    margin-top: 2px;
+  }
+
+  .fi-code-line-text {
+    flex: 1;
+    min-width: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit;
+    background: none;
+    padding: 0;
+    border: none;
+  }
+
+  .fi-code-copy {
+    flex-shrink: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 8px;
+    padding: 7px 12px;
+    cursor: pointer;
+  }
+
+  .fi-code-copy:hover {
+    color: #ff8a96;
+    border-color: rgba(217, 2, 23, 0.45);
+  }
+
+  .fi-code-copy:focus-visible {
+    outline: 2px solid #d90217;
+    outline-offset: 2px;
+  }
+
+  /* Design with AI — dark glassmorphism + brand glow */
+  .fi-dwa-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: var(--fi-content-max);
+    margin: 0 auto;
+  }
+
+  @media (max-width: 900px) {
+    .fi-dwa-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .fi-dwa-card {
+    position: relative;
+    text-align: left;
+    padding: 24px 26px 26px;
+    border-radius: 14px;
+    background: rgba(20, 20, 22, 0.5);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.06) inset,
+      0 12px 40px -16px rgba(0, 0, 0, 0.65),
+      0 0 48px -28px rgba(217, 2, 23, 0.22),
+      0 0 56px -32px rgba(92, 68, 240, 0.18);
+  }
+
+  .fi-dwa-card h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.94);
+    margin: 0 0 12px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.02em;
+    line-height: 1.3;
+  }
+
+  .fi-dwa-card p {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 0;
+    line-height: 1.68;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .fi-dwa-tip {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: var(--fi-content-max);
+    margin: 22px auto 0;
+    padding: 12px 16px 16px 22px;
+    font-size: 13px;
+    line-height: 1.55;
+    font-family: 'Inter', sans-serif;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    box-shadow: 0 0 40px -24px rgba(92, 68, 240, 0.12);
+    /* Docs theme can paint bare <p> text dark — lock readable light copy */
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  .fi-dwa-tip p {
+    margin: 0;
+    color: inherit;
+  }
+
+  .fi-dwa-tip::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    bottom: 12px;
+    width: 2px;
+    border-radius: 2px;
+    background: linear-gradient(180deg, #d90217 0%, #5c44f0 100%);
+  }
+
+  .fi-dwa-tip-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 10px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  .fi-dwa-tip-badge {
+    flex-shrink: 0;
+    padding: 3px 9px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 999px;
+    line-height: 1.2;
+  }
+
+  .fi-dwa-tip-emoji {
+    flex-shrink: 0;
+    font-size: 1.05em;
+    line-height: 1;
+  }
+
+  .fi-dwa-tip-text {
+    flex: 1 1 220px;
+    min-width: 0;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  .fi-dwa-tip-text strong {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  .fi-dwa-tip-figure {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.04) inset,
+      0 0 48px -20px rgba(217, 2, 23, 0.2),
+      0 0 56px -24px rgba(92, 68, 240, 0.15);
+  }
+
+  .fi-dwa-tip-media {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+    object-position: top center;
+    background: #0a0a0c;
+    opacity: 0.4;
+    transition: opacity 0.35s ease;
+  }
+
+  .fi-dwa-tip-media.fi-dwa-tip-media--ready {
+    opacity: 1;
+  }
+
+  .fi-dwa-tip-caption {
+    margin: 0;
+    padding: 10px 14px 12px;
+    font-size: 12px;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Inter', sans-serif;
+    background: rgba(0, 0, 0, 0.25);
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
   }
 `}</style>
 
@@ -151,47 +391,78 @@ import BeamHero from './BeamHero'
 
 <div className="fi-body">
 
-  <div className="fi-badges">
-    <span className="fi-badge"><span className="fi-badge-dot" />React 18</span>
-    <span className="fi-badge"><span className="fi-badge-dot" />TypeScript</span>
-    <span className="fi-badge"><span className="fi-badge-dot" />Storybook 8</span>
-    <span className="fi-badge"><span className="fi-badge-dot" />Ant Design 6</span>
-    <span className="fi-badge"><span className="fi-badge-dot" />CSS Custom Properties</span>
-    <span className="fi-badge"><span className="fi-badge-dot" />Inter</span>
+  <div className="fi-section" role="region" aria-label="Quick start">
+    <QuickStartCommands />
+  </div>
+
+  <div className="fi-section">
+    <h2>Design with AI</h2>
+    <div className="fi-dwa-grid">
+      <div className="fi-dwa-card">
+        <h3>Download &amp; Own it</h3>
+        <p>
+          Clone the system locally. You don&apos;t need to be a dev to have the source of truth on your
+          machine.
+        </p>
+      </div>
+      <div className="fi-dwa-card">
+        <h3>Connect Claude Code</h3>
+        <p>
+          Use Claude Code or Cursor to talk to the system. Prompt your way through layouts using our
+          pre-built React components.
+        </p>
+      </div>
+      <div className="fi-dwa-card">
+        <h3>Build on the Web</h3>
+        <p>
+          Skip the export-to-dev handoff. Build, tweak, and preview your interfaces directly in the browser
+          in real-time.
+        </p>
+      </div>
+    </div>
+    <div className="fi-dwa-tip" role="note">
+      <p className="fi-dwa-tip-row">
+        <span className="fi-dwa-tip-badge">Pro tip</span>
+        <span className="fi-dwa-tip-emoji" aria-hidden="true">
+          💡
+        </span>
+        <span className="fi-dwa-tip-text">
+          <strong>Designers:</strong> You can now build production-ready UI by just describing it to your AI
+          agent.
+        </span>
+      </p>
+      <figure className="fi-dwa-tip-figure">
+        <DesignWithAIDemoVideo />
+        <figcaption className="fi-dwa-tip-caption">
+          Example merchant UI — assembled in ~20 minutes with Flock + AI.
+        </figcaption>
+      </figure>
+    </div>
   </div>
 
   <div className="fi-grid-3">
     <div className="fi-card">
-      <span className="fi-card-icon">🎨</span>
+      <span className="fi-card-icon" aria-hidden>
+        <DesignToolsColorPaletteIcon />
+      </span>
       <h3>Design Tokens</h3>
       <p>Colors, spacing, typography, radius, shadows — all CSS custom properties. Zero hardcoded values anywhere.</p>
     </div>
     <div className="fi-card">
-      <span className="fi-card-icon">🧩</span>
+      <span className="fi-card-icon" aria-hidden>
+        <InterfaceEssentialGridLayersAddIcon />
+      </span>
       <h3>Components</h3>
       <p>Merchant-grade components built on Ant Design. Every state — default, hover, focus, disabled, loading, error.</p>
     </div>
     <div className="fi-card">
-      <span className="fi-card-icon">📐</span>
+      <span className="fi-card-icon" aria-hidden>
+        <ComputersDevicesElectronicsScreenMonitorIcon />
+      </span>
       <h3>Screens</h3>
       <p>Full page compositions assembled from components. B2B patterns for forms, tables, dashboards.</p>
     </div>
   </div>
-
-  <div className="fi-section">
-    <h2>Quick Start</h2>
-    <div className="fi-code">
-      <span className="fi-code-comment"># Clone and install</span><br />
-      <span className="fi-code-cmd">git clone</span> <span className="fi-code-path">https://github.com/tcmms/Flock.git</span><br />
-      <span className="fi-code-cmd">cd</span> <span className="fi-code-path">Flock</span><br />
-      <span className="fi-code-cmd">npm install</span><br />
-      <br />
-      <span className="fi-code-comment"># Run Storybook locally on http://localhost:6006</span><br />
-      <span className="fi-code-cmd">npm run storybook</span>
-    </div>
-  </div>
-
-  <hr className="fi-divider" />
 
   <div className="fi-section">
     <h2>Token System</h2>
@@ -215,18 +486,20 @@ import BeamHero from './BeamHero'
     </div>
   </div>
 
-  <hr className="fi-divider" />
-
   <div className="fi-section">
     <h2>Themes</h2>
     <div className="fi-grid-2">
       <div className="fi-card">
-        <span className="fi-card-icon">🔴</span>
+        <span className="fi-card-icon" aria-hidden>
+          <BasicShapesCircleIcon />
+        </span>
         <h3>OPS — Ruby/Red</h3>
         <p>Primary theme for the Snoonu Merchant Portal. Ruby red <code className="fi-inline-code">#D90217</code> as brand colour.</p>
       </div>
       <div className="fi-card">
-        <span className="fi-card-icon">🟣</span>
+        <span className="fi-card-icon" aria-hidden>
+          <DesignToolsPaintRollerPaintIcon />
+        </span>
         <h3>FF — Indigo/Purple</h3>
         <p>Alternative theme. Switch using the paintbrush icon in the Storybook toolbar above.</p>
       </div>

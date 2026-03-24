@@ -5,7 +5,7 @@ import { ShoppingEcommerceBagShoppingIcon, InterfaceEssentialSettingsGearIcon, U
 import { Button } from '../Button';
 
 const meta: Meta<typeof Tabs> = {
-  title: 'Navigation/Tabs',
+  title: 'General/Tabs',
   component: Tabs,
   tags: ['autodocs'],
 };

@@ -35,7 +35,7 @@ const groupOptions = [
  * Supports single, multiple, tags, search, grouping, and custom rendering.
  */
 const meta: Meta<typeof Select> = {
-  title: 'Data Entry/Select',
+  title: 'General/Select',
   component: Select,
   tags: ['autodocs'],
   argTypes: {

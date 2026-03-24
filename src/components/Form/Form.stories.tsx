@@ -18,7 +18,7 @@ import { FlockIcons } from '../../icons/flockIcons'
  * Supports horizontal/vertical/inline layouts, validation, dynamic fields, and programmatic control.
  */
 const meta: Meta<typeof Form> = {
-  title: 'Data Entry/Form',
+  title: 'General/Form',
   component: Form,
   tags: ['autodocs'],
   argTypes: {

@@ -6,7 +6,7 @@ import { Radio, RadioGroup, RadioButton } from './Radio'
  * Built on Ant Design Radio with Flock DS tokens.
  */
 const meta: Meta<typeof Radio> = {
-  title: 'Data Entry/Radio',
+  title: 'General/Radio',
   component: Radio,
   tags: ['autodocs'],
   argTypes: {

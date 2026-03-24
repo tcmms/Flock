@@ -5,7 +5,7 @@ import { Space } from 'antd'
 import { InterfaceEssentialArrowDownIcon, InterfaceEssentialSettingsGearIcon, UserSingleUserIcon, InterfaceEssentialExitLogOutIcon } from '../../icons'
 
 const meta: Meta<typeof Dropdown> = {
-  title: 'Navigation/Dropdown',
+  title: 'General/Dropdown',
   component: Dropdown,
   tags: ['autodocs'],
 }

@@ -7,7 +7,7 @@ import { Icon, iconMap } from './Icon'
  * Browse all 3864 icons in the Gallery story.
  */
 const meta: Meta<typeof Icon> = {
-  title: 'General/Icon',
+  title: 'Feedback/Icon',
   component: Icon,
   tags: ['autodocs'],
   argTypes: {

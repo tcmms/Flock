@@ -6,7 +6,7 @@ import { Checkbox, CheckboxGroup } from './Checkbox'
  * Built on Ant Design Checkbox with Flock DS tokens.
  */
 const meta: Meta<typeof Checkbox> = {
-  title: 'Data Entry/Checkbox',
+  title: 'General/Checkbox',
   component: Checkbox,
   tags: ['autodocs'],
   argTypes: {

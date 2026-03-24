@@ -13,7 +13,7 @@ import { FlockIcons } from '../../icons/flockIcons'
  * addon before/after, borderless, and read-only states.
  */
 const meta: Meta<typeof InputField> = {
-  title: 'Data Entry/Input',
+  title: 'General/Input',
   component: InputField,
   tags: ['autodocs'],
   argTypes: {
