@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWarningLoadingIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 2.996v1.5M15.749 5.508l.753-1.305M18.493 8.252l1.304-.753M19.503 12h1.5M2.996 12h1.5M5.507 8.252l-1.304-.753M8.251 5.508l-.753-1.305M12 19.503v1.5M7.498 19.798l.753-1.305M5.507 15.749l-1.304.753M19.797 16.502l-1.304-.753M12 11.669v-3.27M12 15.28a.16.16 0 0 0-.16.16v.002a.161.161 0 1 0 .16-.164M15.749 18.493l.753 1.305" /></svg>;
+export default InterfaceEssentialWarningLoadingIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCropRotateIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m20 9-2-2M22 7l-2 2M20 9V5.5A2.5 2.5 0 0 0 17.5 3H15M4 15l2 2M2 17l2-2M4 15v3.5A2.5 2.5 0 0 0 6.5 21H9M9 6v9h9" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6 9h9v9" /></svg>;
+export default InterfaceEssentialCropRotateIcon;

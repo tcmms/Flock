@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialTextAButtonSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m10 6 2-2-2-2M14 18l-2 2 2 2M12 8.512l-2.791 5.891M14.79 14.404 12 8.512M9.767 13.225h4.464" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h7M16 4h3a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-7" /></svg>;
+export default InterfaceEssentialTextAButtonSquareIcon;

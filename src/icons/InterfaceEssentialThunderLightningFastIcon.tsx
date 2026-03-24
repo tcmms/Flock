@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialThunderLightningFastIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.366 5.633v4.672h3.986a.634.634 0 0 1 .542.988l-5.068 7.426a.652.652 0 0 1-1.19-.352v-4.675H10.65a.634.634 0 0 1-.54-.988l5.065-7.423a.652.652 0 0 1 1.19.352" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.999 18.003H3.747M6.373 12.5H1.996M8.999 6.998H3.747" /></svg>;
+export default InterfaceEssentialThunderLightningFastIcon;

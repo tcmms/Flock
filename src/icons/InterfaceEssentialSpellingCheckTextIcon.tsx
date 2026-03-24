@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSpellingCheckTextIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M4.719 11.396h6.376M7.914 4l-3.888 9.014M11.789 13.014 7.914 4M20 7.562V13M19.199 8.349a2.733 2.733 0 1 1-3.866 3.866 2.733 2.733 0 1 1 3.866-3.866M4 17h16M16 21H4" /></svg>;
+export default InterfaceEssentialSpellingCheckTextIcon;

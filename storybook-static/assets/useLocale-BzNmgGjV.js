@@ -1,0 +1,1 @@
+import{r as s}from"./index-oxIuDU2I.js";import{L as i,l as n}from"./index-BUbyd2uB.js";const m=(e,r)=>{const t=s.useContext(i),c=s.useMemo(()=>{const o=r||n[e],x=(t==null?void 0:t[e])??{};return{...typeof o=="function"?o():o,...x||{}}},[e,r,t]),a=s.useMemo(()=>{const o=t==null?void 0:t.locale;return t!=null&&t.exist&&!o?n.locale:o},[t]);return[c,a]};export{m as u};

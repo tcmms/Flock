@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WeatherClimateUmbrellaIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 13v6a2 2 0 1 0 4 0M12 5V3" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 13h18q-.514-3.42-3.054-5.71Q15.379 5 12 5T6.054 7.29Q3.514 9.58 3 13" clipRule="evenodd" /></svg>;
+export default WeatherClimateUmbrellaIcon;

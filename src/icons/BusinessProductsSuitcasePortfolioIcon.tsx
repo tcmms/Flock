@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BusinessProductsSuitcasePortfolioIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.003 21.004H4.997a2 2 0 0 1-2-2.001V9.999a2 2 0 0 1 2-2h14.006a2 2 0 0 1 2 2v9.004a2 2 0 0 1-2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.002 21.004V5.997a2 2 0 0 0-2.001-2H9.999a2 2 0 0 0-2 2v15.007" /></svg>;
+export default BusinessProductsSuitcasePortfolioIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BuildingConstructionHouseGarageIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.999 15.001H15M8.999 18.003H15M2.996 21.004V10.032a2 2 0 0 1 1.03-1.749l7.489-4.16a1 1 0 0 1 .971 0l7.488 4.16a2 2 0 0 1 1.03 1.75v10.97M22.004 21.004H1.996" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5.998 21.004V13a1 1 0 0 1 1-1h10.004a1 1 0 0 1 1 1v8.004M10 8.999h4" /></svg>;
+export default BuildingConstructionHouseGarageIcon;

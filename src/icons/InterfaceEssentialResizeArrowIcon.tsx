@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialResizeArrowIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11 21.004H6.998a4 4 0 0 1-4.002-4.002V6.998a4 4 0 0 1 4.002-4.002h10.004a4 4 0 0 1 4.002 4.002v4.001" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.002 9.999H9.999v6.002M18.003 18.002 9.999 10" /></svg>;
+export default InterfaceEssentialResizeArrowIcon;

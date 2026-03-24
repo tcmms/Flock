@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCertificateMedalIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={18.003} cy={14.502} r={3.501} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.002 17.375v4.63l2-1.001 2.001 1v-4.63M13 21.004H4.997a2 2 0 0 1-2-2V4.996a2 2 0 0 1 2-2h13.006a2 2 0 0 1 2 2V8M6.998 6.998h9.004M6.998 11H11M6.998 15.002h3.001" /></svg>;
+export default InterfaceEssentialCertificateMedalIcon;

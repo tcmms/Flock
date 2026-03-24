@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialStatusMenuIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.992 8.008a5.645 5.645 0 1 1-7.984 7.984 5.645 5.645 0 0 1 7.984-7.984M8.613 20.37a8.97 8.97 0 0 1-4.438-3.85 8.96 8.96 0 0 1-1.128-5.649M6.448 4.88a8.97 8.97 0 0 1 5.554-1.918c2.053 0 3.94.692 5.455 1.847M15.391 20.37a8.97 8.97 0 0 0 4.438-3.85 8.96 8.96 0 0 0 1.128-5.649" /></svg>;
+export default InterfaceEssentialStatusMenuIcon;

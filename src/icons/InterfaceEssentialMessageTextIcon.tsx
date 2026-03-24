@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMessageTextIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21.004 4.997V15a2 2 0 0 1-2.001 2H6.998l-4.002 4.003V4.997a2 2 0 0 1 2.001-2h14.006a2 2 0 0 1 2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.002 7.998H7.998M7.998 12H12" /></svg>;
+export default InterfaceEssentialMessageTextIcon;

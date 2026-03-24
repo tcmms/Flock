@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialStrikeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m13.799 13 .316.122a3.56 3.56 0 0 1 2.274 3.316v.006A3.556 3.556 0 0 1 12.833 20h-2.667a3.556 3.556 0 0 1-3.556-3.556M4 13h16M7.509 10.063c-.556-.652-.898-1.477-.898-2.372A3.69 3.69 0 0 1 10.302 4h2.531a3.556 3.556 0 0 1 3.556 3.555" /></svg>;
+export default InterfaceEssentialStrikeIcon;

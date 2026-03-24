@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialReplyCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12.483 9.9a5.09 5.09 0 0 1 4.52 5.052v.322a6 6 0 0 0-4.52-2.168v1.7a.644.644 0 0 1-1.042.5l-4.207-3.319a.62.62 0 0 1 0-.974l4.207-3.322a.644.644 0 0 1 1.042.5z" clipRule="evenodd" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialReplyCircleIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialNotificationStatusCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={17.953} cy={6.047} r={4.051} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.9 21.004a9.12 9.12 0 0 0 6.856-6.855M2.996 10.1a9.12 9.12 0 0 1 6.855-6.857M9.851 21.004a9.12 9.12 0 0 1-6.855-6.855" /></svg>;
+export default InterfaceEssentialNotificationStatusCircleIcon;

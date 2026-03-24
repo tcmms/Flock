@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPuzzle2Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m15.925 8.468-3.387 3.387a2.46 2.46 0 0 0 0 3.48l.053.053a2.46 2.46 0 0 0 3.48 0l3.389-3.39a5.27 5.27 0 0 0 0-7.456l-.002-.001a5.274 5.274 0 0 0-7.458 0L4.54 12a5.274 5.274 0 0 0 7.458 7.459" /></svg>;
+export default InterfaceEssentialPuzzle2Icon;

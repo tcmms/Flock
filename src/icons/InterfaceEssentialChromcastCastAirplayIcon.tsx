@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialChromcastCastAirplayIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M2 14a6 6 0 0 1 6 6M2 18a2 2 0 0 1 2 2M2 10c5.523 0 10 4.477 10 10" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M2 6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-4" /></svg>;
+export default InterfaceEssentialChromcastCastAirplayIcon;

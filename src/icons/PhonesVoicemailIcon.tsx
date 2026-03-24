@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PhonesVoicemailIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.828 9.172a4 4 0 1 1-5.656 5.656 4 4 0 0 1 5.656-5.656M20.828 9.172a4 4 0 1 1-5.656 5.656 4 4 0 0 1 5.656-5.656M18 16H6M3 3h19M3 21h19" /></svg>;
+export default PhonesVoicemailIcon;

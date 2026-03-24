@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceBarcodeSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6.998 11V9.499a2.5 2.5 0 0 1 2.501-2.501h5.002a2.5 2.5 0 0 1 2.501 2.501v1.5M17.002 14v.501a2.5 2.5 0 0 1-2.501 2.501H9.499a2.5 2.5 0 0 1-2.501-2.501v-.5M5.497 11h13.006" /><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={5} /></svg>;
+export default ShoppingEcommerceBarcodeSquareIcon;

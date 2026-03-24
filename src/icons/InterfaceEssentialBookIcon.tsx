@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBookIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 5a6.365 6.365 0 0 0-8.188-.687A1.98 1.98 0 0 0 3 5.93v12.956c0 .774.825 1.223 1.508.859A6.365 6.365 0 0 1 12 20.864za6.365 6.365 0 0 1 8.188-.687c.518.369.812.981.812 1.617v12.956c0 .774-.825 1.224-1.508.859A6.365 6.365 0 0 0 12 20.864" /></svg>;
+export default InterfaceEssentialBookIcon;

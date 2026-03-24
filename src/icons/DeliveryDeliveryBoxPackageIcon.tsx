@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DeliveryDeliveryBoxPackageIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15 3v5a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V3M17 15l-2-2-2 2M15 13v4" /></svg>;
+export default DeliveryDeliveryBoxPackageIcon;

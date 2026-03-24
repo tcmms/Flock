@@ -1,0 +1,47 @@
+:root {
+  /* Base scale (4px unit) */
+  --flock-space-1:  4px;
+  --flock-space-2:  8px;
+  --flock-space-3:  12px;
+  --flock-space-4:  16px;
+  --flock-space-5:  20px;
+  --flock-space-6:  24px;
+  --flock-space-8:  32px;
+  --flock-space-10: 40px;
+  --flock-space-12: 48px;
+
+  /* Semantic padding aliases */
+  --flock-padding-xxs: 4px;
+  --flock-padding-xs:  8px;
+  --flock-padding-sm:  12px;
+  --flock-padding-md:  16px;
+  --flock-padding-lg:  24px;
+  --flock-padding-xl:  32px;
+  --flock-padding-2xl: 40px;
+  --flock-padding-3xl: 48px;
+  --flock-padding-control:    12px;
+  --flock-padding-control-sm: 8px;
+
+  /* Semantic margin aliases */
+  --flock-margin-xxs: 4px;
+  --flock-margin-xs:  8px;
+  --flock-margin-sm:  12px;
+  --flock-margin-md:  16px;
+  --flock-margin-lg:  24px;
+  --flock-margin-xl:  32px;
+  --flock-margin-2xl: 40px;
+  --flock-margin-3xl: 48px;
+
+  /* Control heights */
+  --flock-height-xs:   16px;
+  --flock-height-sm:   24px;
+  --flock-height-base: 32px;
+  --flock-height-lg:   40px;
+  --flock-height-xlg:  48px;
+
+  /* Line widths */
+  --flock-line-width:         1px;
+  --flock-line-width-bold:    2px;
+  --flock-line-width-focus:   4px;
+  --flock-line-width-outline: 4px;
+}

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MobileDevicesMobileDevicesFaceIdIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 3v1.8c0 .331.224.6.5.6h3c.276 0 .5-.269.5-.6V3M9 10v1M15 10v1M11.333 13h.333a.667.667 0 0 0 .667-.667V10M14.161 15a3.055 3.055 0 0 1-4.322 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 3h8a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2" clipRule="evenodd" /></svg>;
+export default MobileDevicesMobileDevicesFaceIdIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialTriangleSynRoatateArrowsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m18.453 13.347 2.307 3.966a1.794 1.794 0 0 1-1.565 2.69h-5.646l2.065-2.05M8.128 8.909l2.307-3.967a1.814 1.814 0 0 1 3.13 0L16.388 9.8l-2.821-.75M6.82 15.26l-.756-2.802-2.824 4.855a1.794 1.794 0 0 0 1.565 2.69h4.614" /></svg>;
+export default InterfaceEssentialTriangleSynRoatateArrowsIcon;

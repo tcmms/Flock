@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditFunctionNoticeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.5 21H5a2 2 0 0 1-2-2v-1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1.5a1.5 1.5 0 0 0 3 0v-13A1.5 1.5 0 0 1 19.5 5v0A1.5 1.5 0 0 1 21 6.5V9a1 1 0 0 1-1 1h-2M6 8.827V17" /><circle cx={7} cy={6} r={3} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.5 5H9.827" /></svg>;
+export default TableEditFunctionNoticeIcon;

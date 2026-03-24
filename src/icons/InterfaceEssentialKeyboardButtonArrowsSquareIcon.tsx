@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialKeyboardButtonArrowsSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21 7.5V6a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.5 7.5 12 6l-1.5 1.5M10.5 16.5 12 18l1.5-1.5M16.5 13.5 18 12l-1.5-1.5M7.5 10.5 6 12l1.5 1.5" /></svg>;
+export default InterfaceEssentialKeyboardButtonArrowsSquareIcon;

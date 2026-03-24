@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BasicShapesHeptagonIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.204 3.008 5.172 5.914c-.503.242-.868.7-.992 1.244l-1.49 6.531a1.83 1.83 0 0 0 .354 1.551l4.175 5.237c.348.436.876.691 1.434.691h6.695c.558 0 1.086-.254 1.434-.691l4.175-5.237a1.83 1.83 0 0 0 .354-1.551l-1.49-6.531a1.83 1.83 0 0 0-.992-1.244l-6.032-2.906a1.83 1.83 0 0 0-1.593 0" clipRule="evenodd" /></svg>;
+export default BasicShapesHeptagonIcon;

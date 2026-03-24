@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsCropEditSelectIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.5 21h3M13.5 3h-3M21 13.5v-3M3 10.5v3M21 7V5a2 2 0 0 0-2-2h-2M3 17v2a2 2 0 0 0 2 2h2M7 3H5a2 2 0 0 0-2 2v2M17 21h2a2 2 0 0 0 2-2v-2M15 17v-2M9 9H7M12 9h3v3M17 15H9V7" /></svg>;
+export default DesignToolsCropEditSelectIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserSingleUserRemoveIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12.47 3.023A3.492 3.492 0 1 1 7.53 7.96a3.492 3.492 0 0 1 4.94-4.938M14.363 12.796c-1.299-.519-2.823-.805-4.363-.805-4.048 0-8 1.967-8 4.992v1a1 1 0 0 0 1 1h9.413" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 22a5 5 0 0 1-5-5c0-2.704 2.3-5.003 5.004-5A5 5 0 0 1 17 22M18.41 15.59l-2.82 2.82M18.41 18.41l-2.82-2.82" /></svg>;
+export default UserSingleUserRemoveIcon;

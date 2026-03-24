@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialRefreshReloadLoadingIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 15.747V18M9.347 14.653 7.76 16.24M8.253 12H6M7.76 7.76l1.587 1.587M12 8V6M15.18 8.82l1.06-1.06M18 12h-1M16.24 16.24l-.353-.353" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 21a9 9 0 0 1-9-9v0a9 9 0 0 1 9-9v0a9 9 0 0 1 9 9v0a9 9 0 0 1-9 9" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialRefreshReloadLoadingIcon;

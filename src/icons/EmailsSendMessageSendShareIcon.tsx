@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmailsSendMessageSendShareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.504} d="m10.481 18.71 10.987-5.832a.998.998 0 0 0 0-1.765L10.497 5.29c-.828-.44-1.756.39-1.405 1.256l2.189 5.4-2.207 5.51c-.346.867.581 1.692 1.407 1.254" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.28 11.95 22 12M4 15h1.6M3 12h2.6M2 9h3.6" /></svg>;
+export default EmailsSendMessageSendShareIcon;

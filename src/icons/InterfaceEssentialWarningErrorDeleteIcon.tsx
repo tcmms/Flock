@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWarningErrorDeleteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M20.773 14a9.004 9.004 0 1 1-3.12-9.003M21.004 8l-3.001 2.998M18.005 7.999l2.997 3M12 11.669v-3.27" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 15.28a.16.16 0 0 0-.16.162.163.163 0 0 0 .16.16.162.162 0 1 0 0-.324" /></svg>;
+export default InterfaceEssentialWarningErrorDeleteIcon;

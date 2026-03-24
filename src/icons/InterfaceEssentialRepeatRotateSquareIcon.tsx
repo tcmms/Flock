@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialRepeatRotateSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18.008} height={18.008} x={2.996} y={2.997} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.22 9.781a3.87 3.87 0 0 1 .782 2.32 3.92 3.92 0 0 1-3.901 3.91L9.999 16l1.335 1.337M12.666 6.665l1.335 1.334-3.101-.014A3.92 3.92 0 0 0 6.998 11.9c.003.838.277 1.652.782 2.321" /></svg>;
+export default InterfaceEssentialRepeatRotateSquareIcon;

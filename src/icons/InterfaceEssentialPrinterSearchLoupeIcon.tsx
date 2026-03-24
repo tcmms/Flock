@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPrinterSearchLoupeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7 8V4a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v4M7 17H5a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2M20.121 14.907a3 3 0 1 1-4.241 4.243 3 3 0 0 1 4.241-4.243M22 21.03l-1.88-1.88" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13 21H8a1 1 0 0 1-1-1v-6.2h6M7 11h1" /></svg>;
+export default InterfaceEssentialPrinterSearchLoupeIcon;

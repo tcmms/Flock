@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialZoomIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3.506 9h11.495M8.999 15.002h11.495M8.999 20.494V8.999M15.001 15.002V3.507" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialZoomIcon;

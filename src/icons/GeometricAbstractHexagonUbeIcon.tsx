@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const GeometricAbstractHexagonUbeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m4 8 8-5 8 5v8l-8 5-8-5zl8 4.375V21v-8.625L20 8" /></svg>;
+export default GeometricAbstractHexagonUbeIcon;

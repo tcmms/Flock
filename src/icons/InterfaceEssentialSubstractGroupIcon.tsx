@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSubstractGroupIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17 3.767a9.005 9.005 0 0 0-10 0M15.98 19.32a9.01 9.01 0 0 0 5-8.66M8.02 19.32a9.01 9.01 0 0 1-5-8.66M20.855 5.688a1.5 1.5 0 1 1-2.122 2.122 1.5 1.5 0 0 1 2.122-2.122M5.273 5.688A1.5 1.5 0 1 1 3.15 7.81a1.5 1.5 0 0 1 2.122-2.122M13.064 19.188a1.5 1.5 0 1 1-2.122 2.122 1.5 1.5 0 0 1 2.122-2.122M14.475 8.774a3.5 3.5 0 1 1-4.95 4.95 3.5 3.5 0 0 1 4.95-4.95" /></svg>;
+export default InterfaceEssentialSubstractGroupIcon;

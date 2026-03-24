@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderTimeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.498 21.004a4.502 4.502 0 1 1 0-9.004 4.502 4.502 0 0 1 0 9.004" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.391 14.984v1.759l1.383.843M15.001 19.003h4.002a2 2 0 0 0 2-2V7.937a2 2 0 0 0-2-2h-6.474a1 1 0 0 1-.83-.44l-1.4-2.065a1 1 0 0 0-.829-.437H4.997a2 2 0 0 0-2 2.001V10" /></svg>;
+export default FoldersFolderTimeIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCompassMapCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m7.898 15.508 1.14-5.684a1 1 0 0 1 .786-.784l5.685-1.137a.5.5 0 0 1 .588.588l-1.137 5.685a1 1 0 0 1-.784.784l-5.684 1.142a.5.5 0 0 1-.594-.594" clipRule="evenodd" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialCompassMapCircleIcon;

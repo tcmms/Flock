@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const NavigationMapsTargetDeleteDisableIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 21.004v-4.002M12 2.996v4.002M6.998 12H2.996M21.004 12h-4.002M4.997 4.997l14.006 14.006M5.501 9.503c-.963 2.501-.47 5.431 1.547 7.448s4.947 2.51 7.448 1.547M18.499 14.497c.963-2.501.47-5.431-1.547-7.448s-4.947-2.51-7.448-1.547" /></svg>;
+export default NavigationMapsTargetDeleteDisableIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSlideDisableDeliteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.086 10.086 13 12l-2.027 2.027M17 10l4 4M17 14l4-4M13 12H7" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19 18v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1" /></svg>;
+export default InterfaceEssentialSlideDisableDeliteIcon;

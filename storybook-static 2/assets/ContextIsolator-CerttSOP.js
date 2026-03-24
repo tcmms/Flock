@@ -1,0 +1,1 @@
+import{R as r}from"./index-oxIuDU2I.js";import{N as m}from"./context-M28mY0tC.js";import{N as s}from"./Compact-SEgaOlnH.js";import{i}from"./isNonNullable-Hl1s-5mn.js";const p=o=>{const{space:l,form:a,children:e}=o;if(!i(e))return null;let t=e;return a&&(t=r.createElement(m,{override:!0,status:!0},t)),l&&(t=r.createElement(s,null,t)),t};export{p as C};

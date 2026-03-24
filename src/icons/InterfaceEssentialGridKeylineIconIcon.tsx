@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialGridKeylineIconIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={5} /><circle cx={12} cy={12} r={5.811} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m4.465 4.463 15.045 15.1M19.51 4.463l-15.045 15.1" /></svg>;
+export default InterfaceEssentialGridKeylineIconIcon;

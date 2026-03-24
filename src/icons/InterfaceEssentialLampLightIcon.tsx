@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLampLightIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.048 14.95a7.003 7.003 0 1 1 9.904 0M8.999 18.002H15M10 21.004h4" /></svg>;
+export default InterfaceEssentialLampLightIcon;

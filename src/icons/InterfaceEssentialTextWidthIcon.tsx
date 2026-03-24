@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialTextWidthIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9.75 13h4.5M12 4v9M20 18.03l-2.03 2.03M18.09 16.11 20 18.03M4 18.03 6.03 16M5.91 19.94 4 18.03M4 18.03h16M16.5 6.037V4.5A.5.5 0 0 0 16 4H8a.5.5 0 0 0-.5.5v1.537" /></svg>;
+export default InterfaceEssentialTextWidthIcon;

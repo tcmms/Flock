@@ -1,0 +1,13 @@
+@import './colors.css';
+@import './typography.css';
+@import './spacing.css';
+@import './radius.css';
+@import './shadows.css';
+
+/* Ant Design font override — ensure Inter applies to portal-rendered elements */
+.ant-select,
+.ant-select-selector,
+.ant-select-selection-item,
+.ant-select-item {
+  font-family: var(--flock-font-family) !important;
+}

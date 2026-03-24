@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLeafletIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.5 6.5h2.64M6.5 10h3.52M6.5 13.5h4.4M17.5 13.5h-3.1M17.5 10h-3.6M11.182 20.718l3.011-3.011a2 2 0 0 0 .566-1.697L13.145 4.717A2 2 0 0 0 11.165 3H5a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h9.658" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m9.9 17 .326 2.283A2 2 0 0 0 12.206 21H19a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-5.1" /></svg>;
+export default InterfaceEssentialLeafletIcon;

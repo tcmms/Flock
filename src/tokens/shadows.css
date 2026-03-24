@@ -1,0 +1,29 @@
+/* Ant Design standard shadow values */
+:root {
+  /* Elevation */
+  --flock-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.03),
+                     0 1px 6px -1px rgba(0, 0, 0, 0.02),
+                     0 2px 4px 0 rgba(0, 0, 0, 0.02);
+
+  --flock-shadow-md: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+                     0 3px 6px -4px rgba(0, 0, 0, 0.12),
+                     0 9px 28px 8px rgba(0, 0, 0, 0.05);
+
+  --flock-shadow-lg: 0 12px 48px 16px rgba(0, 0, 0, 0.08),
+                     0 6px 16px -8px rgba(0, 0, 0, 0.08),
+                     0 9px 28px 8px rgba(0, 0, 0, 0.05);
+
+  --flock-shadow-xl: 0 20px 96px rgba(0, 0, 0, 0.15);
+
+  /* Component shadows (from Figma Effect Styles) */
+  --flock-shadow-button-default: 0 2px 0 rgba(0, 0, 0, 0.02);
+  --flock-shadow-button-primary: 0 2px 0 rgba(217, 2, 23, 0.1);
+  --flock-shadow-button-danger:  0 2px 0 rgba(245, 34, 45, 0.1);
+  --flock-shadow-input-active:   0 0 0 2px rgba(217, 2, 23, 0.1);
+  --flock-shadow-input-error:    0 0 0 2px rgba(255, 85, 88, 0.1);
+  --flock-shadow-input-warning:  0 0 0 2px rgba(255, 153, 0, 0.1);
+  --flock-shadow-box:            0 2px 8px rgba(0, 0, 0, 0.15);
+  --flock-shadow-box-secondary:  0 4px 20px rgba(0, 0, 0, 0.1);
+  --flock-shadow-box-tertiary:   0 8px 40px rgba(0, 0, 0, 0.1);
+  --flock-switch-handle:         0 2px 4px rgba(0, 0, 0, 0.4);
+}

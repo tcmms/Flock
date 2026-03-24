@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPiegraphIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.396 8a.394.394 0 1 0-.001 0M16.396 3.77a.376.376 0 0 0-.001-.75.375.375 0 1 0 .001.75M20.98 7.604a.374.374 0 1 0-.749 0 .374.374 0 0 0 .749 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 21V3a9 9 0 0 0-9 9 9 9 0 0 0 9 9 9 9 0 0 0 9-9h-9" /></svg>;
+export default InterfaceEssentialPiegraphIcon;

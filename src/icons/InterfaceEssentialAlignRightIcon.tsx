@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialAlignRightIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17 10H3V6h14zM17 18H9v-4h8z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21 20V4" /></svg>;
+export default InterfaceEssentialAlignRightIcon;

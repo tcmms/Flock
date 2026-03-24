@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserUserProfileTagIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={8.248} r={4.252} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.997 20.003a4.5 4.5 0 0 1 4.502-4.502h2.584M16.502 15.001v6.003M19.503 15.001v6.003M15.001 19.503h6.003M15.001 16.502h6.003" /></svg>;
+export default UserUserProfileTagIcon;

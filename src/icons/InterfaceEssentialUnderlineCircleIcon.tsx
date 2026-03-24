@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialUnderlineCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.999 16.002H15M14.501 7.998V10.5a2.501 2.501 0 1 1-5.002 0V7.998" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialUnderlineCircleIcon;

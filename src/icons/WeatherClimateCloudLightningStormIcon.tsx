@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WeatherClimateCloudLightningStormIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.988 15h1.535a3.984 3.984 0 0 0 3.977-3.988 3.984 3.984 0 0 0-3.977-3.987c-.611 0-1.188.127-1.691.379A5.194 5.194 0 0 0 10.704 3c-2.825 0-5.128 2.273-5.2 5.089A3.453 3.453 0 0 0 2.5 11.535 3.46 3.46 0 0 0 5.954 15h1.06M12.3 21l1.5-3h-3.6l1.5-3" /></svg>;
+export default WeatherClimateCloudLightningStormIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ArrowsDiagramsArrowUndoIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 5 5 8l3 3" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 8h9c3.314 0 6 2.462 6 5.5v0c0 3.038-2.686 5.5-6 5.5H6" /></svg>;
+export default ArrowsDiagramsArrowUndoIcon;

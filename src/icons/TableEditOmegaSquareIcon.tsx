@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditOmegaSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.712 16.002h-3.001l1.515-1.77a4.38 4.38 0 0 0 1.055-2.848V11.2a4.19 4.19 0 0 0-4.19-4.19v0a4.38 4.38 0 0 0-4.378 4.378v0c0 1.045.374 2.056 1.055 2.849l1.518 1.765H7.285" /></svg>;
+export default TableEditOmegaSquareIcon;

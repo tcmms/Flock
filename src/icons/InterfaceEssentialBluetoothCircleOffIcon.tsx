@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBluetoothCircleOffIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.364 5.636a9 9 0 0 1 0 12.728 9 9 0 0 1-12.728 0 9 9 0 0 1 0-12.728 9 9 0 0 1 12.728 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m13.628 10.489 1.289-1.114-3.5-2.625v1.829M8.5 14.92 11.88 12M8.5 9.083l6.417 5.542-3.5 2.625v-5.648" /></svg>;
+export default InterfaceEssentialBluetoothCircleOffIcon;

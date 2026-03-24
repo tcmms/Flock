@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFileZipRarCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 2.996v18.008M12 13.668h2M10 15.334h2M12 12h-2M12 10.332h2M12 8.665h-2M12 6.998h2M12 17.002h2" /></svg>;
+export default InterfaceEssentialFileZipRarCircleIcon;

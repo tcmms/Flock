@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialStikerSmileCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.364 5.636a9 9 0 0 1-.183 12.906c-3.413 3.229-8.949 3.229-12.362 0a9 9 0 0 1-.183-12.906 9 9 0 0 1 12.728 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.453 15.647c-1.907 1.804-5 1.804-6.907 0" /></svg>;
+export default InterfaceEssentialStikerSmileCircleIcon;

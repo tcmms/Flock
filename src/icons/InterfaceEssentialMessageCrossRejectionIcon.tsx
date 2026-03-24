@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMessageCrossRejectionIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m13 7.998-2 2M11 7.998l2 2M8.999 13H15" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12.507 18.002h5.496a3 3 0 0 0 3-3V5.996a3 3 0 0 0-3-3H5.997a3 3 0 0 0-3 3v9.004a3 3 0 0 0 3 3.001h2.008v2.444a.556.556 0 0 0 .904.435z" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialMessageCrossRejectionIcon;

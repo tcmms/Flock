@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BasicShapesRhombusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m19.536 13.155-6.059 7.75c-.751.96-2.204.96-2.955 0l-6.059-7.75a1.874 1.874 0 0 1 0-2.31l6.059-7.75a1.876 1.876 0 0 1 2.955 0l6.059 7.75a1.874 1.874 0 0 1 0 2.31" clipRule="evenodd" /></svg>;
+export default BasicShapesRhombusIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ComputersDevicesElectronicsArtboard240Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={14.006} height={18.008} x={4.997} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={2} /><circle cx={12} cy={7.498} r={1.501} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /><circle cx={12} cy={15.001} r={3.001} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default ComputersDevicesElectronicsArtboard240Icon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialChartPlusAddIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.5 14v3M12.5 9v8M16.5 11v6M10 5h9.111C20.155 5 21 5.845 21 6.889v12.222A1.89 1.89 0 0 1 19.111 21H5.889A1.89 1.89 0 0 1 4 19.111V11M2 5h4M4 7V3" /></svg>;
+export default InterfaceEssentialChartPlusAddIcon;

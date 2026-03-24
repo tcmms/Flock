@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPenEditATextIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 12 7.5 2.997l-4.504 9.002M3.897 10.199h7.2" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m14.623 20.682 6.058-6.057c.43-.43.43-1.127 0-1.556l-1.746-1.746a1.1 1.1 0 0 0-1.556 0l-6.057 6.058a1.1 1.1 0 0 0-.322.777v2.846h2.846c.29 0 .57-.115.777-.322" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialPenEditATextIcon;

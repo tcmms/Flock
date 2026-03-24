@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMirrorHorizontalIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.61 12h9.78" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.5 8.444 6.611 4h9.778zM11.46 15.556 16.308 20H6.611z" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialMirrorHorizontalIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialNightModeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.94 3.545a9.3 9.3 0 0 0-1.065 4.33 9.375 9.375 0 0 0 9.375 9.375c.778 0 1.53-.105 2.253-.284M9.76 13.5h11.1M8.13 10h12.64M19.11 6.5H7.99" /></svg>;
+export default InterfaceEssentialNightModeIcon;

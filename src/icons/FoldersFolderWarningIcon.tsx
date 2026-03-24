@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderWarningIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m19.542 14.758 2.265 4.025A1.488 1.488 0 0 1 20.511 21h-4.529a1.487 1.487 0 0 1-1.296-2.217l2.265-4.025c.567-1.011 2.022-1.011 2.591 0" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 11V7.94a2 2 0 0 0-2-2h-6.471a1 1 0 0 1-.827-.438l-1.405-2.065A1 1 0 0 0 9.471 3H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6" /></svg>;
+export default FoldersFolderWarningIcon;

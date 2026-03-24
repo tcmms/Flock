@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ContentEditBookSearchIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v13M7 3v13" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 16H5a2 2 0 0 0-2 2v0a2 2 0 0 0 2 2h6M19.121 14.879a3.003 3.003 0 0 1-.418 4.594 3.01 3.01 0 0 1-3.407 0 3.002 3.002 0 1 1 3.825-4.594M21 21l-1.88-1.88" /></svg>;
+export default ContentEditBookSearchIcon;

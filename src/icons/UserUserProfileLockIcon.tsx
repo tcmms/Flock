@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserUserProfileLockIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 19v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1.016c0-3.026 3.458-4.992 7-4.992s7 1.967 7 4.992M11.47 5.023A3.492 3.492 0 1 1 6.53 9.96a3.492 3.492 0 0 1 4.94-4.938M17 7h4M19 9l2-2M19 5l2 2" /></svg>;
+export default UserUserProfileLockIcon;

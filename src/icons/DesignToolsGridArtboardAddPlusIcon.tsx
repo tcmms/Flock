@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsGridArtboardAddPlusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.5 18h-7A2.5 2.5 0 0 1 6 15.5v-7A2.5 2.5 0 0 1 8.5 6h7A2.5 2.5 0 0 1 18 8.5v7a2.5 2.5 0 0 1-2.5 2.5" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 18h1M18 21v-1M4 6H3M6 3v1M6 20v1M3 18h1M18 4V3M21 6h-1M10 12h4M12 14v-4" /></svg>;
+export default DesignToolsGridArtboardAddPlusIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFlagCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.11 5.424A8.64 8.64 0 1 1 5.89 17.643a8.64 8.64 0 0 1 12.22-12.22" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m12 16.813 3.84-8.64H8.16l1.555 2.4-1.555 2.4h5.53" /></svg>;
+export default InterfaceEssentialFlagCircleIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSettingsSwitchesArrowIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={20.008} height={13.005} x={1.996} y={5.498} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={6.5} /><circle cx={8.499} cy={12} r={3.001} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.052 10.409 17.643 12l-1.591 1.592" /></svg>;
+export default InterfaceEssentialSettingsSwitchesArrowIcon;

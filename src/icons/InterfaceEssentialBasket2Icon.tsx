@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBasket2Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.94 6.498V4.122c0-.622-.505-1.126-1.126-1.126H9.186c-.621 0-1.125.504-1.125 1.126v2.376M18.743 6.498l-.956 12.428a2.25 2.25 0 0 1-2.244 2.078H8.457a2.25 2.25 0 0 1-2.244-2.078L5.257 6.498M20.003 6.498H3.997M10 15.001h4M10 12h4" /></svg>;
+export default InterfaceEssentialBasket2Icon;

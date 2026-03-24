@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialExitDoorLoginIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5.998 2.997h12.005a2 2 0 0 1 2 2v14.006a2 2 0 0 1-2 2.001H5.997a2 2 0 0 1-2-2V4.996a2 2 0 0 1 2-2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.999 11v2M3.997 19.001c0 1.488 1.565 2.455 2.895 1.79l4.001-2A2 2 0 0 0 12 16.998V2.997" /></svg>;
+export default InterfaceEssentialExitDoorLoginIcon;

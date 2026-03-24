@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const GeometricAbstractRhombusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m16 14.25 4 2.25-8 4.5-8-4.5 4-2.25" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M20 7.5 12 3 4 7.5l8 4.5z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8 9.75 4 12l8 4.5 8-4.5-4-2.25" /></svg>;
+export default GeometricAbstractRhombusIcon;

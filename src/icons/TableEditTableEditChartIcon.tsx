@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditTableEditChartIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m18.229 20.717 3.488-3.489a.98.98 0 0 0 0-1.385l-1.555-1.555a.98.98 0 0 0-1.385 0l-3.489 3.488a.98.98 0 0 0-.287.694v2.534h2.534a.98.98 0 0 0 .694-.287" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 18.003H4.997a2 2 0 0 1-2-2.001V4.997a2 2 0 0 1 2-2h11.005a2 2 0 0 1 2 2V11M7.179 12v-1M13.82 12v-2M10.5 12V8.999" /></svg>;
+export default TableEditTableEditChartIcon;

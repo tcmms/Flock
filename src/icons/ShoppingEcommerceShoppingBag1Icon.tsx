@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceShoppingBag1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.91 4H16a5 5 0 0 1 5 5v6a5 5 0 0 1-5 5H7.91A4.91 4.91 0 0 1 3 15.09V8.91A4.91 4.91 0 0 1 7.91 4" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.75 9.545a3.25 3.25 0 0 0 6.5 0" /></svg>;
+export default ShoppingEcommerceShoppingBag1Icon;

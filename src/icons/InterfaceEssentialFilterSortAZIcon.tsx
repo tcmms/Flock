@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFilterSortAZIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.395 14.5h4.211l-4.211 5h4.211M21 9.5l-2.5-5-2.5 5M16.419 8.662h4.162M12 19.5H3M12 14.5H3M12 9.5H3M12 4.5H3" /></svg>;
+export default InterfaceEssentialFilterSortAZIcon;

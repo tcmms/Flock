@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialRotateArrowDotsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3.125 4A.124.124 0 0 0 3 3.875.124.124 0 0 0 2.875 4c0 .07.055.125.125.125s.125-.055.125-.125M7.125 4A.124.124 0 0 0 7 3.875.124.124 0 0 0 6.875 4c0 .07.055.125.125.125s.125-.055.125-.125M5 9v3a8 8 0 1 0 8-8h-2" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m3 11 2-2 2 2" /></svg>;
+export default InterfaceEssentialRotateArrowDotsIcon;

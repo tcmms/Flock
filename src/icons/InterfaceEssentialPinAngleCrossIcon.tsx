@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPinAngleCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M20.003 19.003 5.497 4.497M8.499 15.502l-4.502 4.502M9.46 8.46 4.978 9.58a1 1 0 0 0-.465 1.678l8.229 8.229a1 1 0 0 0 1.678-.465l1.12-4.482M17.464 12.462l1.648-1.1a2 2 0 0 0 .305-3.079l-3.7-3.7a2 2 0 0 0-3.08.305l-1.099 1.649" /></svg>;
+export default InterfaceEssentialPinAngleCrossIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCursorSwipeLeftIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M20.271 10.232a2.502 2.502 0 1 1-3.54 3.537 2.502 2.502 0 0 1 3.54-3.537M8.913 14.028l-1.915-1.915 2.028-2.028M6.998 12.114H13" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.94 18.754a8.96 8.96 0 0 1-5.94 2.25A9.003 9.003 0 0 1 2.996 12 9.003 9.003 0 0 1 12 2.997c2.279 0 4.355.853 5.94 2.25" /></svg>;
+export default InterfaceEssentialCursorSwipeLeftIcon;

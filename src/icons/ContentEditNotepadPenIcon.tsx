@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ContentEditNotepadPenIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3H3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h9a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M18.168 18.252l1.823 2.73h.018l1.823-2.73c.109-.164.168-.357.168-.555V5a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2v12.697c0 .198.059.391.168.555" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18 7h4M6 3v18M10 16v2" /></svg>;
+export default ContentEditNotepadPenIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialParagraphAlignTextIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M10.16 3.496V10M12.333 3.496H5.321a1.993 1.993 0 0 0 0 3.985h1.577M6.898 3.496V10M21.004 9.332h-5.002M16.002 3.996h5.002M2.996 14.668h18.008M21.004 20.003H2.996" /></svg>;
+export default InterfaceEssentialParagraphAlignTextIcon;

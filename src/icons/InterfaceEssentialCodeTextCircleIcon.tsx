@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCodeTextCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m12.913 9.273-1.83 6.403M9.025 13.39 7.196 11.56l1.829-1.83M14.97 15.219l1.83-1.83-1.83-1.828" /><circle cx={11.998} cy={12.475} r={8.644} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialCodeTextCircleIcon;

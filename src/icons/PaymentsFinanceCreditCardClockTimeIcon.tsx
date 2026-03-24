@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceCreditCardClockTimeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.996 7.998h18.008M9.499 12H6.998M21.003 17.002a4 4 0 0 1-4.001 4.002A4.063 4.063 0 0 1 12.999 17a4.002 4.002 0 0 1 8.004.001" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.896 15.503v1.736l1.366.834M10 18.003H5.996a3 3 0 0 1-3-3.002V6.998a3 3 0 0 1 3-3.001h12.006a3 3 0 0 1 3 3V11" /></svg>;
+export default PaymentsFinanceCreditCardClockTimeIcon;

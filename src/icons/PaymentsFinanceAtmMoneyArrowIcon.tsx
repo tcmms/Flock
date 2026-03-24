@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceAtmMoneyArrowIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 2.996a6.503 6.503 0 1 1 0 13.006 6.503 6.503 0 0 1 0-13.006M6.998 16.002h10.004" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.003 12h1a2 2 0 0 1 2 2v5.003a2 2 0 0 1-2 2H4.997a2 2 0 0 1-2-2V14a2 2 0 0 1 2-2.001h1" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m10 10 2 2 2-2M12 6.998V12" /></svg>;
+export default PaymentsFinanceAtmMoneyArrowIcon;

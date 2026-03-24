@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialInboxMaleIncomingCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14 13.501h-4M14 10.422h-4M14 7.344h-4M17.002 10.499v4.002a2 2 0 0 1-2 2H8.998a2 2 0 0 1-2.001-2v-4.002" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialInboxMaleIncomingCircleIcon;

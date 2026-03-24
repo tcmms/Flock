@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceBasketDeleteCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.003 21.004H5.997a2 2 0 0 1-2-2.001V8.499c0-.83.672-1.5 1.5-1.501h13.006c.828 0 1.5.672 1.5 1.5v10.505a2 2 0 0 1-2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.998 6.998v-.25 0a3.75 3.75 0 0 1 3.752-3.752h.5a3.75 3.75 0 0 1 3.752 3.752v.25M13.25 12.947l-2.5 2.5M10.75 12.947l2.5 2.5" /></svg>;
+export default ShoppingEcommerceBasketDeleteCrossIcon;

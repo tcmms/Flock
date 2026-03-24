@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BasicShapesShapesIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.608 17.356c-.018.384.192.754.532.935A16.7 16.7 0 0 0 12 20.252a16.7 16.7 0 0 0 7.86-1.961c.34-.18.55-.55.532-.935-.263-5.673-3.336-10.603-7.858-13.451a1.01 1.01 0 0 0-1.069 0c-4.521 2.847-7.594 7.778-7.857 13.451" clipRule="evenodd" /></svg>;
+export default BasicShapesShapesIcon;

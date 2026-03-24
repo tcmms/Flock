@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCodeTextSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m12.953 8.661-1.906 6.67M8.903 12.948l-1.905-1.905 1.905-1.905M15.097 14.855l1.905-1.906-1.905-1.905" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.998 2.992h8.004a5 5 0 0 1 5.002 5.002v8.004A5 5 0 0 1 16.002 21H7.998a5 5 0 0 1-5.002-5.002V7.994a5 5 0 0 1 5.002-5.002" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialCodeTextSquareIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FilesDocumentsFileOneNoteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5.997 2.996h12.006a2 2 0 0 1 2 2.001v14.006a2 2 0 0 1-2 2H5.997a2 2 0 0 1-2-2V4.997a2 2 0 0 1 2-2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.501 9.499v5.002L9.499 9.499v5.002" /></svg>;
+export default FilesDocumentsFileOneNoteIcon;

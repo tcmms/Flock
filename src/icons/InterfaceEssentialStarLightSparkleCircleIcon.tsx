@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialStarLightSparkleCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeOpacity={0.88} strokeWidth={1.5} d="M11.119 8.52a1 1 0 0 1 1.762 0l.778 1.423a1 1 0 0 0 .4.4l1.422.777a1 1 0 0 1 0 1.763l-1.422.777a1 1 0 0 0-.4.4l-.778 1.423a1 1 0 0 1-1.762 0l-.778-1.422a1 1 0 0 0-.4-.4l-1.422-.778a1 1 0 0 1 0-1.763l1.422-.777a1 1 0 0 0 .4-.4z" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialStarLightSparkleCircleIcon;

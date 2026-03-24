@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialInterruptedLineCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.574 3.145A9 9 0 0 0 12 3c-.538 0-1.062.056-1.574.145M20.518 8.973c.353.969.555 2.01.555 3.1M18.948 6.243a9.1 9.1 0 0 0-2.415-2.021M7.467 4.222a9.1 9.1 0 0 0-2.415 2.02M2.927 12.073c0-1.091.202-2.132.555-3.1M7.467 19.924c.9.521 1.897.89 2.959 1.076M3.482 15.173a9.1 9.1 0 0 0 1.57 2.73M13.574 21a9 9 0 0 0 2.959-1.076M18.948 17.903a9.1 9.1 0 0 0 1.57-2.73" /></svg>;
+export default InterfaceEssentialInterruptedLineCircleIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProgramingDataProgrammingCodeCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m12.75 9.5-1.5 5" /><circle cx={12} cy={12} r={9} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.5 10.5 17 12M17 12l-1.5 1.5M8.5 10.5 7 12l1.5 1.5" /></svg>;
+export default ProgramingDataProgrammingCodeCircleIcon;

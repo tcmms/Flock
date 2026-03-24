@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLabelTagIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m6.49 6.538-3.071 4.3a2 2 0 0 0 0 2.325l3.071 4.3a2 2 0 0 0 1.627.837H19a2 2 0 0 0 2-2V7.7a2 2 0 0 0-2-2H8.117c-.646 0-1.252.312-1.627.838" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M10.573 10.727a1.8 1.8 0 1 1-2.546 2.546 1.8 1.8 0 0 1 2.546-2.546" /></svg>;
+export default InterfaceEssentialLabelTagIcon;

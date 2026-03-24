@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ComputersDevicesElectronicsApplewatchIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.003 18.503A3 3 0 0 1 15 15.502V8.499a3 3 0 0 1 3.002-3.002v0a3 3 0 0 1 3 3.002V15.5a3 3 0 0 1-3 3.002" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.757 4.494A8 8 0 0 0 11 3.997a8.004 8.004 0 0 0 0 16.006c.97 0 1.896-.18 2.757-.497M18.253 10.351a.25.25 0 1 0-.5 0 .25.25 0 0 0 .5 0" /></svg>;
+export default ComputersDevicesElectronicsApplewatchIcon;

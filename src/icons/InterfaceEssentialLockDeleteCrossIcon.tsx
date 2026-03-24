@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLockDeleteCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.002 21.004H6.998a2 2 0 0 1-2-2.001V12a2 2 0 0 1 2-2.001h10.004a2 2 0 0 1 2 2v7.004a2 2 0 0 1-2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m13.155 16.722-2.31-2.31M13.156 14.412l-2.312 2.31M7.998 9.999V6.998v0A4 4 0 0 1 12 2.996v0a4 4 0 0 1 4.002 4.002v3.001" /></svg>;
+export default InterfaceEssentialLockDeleteCrossIcon;

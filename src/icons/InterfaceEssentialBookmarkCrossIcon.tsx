@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBookmarkCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M22.004 17.83 1.996 3.343M18.003 11.12V4.996a2 2 0 0 0-2.001-2H6.998M18.003 15.001v6.003L12 16.002l-6.002 5.002V6.998" /></svg>;
+export default InterfaceEssentialBookmarkCrossIcon;

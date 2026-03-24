@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderMinusDeliteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 22a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.243 19H19a2 2 0 0 0 2-2V7.94a2 2 0 0 0-2-2h-6.471a1 1 0 0 1-.827-.438l-1.405-2.065A1 1 0 0 0 9.471 3H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h2.757M10.5 17.5h3" /></svg>;
+export default FoldersFolderMinusDeliteIcon;

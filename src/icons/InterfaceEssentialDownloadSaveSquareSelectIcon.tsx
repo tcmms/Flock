@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDownloadSaveSquareSelectIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5 3a2 2 0 0 0-2 2M3 19a2 2 0 0 0 2 2M3 13.67v2M3 8.33v2M8.33 21h2M8.33 3h2M19 21a2 2 0 0 0 2-2M21 5a2 2 0 0 0-2-2M21 10.33v-2M21 15.67v-2M12 16V8M15 13l-3 3-3-3M15.67 3h-2M15.67 21h-2" /></svg>;
+export default InterfaceEssentialDownloadSaveSquareSelectIcon;

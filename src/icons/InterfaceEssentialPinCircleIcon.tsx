@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPinCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.85 10.15a2.616 2.616 0 1 1-3.699 3.7 2.616 2.616 0 0 1 3.699-3.7M12 14.616V21" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8 20.05a8.9 8.9 0 0 1-2.364-1.686 9 9 0 0 1 0-12.728 9 9 0 0 1 12.728 0 9 9 0 0 1 0 12.728A8.9 8.9 0 0 1 16 20.05" /></svg>;
+export default InterfaceEssentialPinCircleIcon;

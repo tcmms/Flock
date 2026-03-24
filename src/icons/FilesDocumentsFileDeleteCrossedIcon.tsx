@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FilesDocumentsFileDeleteCrossedIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 8v11a2 2 0 0 0 2 2h8M19 20.75 5 3.25M19 16V7.828a2 2 0 0 0-.586-1.414l-2.828-2.828A2 2 0 0 0 14.172 3H9" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 8h-4a1 1 0 0 1-1-1V3" /></svg>;
+export default FilesDocumentsFileDeleteCrossedIcon;

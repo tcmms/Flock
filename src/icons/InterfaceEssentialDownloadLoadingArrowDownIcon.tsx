@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDownloadLoadingArrowDownIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 2.996a9.004 9.004 0 0 1 0 18.008v0M8.924 20.452a9 9 0 0 1-2.71-1.558M6.215 5.106a9 9 0 0 1 2.709-1.558M3.14 10.437a9 9 0 0 1 1.068-2.939M3.14 13.562a9 9 0 0 0 1.068 2.94M12 16.001V7.998" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.001 13.001 12 16.002l-3.001-3.001" /></svg>;
+export default InterfaceEssentialDownloadLoadingArrowDownIcon;

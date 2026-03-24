@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceBankCrossDeleteCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 20.942a8 8 0 0 1-1 .062A9.004 9.004 0 1 1 21.004 12q0 .501-.062 1M20.503 18.003l-2.5 2.5M18.004 18.003l2.5 2.5M8.999 15.752V11.17M12 15.752V11.17M15.001 15.752V11.17M7.998 15.752h8.004" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.998 11.17h8.004V9.386L12 7.748 7.998 9.386z" clipRule="evenodd" /></svg>;
+export default PaymentsFinanceBankCrossDeleteCircleIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProgramingDataProgrammingCodeMobileIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.499 2.996v1.801a.557.557 0 0 0 .5.6H13a.557.557 0 0 0 .5-.6v-1.8" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.998 21.004h-1a2 2 0 0 1-2-2.001V4.997a2 2 0 0 1 2-2H15a2 2 0 0 1 2.001 2V13M14 21.004l-2-2.001 2-2M17.002 17.002l2 2-2 2.002" /></svg>;
+export default ProgramingDataProgrammingCodeMobileIcon;

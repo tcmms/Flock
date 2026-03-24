@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWakeCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5.633 18.366A9.004 9.004 0 1 1 18.367 5.633 9.004 9.004 0 0 1 5.633 18.366M20.494 9H3.506" /></svg>;
+export default InterfaceEssentialWakeCircleIcon;

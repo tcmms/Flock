@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MobileDevicesMobileDevicesSwipeRightIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.414 10.586a2 2 0 1 1-2.828 2.828 2 2 0 0 1 2.828-2.828M12.086 10.086 14 12l-2.027 2.027M14 12H8" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2M7.88 17.5h2.24" /></svg>;
+export default MobileDevicesMobileDevicesSwipeRightIcon;

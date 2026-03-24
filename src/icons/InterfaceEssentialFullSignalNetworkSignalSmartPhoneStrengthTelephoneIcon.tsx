@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFullSignalNetworkSignalSmartPhoneStrengthTelephoneIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5.33 5.467c1.64-1.513 4.017-2.47 6.67-2.47s5.03.957 6.67 2.47M7.554 8.184C8.648 7.276 10.231 6.702 12 6.702s3.352.574 4.446 1.482M9.777 11c.547-.454 1.339-.742 2.223-.742s1.677.288 2.223.742M4.403 11l-1.354 6.767a2.707 2.707 0 0 0 2.655 3.237h12.593a2.707 2.707 0 0 0 2.654-3.237L19.597 11" /></svg>;
+export default InterfaceEssentialFullSignalNetworkSignalSmartPhoneStrengthTelephoneIcon;

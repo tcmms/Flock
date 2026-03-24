@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBatteryChargeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17 18H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19 9h1.014c.155 0 .308.036.447.106l.486.243a1 1 0 0 1 .553.894v3.514a1 1 0 0 1-.553.894l-.486.243a1 1 0 0 1-.447.106H19" /></svg>;
+export default InterfaceEssentialBatteryChargeIcon;

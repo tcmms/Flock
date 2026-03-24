@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditColumnCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 3h-1a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h1M17 9h4M17 15h4M3 21h1a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H3M7 15H3M7 9H3M12 8V4M12 20v-4M10.5 13.5l3-3M13.5 13.5l-3-3" /></svg>;
+export default TableEditColumnCrossIcon;

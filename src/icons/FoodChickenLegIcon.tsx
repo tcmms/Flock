@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoodChickenLegIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.39 11.6C15.897 8.107 11.32 7.017 9.169 9.168 7.016 11.32 8.106 15.896 11.6 19.39a5.508 5.508 0 1 0 7.79-7.79" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m8.348 10.47-1.93-1.931H4.747a1.746 1.746 0 0 1 0-3.492h.3v-.3a1.746 1.746 0 0 1 3.492 0v1.67l1.93 1.931" /></svg>;
+export default FoodChickenLegIcon;

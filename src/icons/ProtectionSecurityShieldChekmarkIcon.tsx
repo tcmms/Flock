@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProtectionSecurityShieldChekmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m10 12 1.5 1.5 3-3" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.5 10.767c0 4.426 2.747 8.386 6.892 9.937l.03.01a4.5 4.5 0 0 0 3.156 0l.024-.01a10.63 10.63 0 0 0 6.898-9.95V7.03a2 2 0 0 0-1.404-1.909l-6.5-2.03a2 2 0 0 0-1.192 0l-6.5 2.03A2 2 0 0 0 3.5 7.031z" clipRule="evenodd" /></svg>;
+export default ProtectionSecurityShieldChekmarkIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialEmailsLetterMailIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19 18.981H5a2 2 0 0 1-2-2V7.019a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v9.963a2 2 0 0 1-2 1.999" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m17 9-5 3-5-3" /></svg>;
+export default InterfaceEssentialEmailsLetterMailIcon;

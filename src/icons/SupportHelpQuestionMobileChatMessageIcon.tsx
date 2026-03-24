@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SupportHelpQuestionMobileChatMessageIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.998 18.003H12M16.002 16.002v3A2 2 0 0 1 14 21.005H5.998a2 2 0 0 1-2.001-2.001V4.997a2 2 0 0 1 2-2h1" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.5 11v1.5a.5.5 0 0 0 .817.387L16.635 11h2.368a2 2 0 0 0 2-2.001V4.997a2 2 0 0 0-2-2H12a2 2 0 0 0-2 2V9a2 2 0 0 0 2 2z" clipRule="evenodd" /></svg>;
+export default SupportHelpQuestionMobileChatMessageIcon;

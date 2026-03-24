@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FilesDocumentsFileTagIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.003 11V7.826c0-.53-.211-1.04-.586-1.414l-2.83-2.83a2 2 0 0 0-1.414-.586H6.998a2 2 0 0 0-2 2.001v14.006a2 2 0 0 0 2 2H12" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.003 7.998H15a1 1 0 0 1-1-1V2.996M16.502 15.001v6.003M19.503 15.001v6.003M15.001 19.503h6.003M15.001 16.502h6.003" /></svg>;
+export default FilesDocumentsFileTagIcon;

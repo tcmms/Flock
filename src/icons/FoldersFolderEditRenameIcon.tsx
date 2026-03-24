@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderEditRenameIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m17.146 20.707 3.56-3.56a1 1 0 0 0 0-1.414l-1.586-1.586a1 1 0 0 0-1.414 0l-3.56 3.56a1 1 0 0 0-.293.707V21h2.586a1 1 0 0 0 .707-.293" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 11V7.94a2 2 0 0 0-2-2h-6.471a1 1 0 0 1-.827-.438l-1.405-2.065A1 1 0 0 0 9.471 3H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h5" /></svg>;
+export default FoldersFolderEditRenameIcon;

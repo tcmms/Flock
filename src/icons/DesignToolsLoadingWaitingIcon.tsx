@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsLoadingWaitingIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3v3.6M12 17.4V21M5.64 5.64l2.54 2.54M15.82 15.82l2.54 2.54M3 12h3.6M17.4 12H21M5.64 18.36l2.54-2.54M15.82 8.18l2.54-2.54" /></svg>;
+export default DesignToolsLoadingWaitingIcon;

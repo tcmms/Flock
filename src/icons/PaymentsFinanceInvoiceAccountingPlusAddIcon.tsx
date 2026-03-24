@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceInvoiceAccountingPlusAddIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.003 2.996H5.997a2 2 0 0 0-2 2.001v14.006a2 2 0 0 0 2 2h12.006a2 2 0 0 0 2-2V4.997a2 2 0 0 0-2-2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.998 14h8.004M7.998 17.002h8.004M12 6.98v3.537M13.769 8.749H10.23" /></svg>;
+export default PaymentsFinanceInvoiceAccountingPlusAddIcon;

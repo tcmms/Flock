@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBrowserWebAddIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M10 21.004H4.996a2 2 0 0 1-2-2V4.996a2 2 0 0 1 2-2h14.006a2 2 0 0 1 2 2V10M2.996 7.999h18.008M17.002 15.653v3.143M18.574 17.224H15.43" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19.003 21.004H15a2 2 0 0 1-2-2v-4.002A2 2 0 0 1 15 13h4.002a2 2 0 0 1 2 2v4.002a2 2 0 0 1-2 2.001" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialBrowserWebAddIcon;

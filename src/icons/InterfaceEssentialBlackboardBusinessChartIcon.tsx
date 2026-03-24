@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBlackboardBusinessChartIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M22.004 2.996H1.996M12 13V7.498M7.998 13v-1.834M16.002 13V9.333M21.004 2.996v11.887c0 1.17-1.008 2.119-2.251 2.119H5.247c-1.243 0-2.25-.948-2.25-2.119V2.996M13 17.002l2.001 4.002M11 17.002l-2.001 4.002" /></svg>;
+export default InterfaceEssentialBlackboardBusinessChartIcon;

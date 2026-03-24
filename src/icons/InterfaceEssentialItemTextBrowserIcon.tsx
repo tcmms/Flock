@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialItemTextBrowserIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={3} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.998 13h-.94M17.002 13H11M6.998 17.002h1M11 17.002h6.002M2.996 8.523h18.008" /></svg>;
+export default InterfaceEssentialItemTextBrowserIcon;

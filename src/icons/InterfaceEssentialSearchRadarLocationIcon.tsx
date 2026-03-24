@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSearchRadarLocationIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.464 8.464a5 5 0 0 0 0 7.071 5 5 0 0 0 7.071 0A5 5 0 0 0 12 7" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5.636 5.636a9 9 0 0 0 0 12.728 9 9 0 0 0 12.728 0A9 9 0 0 0 8.647 3.647M5.64 5.64 12 12" /></svg>;
+export default InterfaceEssentialSearchRadarLocationIcon;

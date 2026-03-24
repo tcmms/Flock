@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ContentEditCalendarTaskSheetIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 4H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 3v3M12 3v3M8 3v3M12 16h5M8.634 15.116a1.25 1.25 0 1 1-1.768 1.768 1.25 1.25 0 0 1 1.768-1.768M12 11h5M8.634 10.116a1.25 1.25 0 1 1-1.768 1.768 1.25 1.25 0 0 1 1.768-1.768" /></svg>;
+export default ContentEditCalendarTaskSheetIcon;

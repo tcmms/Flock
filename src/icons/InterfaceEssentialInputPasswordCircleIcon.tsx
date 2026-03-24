@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialInputPasswordCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.847 11.735a.375.375 0 1 1-.53.53.375.375 0 0 1 .53-.53M12.265 11.735a.375.375 0 1 1-.53.53.375.375 0 0 1 .53-.53M16.002 14.501V9.5" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialInputPasswordCircleIcon;

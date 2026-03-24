@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPrinterPrinSettingIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7 8V4a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v4M7 17H5a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v1M7 11h1" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11 21H8c-.552 0-1-.436-1-.972V14h4M15 14h6M15 17h6M15 20h3.43" /></svg>;
+export default InterfaceEssentialPrinterPrinSettingIcon;

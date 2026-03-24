@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialHomeHouseIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3.734 9.764 12.002 3l8.265 6.764c.464.379.733.948.733 1.547V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7.688c0-.6.269-1.169.734-1.548" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialHomeHouseIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMoonIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.395 13.027c.33-.155.682.17.59.523a7.2 7.2 0 0 1-1.881 3.296c-2.821 2.82-7.334 2.88-10.082.132s-2.688-7.262.133-10.083a7.2 7.2 0 0 1 3.296-1.881c.353-.092.677.26.523.59-1.002 2.139-.673 4.7 1.024 6.398 1.696 1.698 4.258 2.027 6.397 1.025" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialMoonIcon;

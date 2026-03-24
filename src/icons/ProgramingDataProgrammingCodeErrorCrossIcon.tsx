@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProgramingDataProgrammingCodeErrorCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.998 20.003a2.5 2.5 0 0 1-2.501-2.5V14.5A2.5 2.5 0 0 0 1.996 12a2.5 2.5 0 0 0 2.5-2.501V6.498a2.5 2.5 0 0 1 2.502-2.501M13.389 10.888l-2.778 2.78M10.61 10.889l2.78 2.777M17.002 3.997a2.5 2.5 0 0 1 2.501 2.5V9.5A2.5 2.5 0 0 0 22.004 12a2.5 2.5 0 0 0-2.5 2.501v3.001a2.5 2.5 0 0 1-2.502 2.501" /></svg>;
+export default ProgramingDataProgrammingCodeErrorCrossIcon;

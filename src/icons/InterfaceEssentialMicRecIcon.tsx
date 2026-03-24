@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMicRecIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12.016 14.249h-.032c-1.234 0-2.234-1-2.234-2.234V5.248c0-1.234 1-2.234 2.234-2.234h.032c1.234 0 2.234 1 2.234 2.234v6.767c0 1.234-1 2.234-2.234 2.234" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.626 11.999A5.626 5.626 0 0 1 12 17.625v0a5.626 5.626 0 0 1-5.626-5.626M12 21v-3.38" /></svg>;
+export default InterfaceEssentialMicRecIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProtectionSecurityFingerprintIdIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 17v2a2 2 0 0 0 2 2h2M21 7V5a2 2 0 0 0-2-2h-2M12 16v-2M7 3H5a2 2 0 0 0-2 2v2M17 21h2a2 2 0 0 0 2-2v-2M15 16v-2a3 3 0 0 0-5.121-2.121M9 15v1M18 16v-2a5.97 5.97 0 0 0-.881-3.119" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.119 8.881A5.97 5.97 0 0 0 12 8a6 6 0 0 0-6 6v2" /></svg>;
+export default ProtectionSecurityFingerprintIdIcon;

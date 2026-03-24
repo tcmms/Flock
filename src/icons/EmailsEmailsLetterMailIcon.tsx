@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmailsEmailsLetterMailIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3 7v10c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V7M3.588 18.412l6.094-6.094m4.678.042 6.052 6.052M3 6.8c0 .6.3 1.1.8 1.5l6 4.1c1.4.9 3.1.9 4.5 0l6-4c.4-.5.7-1 .7-1.6 0-1-.8-1.8-1.8-1.8H4.8C3.8 5 3 5.8 3 6.8" /></svg>;
+export default EmailsEmailsLetterMailIcon;

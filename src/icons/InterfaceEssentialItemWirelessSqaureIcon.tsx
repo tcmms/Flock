@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialItemWirelessSqaureIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14 1.996A8.003 8.003 0 0 1 22.005 10M14 4.997A5 5 0 0 1 19.004 10M14 7.998a2 2 0 0 1 2.002 2" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21.004 14.648v2.354a4 4 0 0 1-4.002 4.002H6.998a4 4 0 0 1-4.002-4.002V6.998a4 4 0 0 1 4.002-4.002h2.354" /></svg>;
+export default InterfaceEssentialItemWirelessSqaureIcon;

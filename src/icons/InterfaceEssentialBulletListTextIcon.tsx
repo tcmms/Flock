@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBulletListTextIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.5 6h12M3.5 6h1M3.5 12h1M3.5 18h1M8.5 12h12M8.5 18h12" /></svg>;
+export default InterfaceEssentialBulletListTextIcon;

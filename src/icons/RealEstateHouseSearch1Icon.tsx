@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const RealEstateHouseSearch1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.84 10.232v3.736a.5.5 0 0 0 .5.5h4.293a.5.5 0 0 0 .5-.5v-3.736" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m7.965 10.8 3.574-2.334 3.43 2.334M20.003 20.003l-3.251-3.251" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.749 6.185A7.47 7.47 0 1 1 6.184 16.749 7.47 7.47 0 0 1 16.75 6.185" /></svg>;
+export default RealEstateHouseSearch1Icon;

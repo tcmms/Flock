@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MobileDevicesMobileDeviceAqureIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.5 6.498h3a2 2 0 0 1 2.002 2v7.004a2 2 0 0 1-2.001 2h-3.002a2 2 0 0 1-2-2V8.499a2 2 0 0 1 2-2.001" clipRule="evenodd" /><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.25 15.251h1.5" /></svg>;
+export default MobileDevicesMobileDeviceAqureIcon;

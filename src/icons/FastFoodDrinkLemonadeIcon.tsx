@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FastFoodDrinkLemonadeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.002 6.998H4.997A1 1 0 0 0 4 8.07l.791 11.075a2 2 0 0 0 1.996 1.859h7.427c1.05 0 1.92-.812 1.995-1.859L17 8.07a1 1 0 0 0-.998-1.072" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 13 8.637 3.85a1 1 0 0 0-.99-.854h-2.65M16.647 13H4.351M13 6.998A4.002 4.002 0 1 1 17.002 11a2 2 0 0 1-.21-.01" /></svg>;
+export default FastFoodDrinkLemonadeIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsCreateEditPencilDisableIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m13.499 13.499-5.992 5.992a2 2 0 0 1-.78.483l-2.153.72a1 1 0 0 1-1.266-1.264l.717-2.157c.098-.295.264-.564.484-.784l5.99-5.99M18.67 8.32l-3-3M3.25 3.25l17.5 17.5M15.585 11.585l5.293-5.293a1 1 0 0 0 0-1.414l-1.671-1.671a1 1 0 0 0-1.414 0L12.5 8.5" /></svg>;
+export default DesignToolsCreateEditPencilDisableIcon;

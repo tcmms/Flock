@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBookmarksFavoriteLabelIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M4 9v10.996a.998.998 0 0 0 1.474.881L9.5 18.681l4.026 2.196A.998.998 0 0 0 15 19.996V9a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9 7V5a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v11.043a1 1 0 0 1-1.479.878L15 15" /></svg>;
+export default InterfaceEssentialBookmarksFavoriteLabelIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialParagraphLeftIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M4 4.5h16M11 9.5h9M11 14.5h9M4 19.5h16M7 9l-3 3 3 3" /></svg>;
+export default InterfaceEssentialParagraphLeftIcon;

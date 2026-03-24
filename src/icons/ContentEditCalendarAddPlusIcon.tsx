@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ContentEditCalendarAddPlusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 3v2M11 3v2M7 3v2M19 12.26V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2h8.758M7 9h8M7 13h3" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.501 21a4.5 4.5 0 0 1-4.5-4.5c0-2.434 2.07-4.502 4.504-4.5a4.5 4.5 0 0 1-.004 9M17.5 14.7v3.6M19.3 16.5h-3.6" /></svg>;
+export default ContentEditCalendarAddPlusIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceCreditCardSearchLoupeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.996 7.998h18.008M18.856 13.006a3.43 3.43 0 1 1-4.851 4.85 3.43 3.43 0 0 1 4.85-4.85M21.004 20.003l-2.148-2.147M9.499 12H6.998" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 18.003H5.996a3 3 0 0 1-3-3.002V6.998a3 3 0 0 1 3-3.001h12.006a3 3 0 0 1 3 3V11" /></svg>;
+export default PaymentsFinanceCreditCardSearchLoupeIcon;

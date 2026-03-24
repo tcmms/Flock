@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCalendarScheduleSearchIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15 3v2M7 3v2M3 9h16m0 1V7a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h5m10 1-1.88-1.88m.001-4.241a3.003 3.003 0 0 1-.418 4.594 3.01 3.01 0 0 1-3.407 0 3.002 3.002 0 1 1 3.825-4.594" /></svg>;
+export default InterfaceEssentialCalendarScheduleSearchIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialRoadSignIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m10.586 20.586-7.172-7.172a2 2 0 0 1 0-2.828l7.172-7.172a2 2 0 0 1 2.828 0l7.172 7.172a2 2 0 0 1 0 2.828l-7.172 7.172a2 2 0 0 1-2.828 0" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m13.772 9.25 2.75 2.75-2.75 2.75M10.272 9.25 7.522 12l2.75 2.75" /></svg>;
+export default InterfaceEssentialRoadSignIcon;

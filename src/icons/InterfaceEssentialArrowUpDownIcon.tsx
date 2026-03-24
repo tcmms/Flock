@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialArrowUpDownIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 21.004a9.004 9.004 0 1 0 0-18.008 9.004 9.004 0 0 0 0 18.008Z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M10.2 10.2 12 8.397l1.8 1.801M10.2 13.8l1.8 1.801 1.8-1.8" /></svg>;
+export default InterfaceEssentialArrowUpDownIcon;

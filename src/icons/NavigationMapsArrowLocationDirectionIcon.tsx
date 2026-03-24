@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const NavigationMapsArrowLocationDirectionIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m8.25 6 6.757-.013a3 3 0 0 1 3.005 3.011v.014A3 3 0 0 1 15.013 12H9.999A3 3 0 0 0 7 14.999v0a3 3 0 0 0 3.001 2.999L20 17.995M20 17.995l-1.997 1.997M18.003 15.997 20 17.995" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.591 4.409a2.25 2.25 0 1 1-3.182 3.182 2.25 2.25 0 0 1 3.182-3.182" /></svg>;
+export default NavigationMapsArrowLocationDirectionIcon;

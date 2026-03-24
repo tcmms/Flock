@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialStickerRemoveMinusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14 21.004h2.002A5 5 0 0 0 21.004 16V7.999a5 5 0 0 0-5.002-5.002H7.998a5 5 0 0 0-5.002 5.002v8.003a5 5 0 0 0 5.002 5.003z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.001 21.004v-1A5 5 0 0 1 20.003 15h1M10 12h4" /></svg>;
+export default InterfaceEssentialStickerRemoveMinusIcon;

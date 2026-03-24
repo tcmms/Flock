@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceItemSearchCheckMarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 10V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h4M21 21l-1.98-1.98" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.834 11.334a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m17.584 14.959-2.188 2.188-1.313-1.313" /></svg>;
+export default ShoppingEcommerceItemSearchCheckMarkIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMoon2CircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21.004 12a9.004 9.004 0 1 1-18.008 0 9.004 9.004 0 0 1 18.008 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.535 12.811a.313.313 0 0 1 .421.374 5.16 5.16 0 0 1-1.343 2.354 5.029 5.029 0 1 1-7.11-7.109 5.15 5.15 0 0 1 2.355-1.344.312.312 0 0 1 .373.422 3.947 3.947 0 0 0 5.304 5.303" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialMoon2CircleIcon;

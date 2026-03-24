@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBracketsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.571 20a2.286 2.286 0 0 0 2.286-2.286v-4.571L22 12l-1.143-1.143V6.286A2.285 2.285 0 0 0 18.571 4M9 17l6-10M5.429 4a2.285 2.285 0 0 0-2.286 2.286v4.571L2 12l1.143 1.143v4.571A2.285 2.285 0 0 0 5.429 20" /></svg>;
+export default InterfaceEssentialBracketsIcon;

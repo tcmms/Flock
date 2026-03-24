@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditWarningCheckCheckmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12.115 12.23V8.916M12.113 15.887a.16.16 0 0 0-.162.164c0 .09.073.164.164.165a.165.165 0 0 0 0-.33" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m19.603 13.056-4.342-7.718a3.61 3.61 0 0 0-6.294 0L3.464 15.12a3.612 3.612 0 0 0 3.15 5.384h7.528M21.004 16.202l-2.75 2.75-1.652-1.65" /></svg>;
+export default TableEditWarningCheckCheckmarkIcon;

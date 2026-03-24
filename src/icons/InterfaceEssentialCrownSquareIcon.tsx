@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCrownSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m14 11 2.224-1.482a.5.5 0 0 1 .778.416v5.068a1 1 0 0 1-1 1H7.998a1 1 0 0 1-1-1V9.934a.5.5 0 0 1 .778-.416L9.999 11l1.585-2.377a.5.5 0 0 1 .832 0z" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialCrownSquareIcon;

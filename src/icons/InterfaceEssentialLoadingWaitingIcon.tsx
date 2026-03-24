@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLoadingWaitingIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 17.62V21M8.02 15.98l-2.38 2.38M6.38 12H3M5.64 5.64l2.38 2.38M12 6V3M16.77 7.23l1.59-1.59M21 12h-1.5M18.36 18.36l-.53-.53" /></svg>;
+export default InterfaceEssentialLoadingWaitingIcon;

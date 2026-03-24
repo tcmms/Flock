@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCursorSquare1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12.657 14.713h2.955a1.038 1.038 0 0 0 .73-1.776l-5.667-5.594a1.19 1.19 0 0 0-2.026.847v7.772a1.038 1.038 0 0 0 1.763.742l1.882-1.843a.52.52 0 0 1 .363-.148" clipRule="evenodd" /><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={5} /></svg>;
+export default InterfaceEssentialCursorSquare1Icon;

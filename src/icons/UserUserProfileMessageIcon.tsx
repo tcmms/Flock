@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserUserProfileMessageIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 7.22a2 2 0 1 1 0 4.002 2 2 0 0 1 0-4.002M16.002 15.001a2.1 2.1 0 0 0-.529-.77v0a2.1 2.1 0 0 0-1.434-.563H9.962c-.532 0-1.045.202-1.435.564v0c-.231.214-.412.477-.529.77" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 19.003h4.003a3 3 0 0 0 3-3.001V5.998a3 3 0 0 0-3-3.002H5.997a3 3 0 0 0-3 3.001v10.005a3 3 0 0 0 3 3H10L12 21.005z" clipRule="evenodd" /></svg>;
+export default UserUserProfileMessageIcon;

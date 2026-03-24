@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserUserProfileSyncIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={8.248} r={4.252} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.997 20.003a4.5 4.5 0 0 1 4.502-4.502h2.584M16.002 19.502l1.5 1.502M21.004 19.502h-5.002M19.504 15.001l1.5 1.502h-5.002" /></svg>;
+export default UserUserProfileSyncIcon;

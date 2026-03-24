@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialStarFavoriteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.731 20.833A1.5 1.5 0 0 1 5.56 19.24l.81-4.639-3.408-3.265a1.5 1.5 0 0 1 .828-2.572l4.73-.676 2.136-4.261a1.5 1.5 0 0 1 2.69 0l2.135 4.26 4.731.677a1.5 1.5 0 0 1 .828 2.572l-3.408 3.265.81 4.64a1.5 1.5 0 0 1-2.172 1.593L12 18.628z" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialStarFavoriteIcon;

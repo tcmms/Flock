@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WeatherClimateSunriseIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 5V3M2 13h2M5 6l1 1M19 6l-1 1M22.14 13H20M12 15v5M14 17l-2-2-2 2M8 13a4 4 0 0 1 8 0" /></svg>;
+export default WeatherClimateSunriseIcon;

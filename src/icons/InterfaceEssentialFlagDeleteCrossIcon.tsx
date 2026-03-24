@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFlagDeleteCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3.997 13.998v7.003M20.539 13.465a5.002 5.002 0 1 1-7.074 0h0a5 5 0 0 1 7.074 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12.55 14.719a5.2 5.2 0 0 1-1.55-.72 6.64 6.64 0 0 0-7.003 0V3.993a6.64 6.64 0 0 1 7.003 0 6.64 6.64 0 0 0 7.003 0v8.103M18.048 18.003l-2-2.001M16.047 18.003l2-2.001" /></svg>;
+export default InterfaceEssentialFlagDeleteCrossIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ComputersDevicesElectronicsAirpodsChargeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m11.752 12.5-1.255 2.501h3.006l-1.255 2.501M2.996 8.999h18.008" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.002 21.004H6.998a4 4 0 0 1-4.002-4.002V6.998a4 4 0 0 1 4.002-4.002h10.004a4 4 0 0 1 4.002 4.002v10.004a4 4 0 0 1-4.002 4.002" clipRule="evenodd" /></svg>;
+export default ComputersDevicesElectronicsAirpodsChargeIcon;

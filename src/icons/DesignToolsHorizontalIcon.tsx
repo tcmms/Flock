@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsHorizontalIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m11.61 16.499-2.958 3.688a.5.5 0 0 0 .39.813h5.916a.5.5 0 0 0 .39-.813l-2.958-3.688a.5.5 0 0 0-.78 0M12.39 7.507l2.958-3.688a.5.5 0 0 0-.39-.813H9.042a.5.5 0 0 0-.39.813l2.958 3.688a.5.5 0 0 0 .78 0" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12h1M8 12h2M14 12h2M20 12h1" /></svg>;
+export default DesignToolsHorizontalIcon;

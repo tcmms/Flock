@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const NavigationMapsProtectionTargetIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.95 7.05a7 7 0 1 1-9.9 9.9 7 7 0 0 1 9.9-9.9" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.414 10.586a2 2 0 1 1-2.828 2.828 2 2 0 0 1 2.828-2.828M12 21v-4M12 3v4M7 12H3M21 12h-4" /></svg>;
+export default NavigationMapsProtectionTargetIcon;

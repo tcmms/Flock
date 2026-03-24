@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsGraphicTabletDrawIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6" /><path stroke="currentColor" strokeWidth={1.5} d="M8 5v16M3 13h5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12.241 10.064 12.001 13l2.934-.241a1 1 0 0 0 .625-.29l5.812-5.812a2.14 2.14 0 0 0 0-3.03v0a2.14 2.14 0 0 0-3.03 0l-5.811 5.811c-.168.168-.27.39-.29.626" clipRule="evenodd" /></svg>;
+export default DesignToolsGraphicTabletDrawIcon;

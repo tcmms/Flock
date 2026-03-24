@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderGroupArrow1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m16.002 17.002-2.001 2 2 2.002M21.004 11V7.938a2 2 0 0 0-2.001-2h-6.474a1 1 0 0 1-.83-.44l-1.4-2.065a1 1 0 0 0-.83-.437H4.998a2 2 0 0 0-2 2.001v12.005a2 2 0 0 0 2 2H10" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.013 15.001h1a2 2 0 0 1 2 2.001v0a2 2 0 0 1-2 2H14.01" /></svg>;
+export default FoldersFolderGroupArrow1Icon;

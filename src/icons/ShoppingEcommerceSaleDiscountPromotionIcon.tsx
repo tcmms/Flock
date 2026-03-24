@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceSaleDiscountPromotionIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.414 15.586a2 2 0 1 1-2.828 2.828 2 2 0 0 1 2.828-2.828M8.414 5.586a2 2 0 1 1-2.828 2.828 2 2 0 0 1 2.828-2.828M17 7 7 17" /></svg>;
+export default ShoppingEcommerceSaleDiscountPromotionIcon;

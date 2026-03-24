@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderListIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 15h6M15 18h6M15 21h3.43M21 11V7.94a2 2 0 0 0-2-2h-6.471a1 1 0 0 1-.827-.438l-1.405-2.065A1 1 0 0 0 9.471 3H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6" /></svg>;
+export default FoldersFolderListIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceBankSquareNotificationIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 8a3 3 0 1 1 0-6 3 3 0 0 1 0 6M13 4H7a4 4 0 0 0-4 4v9a4 4 0 0 0 4 4h9a4 4 0 0 0 4-4v-6M7.5 16.5h8M8.5 16.5v-4.58M11.5 16.5v-4.58M14.5 16.5v-4.58" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.5 11.92h8v-1.783l-4-1.637-4 1.637z" clipRule="evenodd" /></svg>;
+export default PaymentsFinanceBankSquareNotificationIcon;

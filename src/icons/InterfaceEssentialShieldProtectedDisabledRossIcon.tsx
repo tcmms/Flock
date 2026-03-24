@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialShieldProtectedDisabledRossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m20.26 20-17-17M17.647 17.388c-1.273 1.665-3.066 2.954-5.149 3.543a1.83 1.83 0 0 1-.996 0c-4.144-1.172-7.169-5.096-7.169-9.282V7.04c0-.778.471-1.48 1.19-1.774M19.216 14.424a9 9 0 0 0 .451-2.775v-4.61c0-.778-.471-1.48-1.19-1.774l-4.661-1.907a4.8 4.8 0 0 0-3.63 0l-1.262.515" /></svg>;
+export default InterfaceEssentialShieldProtectedDisabledRossIcon;

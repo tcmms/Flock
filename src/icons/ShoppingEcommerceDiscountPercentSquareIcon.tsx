@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceDiscountPercentSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.328 14.671 14.67 9.33M14.911 14.484a.3.3 0 1 1-.43.418.3.3 0 0 1 .43-.418M9.519 9.085a.3.3 0 1 1-.431.417.3.3 0 0 1 .431-.417" /><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={5} /></svg>;
+export default ShoppingEcommerceDiscountPercentSquareIcon;

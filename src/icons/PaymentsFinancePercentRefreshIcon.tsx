@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinancePercentRefreshIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.996 5.497V8.5h3.001" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.055 13A8.992 8.992 0 1 0 3.703 8.5M9.998 14 14 10" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.25 14.126a.125.125 0 1 1-.25 0 .125.125 0 0 1 .25 0M9.75 9.874a.125.125 0 1 1 .25 0 .125.125 0 0 1-.25 0" /></svg>;
+export default PaymentsFinancePercentRefreshIcon;

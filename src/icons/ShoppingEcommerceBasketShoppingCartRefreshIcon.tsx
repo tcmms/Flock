@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceBasketShoppingCartRefreshIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m20.251 17.343.515-.516a3.02 3.02 0 0 1-.642 3.304 2.97 2.97 0 0 1-2.623.829M15.754 18.66l-.515.517a3.02 3.02 0 0 1 .642-3.304 2.98 2.98 0 0 1 2.792-.794M11 20.003H4.997a2 2 0 0 1-2-2V7.498c0-.828.672-1.5 1.5-1.5h13.005c.829 0 1.5.672 1.5 1.5V11M6.998 5.998v-.25 0a3.75 3.75 0 0 1 3.751-3.752h.5a3.75 3.75 0 0 1 3.752 3.751v.25" /></svg>;
+export default ShoppingEcommerceBasketShoppingCartRefreshIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFireIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m6.198 7.56 3.483-4.064 3.755 4.38 2.43-2.834 1.936 2.26a8 8 0 0 1 1.928 5.213v.258a7.73 7.73 0 0 1-7.73 7.73v0a7.73 7.73 0 0 1-7.73-7.73v0a8 8 0 0 1 1.928-5.214" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialFireIcon;

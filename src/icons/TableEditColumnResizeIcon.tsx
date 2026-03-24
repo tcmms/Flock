@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditColumnResizeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 9h14M12 3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6M3 15h18M14.94 21V7M8.94 21V3M21 9V5a2 2 0 0 0-2-2h-4M15 3l1.5 1.5M16.5 1.5 15 3M21 9l1.5-1.5M19.5 7.5 21 9" /></svg>;
+export default TableEditColumnResizeIcon;

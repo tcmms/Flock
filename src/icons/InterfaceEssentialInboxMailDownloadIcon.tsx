@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialInboxMailDownloadIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.002 14.001H6.998M17.002 17.002H6.998M12 2.996V11M15.001 7.998 12 11M8.999 7.998 12 11M21.004 12v5.002a4 4 0 0 1-4.002 4.002H6.998a4 4 0 0 1-4.002-4.002V12" /></svg>;
+export default InterfaceEssentialInboxMailDownloadIcon;

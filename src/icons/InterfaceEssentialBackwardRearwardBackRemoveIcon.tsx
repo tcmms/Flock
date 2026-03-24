@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBackwardRearwardBackRemoveIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5 13a7 7 0 1 0 7-7H5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8 3 5 6l3 3M13.77 11.23l-3.54 3.54M13.77 14.77l-3.54-3.54" /></svg>;
+export default InterfaceEssentialBackwardRearwardBackRemoveIcon;

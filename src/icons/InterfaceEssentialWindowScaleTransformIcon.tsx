@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWindowScaleTransformIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.492 2.996a2 2 0 0 1 1.884 1.328l1.55 4.338A1 1 0 0 1 19.983 10H4.017a1 1 0 0 1-.943-1.337l1.55-4.338a2 2 0 0 1 1.884-1.328zM20.048 14.001a.955.955 0 0 1 .9 1.277l-1.592 4.458a1.91 1.91 0 0 1-1.8 1.268H6.444a1.91 1.91 0 0 1-1.801-1.268l-1.59-4.459a.955.955 0 0 1 .899-1.276z" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialWindowScaleTransformIcon;

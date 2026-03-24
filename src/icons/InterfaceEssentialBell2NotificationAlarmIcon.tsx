@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBell2NotificationAlarmIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m21.004 3.496-.98.653M22.004 9h-.979M2.996 3.496l.98.653M1.996 9h.979M14 20.004a2.5 2.5 0 0 1-4 0M6.373 13.053V9.624A5.627 5.627 0 0 1 12 3.997v0a5.627 5.627 0 0 1 5.627 5.627v3.43h-.004l1.29 1.29a2 2 0 0 1-1.415 3.416H6.502a2 2 0 0 1-1.416-3.415l1.29-1.292" /></svg>;
+export default InterfaceEssentialBell2NotificationAlarmIcon;

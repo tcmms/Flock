@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WeatherClimateMoonNightIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 6V4M13 5h2M19 7v4M21 9h-4" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.4 16c-2.5.8-5.4.3-7.4-1.7-2.5-2.5-2.7-6.5-.7-9.3C5.2 5.4 2 8.8 2 13c0 4.4 3.6 8 8 8 3.3 0 6.2-2.1 7.4-5" clipRule="evenodd" /></svg>;
+export default WeatherClimateMoonNightIcon;

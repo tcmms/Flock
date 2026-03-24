@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProgramingDataBlankProgrammingCodeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m19 17 2 2-2 2M8.833 3v4a1 1 0 0 1-1 1h-4" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11 21H5.833a2 2 0 0 1-2-2V7.828a2 2 0 0 1 .586-1.414l2.828-2.828A2 2 0 0 1 8.661 3h8.172a2 2 0 0 1 2 2v8M16 21l-2-2 2-2" /></svg>;
+export default ProgramingDataBlankProgrammingCodeIcon;

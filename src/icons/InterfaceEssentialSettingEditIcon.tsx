@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSettingEditIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5.451 20.004V14M5.451 11V3.997M12 20.003V12M12 9V3.996M18.549 20.004v-4.002M18.549 13V3.998M2.996 14.001h4.91M9.545 9h4.91M16.093 16.002h4.91" /></svg>;
+export default InterfaceEssentialSettingEditIcon;

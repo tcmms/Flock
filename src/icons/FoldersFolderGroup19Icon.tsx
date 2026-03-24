@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderGroup19Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.003 6.938h-6.474a1 1 0 0 1-.83-.44l-1.4-2.064a1 1 0 0 0-.83-.437H4.998a2 2 0 0 0-2 2v12.006a2 2 0 0 0 2 2h14.006a2 2 0 0 0 2-2V8.939a2 2 0 0 0-2-2.001" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.996 9.88H9.47a1 1 0 0 0 .826-.438l1.4-2.066a1 1 0 0 1 .828-.438" /></svg>;
+export default FoldersFolderGroup19Icon;

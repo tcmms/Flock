@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLockUnlockIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.596 9.904a6.5 6.5 0 1 1-9.192 9.192 6.5 6.5 0 0 1 9.192-9.192M12 16.5v-2.55" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.997 12.43a.75.75 0 1 0 .007 1.5.75.75 0 0 0-.007-1.5M8.269 5.848A3.79 3.79 0 0 1 11.941 3a3.79 3.79 0 0 1 3.789 3.789v2.39" /></svg>;
+export default InterfaceEssentialLockUnlockIcon;

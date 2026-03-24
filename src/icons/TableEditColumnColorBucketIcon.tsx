@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditColumnColorBucketIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 15.06V18a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3h-3M15 21V3" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5.556 2 11 7.444 7.965 10.48a1.78 1.78 0 0 1-2.514 0h0l-1.93-1.93a1.78 1.78 0 0 1 0-2.514h0L6.556 3M11 7.444H3.01M21 9.06h-6M21 15.06H3M8 21v-5.94" /></svg>;
+export default TableEditColumnColorBucketIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WeatherClimateStarsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 17v4M4 19h4M17 3v4M15 5h4M6.5 5A3.5 3.5 0 0 0 10 8.5M10 8.5A3.5 3.5 0 0 0 6.5 12M6.5 12A3.5 3.5 0 0 0 3 8.5M3 8.5A3.5 3.5 0 0 0 6.5 5M11.609 15.778a4.695 4.695 0 0 0 4.695-4.695M16.305 11.083A4.695 4.695 0 0 0 21 15.778M21 15.778a4.695 4.695 0 0 0-4.695 4.695" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.305 20.473a4.695 4.695 0 0 0-4.695-4.695" /></svg>;
+export default WeatherClimateStarsIcon;

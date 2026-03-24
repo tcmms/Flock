@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const NavigationMapsPinDeleteDisable1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.497 10c0 4.412 5.016 9.169 6.846 10.758a1 1 0 0 0 1.315 0c1.829-1.589 6.845-6.346 6.845-10.759 0-3.867-3.36-7.003-7.503-7.003S4.497 6.132 4.497 10" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m9.385 12.8 5.2-5.2M11.985 14a3.8 3.8 0 1 1 0-7.6 3.8 3.8 0 0 1 0 7.6" /></svg>;
+export default NavigationMapsPinDeleteDisable1Icon;

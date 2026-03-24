@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialAsteriskRotateArrowIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.367 8.175h2.121V6.053M12 9v6M14.5 10.5l-5 3M9.5 10.5l5 3" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19.027 8.175A8 8 0 1 0 12 20a8 8 0 0 0 7.998-7.968" /></svg>;
+export default InterfaceEssentialAsteriskRotateArrowIcon;

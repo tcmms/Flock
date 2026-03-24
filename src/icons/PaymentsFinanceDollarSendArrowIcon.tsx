@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceDollarSendArrowIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.998 17.502 10 19.503l-2 2.001M10 19.503H3.996M13.998 20.277a9.002 9.002 0 1 0-10.06-4.772M12 8.492v-1M12 14.495v1" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.265 13.78c.257.44.726.71 1.235.715h1.1a1.4 1.4 0 0 0 .34-2.767l-1.874-.472a1.4 1.4 0 0 1 .334-2.764h1.1c.51.004.979.275 1.236.714" /></svg>;
+export default PaymentsFinanceDollarSendArrowIcon;

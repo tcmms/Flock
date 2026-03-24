@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BasicShapesSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.417 20.25H5.583a1.833 1.833 0 0 1-1.833-1.833V5.583c0-1.013.821-1.833 1.833-1.833h12.833c1.013 0 1.833.821 1.833 1.833v12.833a1.83 1.83 0 0 1-1.832 1.834" clipRule="evenodd" /></svg>;
+export default BasicShapesSquareIcon;

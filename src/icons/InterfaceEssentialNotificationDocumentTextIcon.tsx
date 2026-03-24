@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialNotificationDocumentTextIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7 9h2M7 13h4M7 17h9M17.005 12a5 5 0 0 1-5-5c0-2.704 2.3-5.003 5.004-5a5 5 0 0 1-.004 10M17 7.25v2" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.004 4.778a.137.137 0 0 0-.138.139.139.139 0 1 0 .138-.139M19 11.585V19a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h6.441" /></svg>;
+export default InterfaceEssentialNotificationDocumentTextIcon;

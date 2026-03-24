@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProtectionSecurityLifebuoyIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.536 8.464a5 5 0 1 1-7.072 7.071 5 5 0 0 1 7.072-7.07M8.46 15.54l-2.82 2.82M15.53 8.46l2.83-2.82M5.64 5.64l2.82 2.82M15.54 15.54l2.82 2.82" /></svg>;
+export default ProtectionSecurityLifebuoyIcon;

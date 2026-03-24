@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCipIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m13.458 9.381-5.533 5.531a1.644 1.644 0 0 0 0 2.324v0a1.644 1.644 0 0 0 2.324 0l8.63-8.63a3.286 3.286 0 0 0 0-4.647v0a3.286 3.286 0 0 0-4.647 0l-8.63 8.63a4.93 4.93 0 0 0 0 6.971v0a4.93 4.93 0 0 0 6.971 0l6.303-6.302" /></svg>;
+export default InterfaceEssentialCipIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsLayersIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m3 7.024 8.987 4.025L21 7.024 12.013 3z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.436 14.484 21 16.976 11.987 21 3 16.976l5.564-2.485" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.436 9.509 21 12l-9.013 4.024L3 12l5.564-2.484" /></svg>;
+export default DesignToolsLayersIcon;

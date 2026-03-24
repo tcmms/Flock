@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const OfficeWorkGlueIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.999 7.932H15a1 1 0 0 1 1 1v2.002H7.999V8.933a1 1 0 0 1 1-1" clipRule="evenodd" /><rect width={12.005} height={10.07} x={5.997} y={10.934} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={2} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.542 7.932c0-2.726 1.1-4.936 2.458-4.936s2.458 2.21 2.458 4.936" /></svg>;
+export default OfficeWorkGlueIcon;

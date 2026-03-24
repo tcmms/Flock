@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ComputersDevicesElectronicsFlashCardIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.002 8.999H6.998V3.997a1 1 0 0 1 1-1h8.004a1 1 0 0 1 1 1zM14.184 21.004H9.816a4.82 4.82 0 0 1-4.819-4.82V11a2 2 0 0 1 2-2.001h10.005a2 2 0 0 1 2 2v5.186a4.82 4.82 0 0 1-4.818 4.819" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.5 5.497v1M13.5 5.497v1" /></svg>;
+export default ComputersDevicesElectronicsFlashCardIcon;

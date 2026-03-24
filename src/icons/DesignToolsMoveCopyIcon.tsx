@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsMoveCopyIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6.5 10A3.5 3.5 0 0 1 3 6.5v0A3.5 3.5 0 0 1 6.5 3v0A3.5 3.5 0 0 1 10 6.5v0A3.5 3.5 0 0 1 6.5 10M20 21h-4a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 6.5H10M18 3.5l3 3-3 3M3 18h12M6 21l-3-3 3-3" /></svg>;
+export default DesignToolsMoveCopyIcon;

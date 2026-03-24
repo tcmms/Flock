@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WeatherClimateCloudFogIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.078 6.689a3.5 3.5 0 0 0-1.555.347A4.77 4.77 0 0 0 10.809 3a4.79 4.79 0 0 0-4.78 4.665 3.17 3.17 0 0 0-2.762 3.159A3.176 3.176 0 0 0 6.442 14h10.636a3.657 3.657 0 0 0 0-7.311" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 17.5h14M5 21h14" /></svg>;
+export default WeatherClimateCloudFogIcon;

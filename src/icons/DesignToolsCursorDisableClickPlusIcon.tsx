@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsCursorDisableClickPlusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 4v6M19 7h-6" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.833 17.009H9.658L6.984 19.66c-.735.729-1.984.208-1.984-.827V8.176c0-1.037 1.254-1.557 1.988-.823l7.669 7.669c.733.733.214 1.987-.824 1.987" clipRule="evenodd" /></svg>;
+export default DesignToolsCursorDisableClickPlusIcon;

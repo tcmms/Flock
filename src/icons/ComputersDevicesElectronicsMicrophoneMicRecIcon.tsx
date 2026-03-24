@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ComputersDevicesElectronicsMicrophoneMicRecIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.887 7.09a5.217 5.217 0 0 0-10.295.67.98.98 0 0 0 .3.768l4.581 4.58c.2.208.48.318.767.3a5.22 5.22 0 0 0 4.647-6.318" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m15.485 13.124-8.617 6.515a1.19 1.19 0 0 1-1.558-.108l-.84-.84a1.19 1.19 0 0 1-.107-1.558l6.514-8.617M4.889 19.111l-1.893 1.893" /></svg>;
+export default ComputersDevicesElectronicsMicrophoneMicRecIcon;

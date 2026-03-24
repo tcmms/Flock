@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCopyItemDeleteAllCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={14.006} height={14.006} x={6.998} y={6.998} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={3} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.998 17.002h-1a3 3 0 0 1-3.002-3V5.997a3 3 0 0 1 3.001-3.001h8.004a3 3 0 0 1 3.001 3v1.001M15.77 12.232l-3.538 3.538M12.232 12.232l3.538 3.538" /></svg>;
+export default InterfaceEssentialCopyItemDeleteAllCrossIcon;

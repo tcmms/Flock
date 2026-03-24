@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialParagraphQuoteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3.333 3.875h17.333M3.333 9.292h17.333M3.333 14.708h4.333M3.333 20.125h4.333M17.417 16.875h2.708c.299 0 .542.243.542.542v2.167a.54.54 0 0 1-.542.542h-2.167a.54.54 0 0 1-.542-.542v-2.709M17.417 16.875c0-2.167.406-2.527 1.625-3.25M11.458 16.875h2.708c.299 0 .542.243.542.542v2.167a.54.54 0 0 1-.542.542H12a.54.54 0 0 1-.542-.542zM11.458 16.875c0-2.167.406-2.527 1.625-3.25" /></svg>;
+export default InterfaceEssentialParagraphQuoteIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserUserProfileWarningIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={8.248} r={4.252} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.997 20.003a4.5 4.5 0 0 1 4.502-4.502h2.584" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m18.896 15.652 1.942 3.451c.477.85-.136 1.9-1.112 1.9h-3.883a1.276 1.276 0 0 1-1.112-1.9l1.942-3.452a1.275 1.275 0 0 1 2.223 0" clipRule="evenodd" /></svg>;
+export default UserUserProfileWarningIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const OfficeWorkFolderArchiveIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18.008} height={9.004} x={2.996} y={12} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={2} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 15.001h4M19.003 12V6.84c0-.86-.697-1.556-1.557-1.556h-5.035a.78.78 0 0 1-.643-.34l-1.094-1.608a.78.78 0 0 0-.642-.34H6.554a1.556 1.556 0 0 0-1.557 1.557V12" /></svg>;
+export default OfficeWorkFolderArchiveIcon;

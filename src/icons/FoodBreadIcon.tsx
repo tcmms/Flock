@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoodBreadIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.779 8.443 10.221 12M13.779 12.89l-3.557 3.556" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5.724 11.058a.9.9 0 0 0-.344-.813 2.9 2.9 0 0 1-1.383-2.247c0-2.21 3.583-4.001 8.003-4.001s8.003 1.791 8.003 4.001a2.9 2.9 0 0 1-1.383 2.247.9.9 0 0 0-.344.813l.565 6.029a2.667 2.667 0 0 1-2.656 2.916h-8.37a2.67 2.67 0 0 1-2.656-2.916z" clipRule="evenodd" /></svg>;
+export default FoodBreadIcon;

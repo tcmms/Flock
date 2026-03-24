@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SupportHelpQuestionSupport24Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.633 10.726a1.474 1.474 0 0 1 2.948 0c0 1.842-2.948 1.842-2.948 4.024h2.948M15.532 14.75v-1.255h.835-3.199a.55.55 0 0 1-.478-.823 141 141 0 0 1 1.902-3.182c.269-.436.94-.24.94.272v3.733M20.424 4.803v2.893h-2.893 2.893" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.905 7.696A9 9 0 1 0 21 12" /></svg>;
+export default SupportHelpQuestionSupport24Icon;

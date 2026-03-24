@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBookmarkHeartDeleteCrossCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.128 8.87a2.751 2.751 0 0 0-3.758 3.758M8.776 14.189l1.668 1.669a2.2 2.2 0 0 0 3.112 0l2.636-2.636a2.753 2.753 0 0 0-1.745-4.702M17.834 5.13 5.138 17.828" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialBookmarkHeartDeleteCrossCircleIcon;

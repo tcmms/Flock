@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsEditEraseIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.527 19.977h1.407a2 2 0 0 0 1.414-.586l8.724-8.724a2 2 0 0 0 0-2.828L15.773 4.54a2 2 0 0 0-2.828 0l-9.427 9.427a2 2 0 0 0 0 2.828l2.596 2.596c.374.375.882.586 1.413.586" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m8.09 9.39 6.13 6.13M21 19.98H8.93" /></svg>;
+export default DesignToolsEditEraseIcon;

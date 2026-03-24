@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserUserProfileBackIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.997 13A8.003 8.003 0 1 0 12 4.997H4.997M7.998 1.996l-3 3.001M7.998 7.998l-3-3" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 9.22a2 2 0 1 1 0 4.002 2 2 0 0 1 0-4.001M16.002 17.002a2.1 2.1 0 0 0-.529-.77v0a2.1 2.1 0 0 0-1.434-.563H9.962c-.532 0-1.045.201-1.435.564v0c-.231.214-.412.477-.529.77" /></svg>;
+export default UserUserProfileBackIcon;

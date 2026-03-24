@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderDeleteCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.001 19.003h4.002a2 2 0 0 0 2-2V7.937a2 2 0 0 0-2-2h-6.474a1 1 0 0 1-.83-.44l-1.4-2.065a1 1 0 0 0-.829-.437H4.997a2 2 0 0 0-2 2.001V10M8.456 15.545 6.54 17.459M6.54 15.545l1.916 1.914" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 16.502a4.502 4.502 0 1 1-9.004 0 4.502 4.502 0 0 1 9.004 0" /></svg>;
+export default FoldersFolderDeleteCrossIcon;

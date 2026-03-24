@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDashboard3Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12.007 10.313a1.689 1.689 0 1 0 1.682 1.695V12a1.69 1.69 0 0 0-1.682-1.687M9.499 14.502l1.25-1.251" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 2.996a9.004 9.004 0 1 0 6.367 2.637M16.002 7.998l-2.81 2.81" /></svg>;
+export default InterfaceEssentialDashboard3Icon;

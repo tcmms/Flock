@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SocialMediasRewardsCrownIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.4 5.6c3.5 3.5 3.5 9.2 0 12.7s-9.2 3.5-12.7 0-3.5-9.2 0-12.7 9.1-3.5 12.7 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.5 15h-9c-.3 0-.5-.2-.5-.5V10c0-.4.5-.7.8-.4l2 1.6 1.8-1.9c.2-.2.5-.2.7 0l1.8 1.9 2-1.6c.3-.3.8 0 .8.4v4.5c.1.3-.1.5-.4.5" clipRule="evenodd" /></svg>;
+export default SocialMediasRewardsCrownIcon;

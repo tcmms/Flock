@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSettingsSwitchesSquareVolumeKnobIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.463 15.536a5 5 0 0 1 0-7.071c1.911-1.912 5.16-1.912 7.072 0a5 5 0 0 1-7.072 7.071M11.998 12l3.54-3.54" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18 21H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialSettingsSwitchesSquareVolumeKnobIcon;

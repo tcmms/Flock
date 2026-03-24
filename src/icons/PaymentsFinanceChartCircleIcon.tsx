@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceChartCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18} height={18} x={3} y={3} stroke="currentColor" strokeWidth={1.5} rx={9} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14 3.225V8.5M14 12.5v8.276M15.949 10.949l4.405 4.405" /><circle cx={14} cy={10.5} r={2} stroke="currentColor" strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12.05 10.945 9 14M9 14l-2-2M7 12l-3.354 3.354" /></svg>;
+export default PaymentsFinanceChartCircleIcon;

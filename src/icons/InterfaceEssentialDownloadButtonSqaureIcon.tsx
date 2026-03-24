@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDownloadButtonSqaureIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7 6H4.538C3.689 6 3 6.689 3 7.538V19.23c0 .85.689 1.538 1.538 1.538h14.923c.85 0 1.538-.689 1.538-1.538V7.538A1.537 1.537 0 0 0 19.462 6H17" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m15 10-3 3-3-3M12 3v10M8 16h8" /></svg>;
+export default InterfaceEssentialDownloadButtonSqaureIcon;

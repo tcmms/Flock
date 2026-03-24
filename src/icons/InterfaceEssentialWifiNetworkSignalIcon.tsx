@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWifiNetworkSignalIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.998 10.852C8.228 9.717 10.01 8.999 12 8.999s3.772.718 5.002 1.853M8.666 12.89c.82-.68 2.008-1.112 3.334-1.112s2.514.431 3.334 1.112M10.332 15.002c.41-.34 1.005-.557 1.668-.557s1.258.215 1.668.556" /></svg>;
+export default InterfaceEssentialWifiNetworkSignalIcon;

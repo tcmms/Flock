@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const KitchenCookingStoveInductionPanIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 8c-.667-.7-.667-1.8 0-2.5s.667-1.8 0-2.5M9.5 8c-.667-.7-.667-1.8 0-2.5s.667-1.8 0-2.5M6 8c-.667-.7-.667-1.8 0-2.5S6.667 3.7 6 3M22 12H4.011a.998.998 0 0 0-.942 1.346 9 9 0 0 0 2.02 3.046c.382.385.9.604 1.443.608h8.086a2.06 2.06 0 0 0 1.444-.608A9 9 0 0 0 18.502 12M3 21h16" /></svg>;
+export default KitchenCookingStoveInductionPanIcon;

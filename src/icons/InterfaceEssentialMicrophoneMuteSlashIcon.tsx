@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMicrophoneMuteSlashIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 19v3M9 22h6M8.36 4.36A3.994 3.994 0 0 1 16 6v6M4.25 4.25l15.5 15.5M8 8v4a4 4 0 0 0 6.828 2.828M19.1 11v.9c0 .947-.189 1.848-.525 2.674" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M4.9 11v.9A7.1 7.1 0 0 0 12 19a7.07 7.07 0 0 0 4.968-2.032" /></svg>;
+export default InterfaceEssentialMicrophoneMuteSlashIcon;

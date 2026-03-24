@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserUserProfileDeleteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6.998 20.003a4.45 4.45 0 0 1 4.449-4.448h5.108a4.45 4.45 0 0 1 4.449 4.448" /><circle cx={14.001} cy={8.248} r={4.252} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m3.082 10.585 2.83 2.83M3.082 13.415l2.83-2.83" /></svg>;
+export default UserUserProfileDeleteIcon;

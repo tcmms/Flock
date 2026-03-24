@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBBoldCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9.75 12h3a1.5 1.5 0 0 1 1.5 1.5v0a1.5 1.5 0 0 1-1.5 1.502h-2.4a.6.6 0 0 1-.6-.6V9.598a.6.6 0 0 1 .6-.6h1.9a1.5 1.5 0 0 1 1.5 1.5v0A1.5 1.5 0 0 1 12.25 12" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 21.004a9.004 9.004 0 1 1 0-18.008 9.004 9.004 0 0 1 0 18.008" /></svg>;
+export default InterfaceEssentialBBoldCircleIcon;

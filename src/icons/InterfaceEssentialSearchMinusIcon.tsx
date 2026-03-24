@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSearchMinusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14.193 5.582a5.971 5.971 0 1 1-8.444 8.444 5.971 5.971 0 0 1 8.444-8.444M14.15 14.06 20 19.99M8 10h4" /></svg>;
+export default InterfaceEssentialSearchMinusIcon;

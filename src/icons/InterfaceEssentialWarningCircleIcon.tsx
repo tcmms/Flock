@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWarningCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 15.004v-3.001M15.376 20.345a9.001 9.001 0 1 0-6.752 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.376 14.954a4.502 4.502 0 1 0-6.752 0M11.998 17.82c-.1 0-.18.081-.18.18v.003a.181.181 0 0 0 .362 0v0c0-.1-.08-.182-.18-.183z" /></svg>;
+export default InterfaceEssentialWarningCircleIcon;

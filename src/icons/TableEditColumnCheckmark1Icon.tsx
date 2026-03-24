@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditColumnCheckmark1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={7} height={18} x={14} y={3} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={1} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 7.5h-7M21 12h-7M21 16.5h-7M11 3H8a1 1 0 0 0-1 1v4M7 16v4a1 1 0 0 0 1 1h3M8.36 11.15l-1.7 1.7-1.022-1.02" /><rect width={8} height={8} x={3} y={8} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={2} /></svg>;
+export default TableEditColumnCheckmark1Icon;

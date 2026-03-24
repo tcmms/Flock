@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProgramingDataProgrammingCodeFolderIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19.003 6.938h-6.474a1 1 0 0 1-.827-.438l-1.406-2.066a1 1 0 0 0-.826-.437H4.997a2 2 0 0 0-2 2v12.006a2 2 0 0 0 2 2h14.006a2 2 0 0 0 2-2V8.939a2 2 0 0 0-2-2.001" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13 16.002h2.001M8.999 11l2 2-2 2.001" /></svg>;
+export default ProgramingDataProgrammingCodeFolderIcon;

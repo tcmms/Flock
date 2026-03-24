@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditTableEdit1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m6.29 12.707 6.417-6.416a1 1 0 0 0 0-1.415l-1.586-1.587a1 1 0 0 0-1.415 0L3.289 9.706a1 1 0 0 0-.293.707V13h2.587a1 1 0 0 0 .708-.293" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.996 17.002h18.008v4.002H2.996z" /></svg>;
+export default TableEditTableEdit1Icon;

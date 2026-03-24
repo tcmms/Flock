@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const NavigationMapsPinIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 14.205c-3.493.481-6 1.772-6 3.295 0 1.933 4.029 3.5 9 3.5s9-1.567 9-3.5c0-1.523-2.507-2.814-6-3.295M12 17V9M14.121 3.879A3 3 0 1 1 9.88 8.12 3 3 0 0 1 14.12 3.88" /></svg>;
+export default NavigationMapsPinIcon;

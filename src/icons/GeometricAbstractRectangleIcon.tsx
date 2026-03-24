@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const GeometricAbstractRectangleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.818 4 2 10.382 10.182 15 22 8.618z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.818 9 2 15.382 10.182 20 22 13.618z" clipRule="evenodd" /></svg>;
+export default GeometricAbstractRectangleIcon;

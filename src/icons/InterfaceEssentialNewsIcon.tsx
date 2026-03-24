@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialNewsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19 21a2 2 0 0 0 2-2v-6a1 1 0 0 0-1-1h-3v7a2 2 0 0 0 2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7 8h6M7 11.87h6M7 16.06h3M17 12V5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v14a2 2 0 0 0 2 2h14" /></svg>;
+export default InterfaceEssentialNewsIcon;

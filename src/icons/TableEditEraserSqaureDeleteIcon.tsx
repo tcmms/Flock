@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditEraserSqaureDeleteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.5 18.003H4.996a2 2 0 0 1-2-2.001V4.997a2 2 0 0 1 2-2h11.005a2 2 0 0 1 2 2V10.5M18.003 10.5H2.996M10.5 2.996v15.007M15.026 19.978l4.952-4.952" /><circle cx={17.502} cy={17.502} r={3.501} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default TableEditEraserSqaureDeleteIcon;

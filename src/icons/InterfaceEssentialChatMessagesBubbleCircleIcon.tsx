@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialChatMessagesBubbleCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m7.751 16.495.419-2.653c-.93-2.058-.208-4.526 1.78-5.708a4.499 4.499 0 1 1 4.6 7.733 4.5 4.5 0 0 1-4.177.215z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3 5.156V19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5.156a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialChatMessagesBubbleCircleIcon;

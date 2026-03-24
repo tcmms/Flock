@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmailsMailBoxBoxIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7 7h10M7 11h10M3 15h4.382c.379 0 .725.214.894.553l.447.894c.17.339.516.553.895.553h4.764a1 1 0 0 0 .894-.553l.447-.894c.17-.339.516-.553.895-.553H21" /></svg>;
+export default EmailsMailBoxBoxIcon;

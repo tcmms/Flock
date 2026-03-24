@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialGifButtonSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.14 12.25h2.12M17.698 10.004h-2.56V14.5M12.45 10v4.5M9.75 10h-1.5A2.25 2.25 0 0 0 6 12.25v0a2.25 2.25 0 0 0 2.25 2.25h1.5v-2.25H8.5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16 21H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialGifButtonSquareIcon;

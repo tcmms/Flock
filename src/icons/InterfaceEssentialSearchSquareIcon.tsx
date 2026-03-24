@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSearchSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m15.502 14.001-2.014-2.014M13.484 8.682a2.335 2.335 0 1 1-3.303 3.301 2.335 2.335 0 0 1 3.303-3.3M8.999 15.998H12" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.003 21.004H5.997a3 3 0 0 1-3-3.001V5.998a3 3 0 0 1 3-3.001h12.006a3 3 0 0 1 3 3v12.006a3 3 0 0 1-3 3.001" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialSearchSquareIcon;

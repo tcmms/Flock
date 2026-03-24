@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLockArrowUpIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={10.004} height={7.003} x={6.998} y={14.001} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={2} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.999 14.001v-1.9A3 3 0 0 1 12 9.098v0a3 3 0 0 1 3.001 3.001v1.901M16.002 5.998 12 2.997l-4.002 3" /></svg>;
+export default InterfaceEssentialLockArrowUpIcon;

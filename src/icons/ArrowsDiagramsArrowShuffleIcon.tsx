@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ArrowsDiagramsArrowShuffleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m19 18.979 2-2-2-2M10.182 9l-1.58-2.172a2 2 0 0 0-1.626-.824L3 6.021M19 8l2-2-2-2" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m13.818 14 1.58 2.172c.378.52.983.826 1.626.824L21 16.979M21 6.021l-3.976-.017a2 2 0 0 0-1.626.824l-6.796 9.344c-.378.52-.983.826-1.626.824L3 16.979" /></svg>;
+export default ArrowsDiagramsArrowShuffleIcon;

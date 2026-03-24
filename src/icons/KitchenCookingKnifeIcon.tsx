@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const KitchenCookingKnifeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2 19.748 17.074 4.674a2.3 2.3 0 0 1 3.252 0v0a2.3 2.3 0 0 1-.202 3.432l-5.887 4.64" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m11.625 10.143 4.09 4.089a.5.5 0 0 1 0 .707l-1.868 1.868C9.757 20.896 4.453 22.222 2 19.768M2 19.768v-.02" /></svg>;
+export default KitchenCookingKnifeIcon;

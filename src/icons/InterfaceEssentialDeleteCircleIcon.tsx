@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDeleteCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M20.217 13.215c.5-.964.787-2.055.787-3.216A7.003 7.003 0 0 0 14 2.997c-1.16 0-2.252.287-3.215.786" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M10 21.004a7.003 7.003 0 1 1 0-14.006 7.003 7.003 0 0 1 0 14.006M12.201 11.8l-4.404 4.403M12.201 16.203 7.797 11.8" /></svg>;
+export default InterfaceEssentialDeleteCircleIcon;

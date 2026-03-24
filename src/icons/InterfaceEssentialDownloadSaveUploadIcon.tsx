@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDownloadSaveUploadIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 17V3M20 21H4M17 12l-5.001 5.001-5-5.001" /></svg>;
+export default InterfaceEssentialDownloadSaveUploadIcon;

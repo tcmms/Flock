@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialUnderlineTextSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.999 16.002H15M14.501 7.999v2.5a2.502 2.502 0 0 1-5.002 0V8" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.002 21.004H6.998a4 4 0 0 1-4.002-4.002V6.998a4 4 0 0 1 4.002-4.001h10.004a4 4 0 0 1 4.002 4.001v10.004a4 4 0 0 1-4.002 4.002" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialUnderlineTextSquareIcon;

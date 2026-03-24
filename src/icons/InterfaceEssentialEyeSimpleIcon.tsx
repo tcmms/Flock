@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialEyeSimpleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={14.814} r={3.814} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M2.996 14.813a9.004 9.004 0 0 1 18.008 0" /></svg>;
+export default InterfaceEssentialEyeSimpleIcon;

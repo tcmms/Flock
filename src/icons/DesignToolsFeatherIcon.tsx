@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsFeatherIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 8 3 21" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m6.874 10.115 5.679-5.668a4.95 4.95 0 0 1 6.997.003v0a4.95 4.95 0 0 1-.003 7.003l-5.675 5.664a3 3 0 0 1-2.119.877H5.994v-5.756a3 3 0 0 1 .88-2.123" clipRule="evenodd" /></svg>;
+export default DesignToolsFeatherIcon;

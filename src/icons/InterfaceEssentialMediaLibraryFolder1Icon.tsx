@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMediaLibraryFolder1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.353 21.004H5.647a2 2 0 0 1-1.99-1.8l-.65-6.504a2 2 0 0 1 1.99-2.2h14.006a2 2 0 0 1 1.99 2.2l-.65 6.503a2 2 0 0 1-1.99 1.8" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.998 2.996h8.004M5.998 6.748h12.005" /></svg>;
+export default InterfaceEssentialMediaLibraryFolder1Icon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BasicShapesDecagonIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.373 2.944 6.512 4.713a1.83 1.83 0 0 0-.96.806l-2.586 4.48a1.83 1.83 0 0 0-.218 1.235l.898 5.094c.075.424.297.809.627 1.086l3.962 3.325c.33.277.747.429 1.178.429h5.173c.431 0 .848-.152 1.178-.429l3.962-3.325c.33-.277.552-.662.627-1.086l.898-5.094a1.83 1.83 0 0 0-.218-1.235l-2.92-5.057-5.488-1.997a1.8 1.8 0 0 0-1.252-.001" clipRule="evenodd" /></svg>;
+export default BasicShapesDecagonIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceBasketCheckmarkCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 20.942a8 8 0 0 1-1 .062A9.004 9.004 0 1 1 21.004 12q0 .501-.062 1M21.004 18.003l-2.501 2.5-1.5-1.5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.049 10.25h6.402l-.7 3.5H9.75l-1-5.001h-1.25M14.286 16.216a.05.05 0 0 1-.035.086.05.05 0 1 1 .035-.086M10.285 16.216a.05.05 0 1 1-.071.071.05.05 0 0 1 .07-.07" /></svg>;
+export default ShoppingEcommerceBasketCheckmarkCircleIcon;

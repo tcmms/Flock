@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCheckListTextCheckmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={7.498} cy={7.498} r={4.502} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.001 10h6.003M15.001 4.997h6.003M21.004 15.001H8.999M21.004 20.003H8.999M4.746 14.751a.249.249 0 1 0 .003 0zM4.746 19.753a.249.249 0 1 0 .003 0zM8.999 6.748 7.124 8.624 5.998 7.498" /></svg>;
+export default InterfaceEssentialCheckListTextCheckmarkIcon;

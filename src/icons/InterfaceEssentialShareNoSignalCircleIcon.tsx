@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialShareNoSignalCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.016 7.984a5.68 5.68 0 0 1 0 8.033M15.275 3.616a9 9 0 0 0-9.642 2.016 9.005 9.005 0 0 0 0 12.735 9 9 0 0 0 9.642 2.017M18.367 5.633a9.004 9.004 0 0 1 0 12.735M13 13.5l-3-3M13 10.5l-3 3" /></svg>;
+export default InterfaceEssentialShareNoSignalCircleIcon;

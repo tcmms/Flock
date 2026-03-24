@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMinimizeWindowIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={10.004} height={10.004} x={11} y={2.997} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={2} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.002 21.004h4.002v-4.002M6.998 2.997H2.996v4.001M2.996 17.002v4.002h4.002M7.998 16.002l-4.502 4.502" /></svg>;
+export default InterfaceEssentialMinimizeWindowIcon;

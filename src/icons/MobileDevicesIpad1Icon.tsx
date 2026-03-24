@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MobileDevicesIpad1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={14.006} height={18.008} x={4.997} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={2} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.499 18.503H14.5" /></svg>;
+export default MobileDevicesIpad1Icon;

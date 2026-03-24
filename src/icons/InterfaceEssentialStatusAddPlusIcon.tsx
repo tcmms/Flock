@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialStatusAddPlusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.9 21.004a9.12 9.12 0 0 0 6.856-6.855M17.002 10V3.996M14 6.998h6.003M2.996 10.1a9.12 9.12 0 0 1 6.855-6.857M9.851 21.004a9.12 9.12 0 0 1-6.855-6.855" /></svg>;
+export default InterfaceEssentialStatusAddPlusIcon;

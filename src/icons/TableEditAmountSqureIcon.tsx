@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditAmountSqureIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.063 8.499H8.936L12.54 12l-3.604 3.502h6.127" /><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={5} /></svg>;
+export default TableEditAmountSqureIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialAttachmentLinkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8 12h8M9.611 16H7.25A4.25 4.25 0 0 1 3 11.75v0A4.25 4.25 0 0 1 7.25 7.5h2.361M14.389 16h2.361A4.25 4.25 0 0 0 21 11.75v0a4.25 4.25 0 0 0-4.25-4.25h-2.361" /></svg>;
+export default InterfaceEssentialAttachmentLinkIcon;

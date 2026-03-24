@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMenuCirlePlusAddIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14 12h-4M12 14V10M7.998 2.996H2.996M2.996 5.997h3.001M12 2.996A9.004 9.004 0 1 1 2.996 12a8.8 8.8 0 0 1 .239-2.001" /></svg>;
+export default InterfaceEssentialMenuCirlePlusAddIcon;

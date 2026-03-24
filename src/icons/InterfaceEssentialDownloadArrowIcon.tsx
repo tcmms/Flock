@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDownloadArrowIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.558 11.11 12 14.668 8.443 11.11M12 3.997V14.67M20.003 16.446a3.557 3.557 0 0 1-3.557 3.558H7.554a3.56 3.56 0 0 1-3.557-3.558" /></svg>;
+export default InterfaceEssentialDownloadArrowIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ArrowsDiagramsCollapseIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.829 19.487v-5.658h5.658M10.172 5v5.658H4.514" /></svg>;
+export default ArrowsDiagramsCollapseIcon;

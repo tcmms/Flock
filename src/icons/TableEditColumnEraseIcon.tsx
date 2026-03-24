@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditColumnEraseIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 11V6a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h6M15 3v9M9 3v18M3 14.94h9M3 8.94h18" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.312 18.685a1.5 1.5 0 0 1 0-2.122l3.251-3.25a1.5 1.5 0 0 1 2.122 0l1.749 1.748a1.5 1.5 0 0 1 0 2.121l-3.252 3.252a1.5 1.5 0 0 1-2.121 0z" clipRule="evenodd" /></svg>;
+export default TableEditColumnEraseIcon;

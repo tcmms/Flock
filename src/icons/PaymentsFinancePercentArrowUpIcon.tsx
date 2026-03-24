@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinancePercentArrowUpIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m9.999 14 4-4M17 17l2-2M19 20v-5M15 21H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v3M21 17l-2-2" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.25 14.125a.125.125 0 1 1 0 0zM9.75 9.875a.125.125 0 1 1 0 0z" /></svg>;
+export default PaymentsFinancePercentArrowUpIcon;

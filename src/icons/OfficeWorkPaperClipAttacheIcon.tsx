@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const OfficeWorkPaperClipAttacheIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m16.682 9.319-6.39 6.39a1 1 0 0 1-.707.293H7.998a1 1 0 0 1-1-1v-1.587c0-.266.104-.521.29-.71l7.033-7.194a3.885 3.885 0 0 1 5.526-.03l.072.071a3.947 3.947 0 0 1-.016 5.62c-2.359 2.31-5.59 5.525-7.44 7.372a5 5 0 0 1-3.533 1.46H5.998a3 3 0 0 1-3.002-3.002v-2.93c0-1.326.527-2.599 1.465-3.537l6.219-6.218" /></svg>;
+export default OfficeWorkPaperClipAttacheIcon;

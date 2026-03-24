@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsPaintRollerPaintIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.775 9H4.225A1.224 1.224 0 0 1 3 7.775v-3.55C3 3.548 3.548 3 4.225 3h12.551C17.452 3 18 3.548 18 4.225v3.551C18 8.452 17.452 9 16.775 9M12 22h-2a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 15v-2a1 1 0 0 1 1-1h8a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1h-2" /></svg>;
+export default DesignToolsPaintRollerPaintIcon;

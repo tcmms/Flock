@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceYenIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 17v-4.5M15.5 8 12 12.5 8.5 8M15.5 12.22h-7M15.14 14.97H8.86" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636" /></svg>;
+export default PaymentsFinanceYenIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCursorSwipeUpIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.769 20.272a2.5 2.5 0 1 1-3.537-3.537 2.5 2.5 0 0 1 3.537 3.537M9.972 8.913l1.915-1.915 2.028 2.028M11.887 6.998v6.003" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5.246 17.94a9.004 9.004 0 1 1 13.506 0" /></svg>;
+export default InterfaceEssentialCursorSwipeUpIcon;

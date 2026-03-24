@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceItemSquareMenuIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8h-6M11 12h6M11 16h6M6.998 7.75a.25.25 0 1 0 .004.5.25.25 0 0 0-.004-.5M6.998 11.75a.25.25 0 1 0 .004.5.25.25 0 0 0-.004-.5M6.998 15.75a.25.25 0 1 0 .004.5.25.25 0 0 0-.004-.5" /></svg>;
+export default ShoppingEcommerceItemSquareMenuIcon;

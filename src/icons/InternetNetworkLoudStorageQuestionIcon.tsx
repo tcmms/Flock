@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InternetNetworkLoudStorageQuestionIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6.324 9.068C3.885 9.401 2 11.47 2 14a5 5 0 0 0 5 5h11a4 4 0 0 0 0-8A5.997 5.997 0 0 0 6.324 9.068" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11.999 15.667a.166.166 0 0 0-.166.167.167.167 0 0 0 .334-.001.167.167 0 0 0-.168-.166M12 13.667c0-.545.337-.84.674-1.067.33-.222.66-.511.66-1.044a1.333 1.333 0 0 0-2.666 0" /></svg>;
+export default InternetNetworkLoudStorageQuestionIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MessagesChatMessagesChatIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m12 21-4-3.999V17H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3l-4 3.999M16 12H8M8 8h8" /></svg>;
+export default MessagesChatMessagesChatIcon;

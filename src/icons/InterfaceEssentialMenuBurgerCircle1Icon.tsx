@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMenuBurgerCircle1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.003 21.004H5.997a3 3 0 0 1-3-3.001V5.998a3 3 0 0 1 3-3.001h12.006a3 3 0 0 1 3 3v12.006a3 3 0 0 1-3 3.001" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m13.365 8.999-2.73 5.457M9.726 8.999l-2.728 5.457M17.002 8.999l-2.728 5.457" /></svg>;
+export default InterfaceEssentialMenuBurgerCircle1Icon;

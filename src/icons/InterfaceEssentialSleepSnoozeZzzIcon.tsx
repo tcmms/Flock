@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSleepSnoozeZzzIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14.112 9.094h5.258l-4.784 5.768h5.094M7.2 14.746h4.406l-3.941 4.751h4.195-4.195M4.32 3.304h6.362L4.795 10.4h6.217" /></svg>;
+export default InterfaceEssentialSleepSnoozeZzzIcon;

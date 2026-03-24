@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMenuItemCheckmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M2.996 10.5h13.006M2.996 3.997h13.006M2.996 17.002h5.002M21.004 16.002l-5.002 5.002L13 18.003" /></svg>;
+export default InterfaceEssentialMenuItemCheckmarkIcon;

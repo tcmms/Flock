@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ComputersDevicesElectronicsMouseIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 21c-3.3 0-6-2.7-6-6V9c0-3.3 2.7-6 6-6v0c3.3 0 6 2.7 6 6v6c0 3.3-2.7 6-6 6" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v3" /></svg>;
+export default ComputersDevicesElectronicsMouseIcon;

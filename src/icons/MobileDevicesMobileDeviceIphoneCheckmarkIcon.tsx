@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MobileDevicesMobileDeviceIphoneCheckmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.999 18.003H13M17.002 13v6.003a2 2 0 0 1-2 2H6.997a2 2 0 0 1-2-2V4.997a2 2 0 0 1 2-2h3.001M18.336 5.33l-1.667 1.668-1-1" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.003 10H15a2 2 0 0 1-2-2.002V3.997a2 2 0 0 1 2-2.001h4.002a2 2 0 0 1 2 2v4.002a2 2 0 0 1-2 2.001" clipRule="evenodd" /></svg>;
+export default MobileDevicesMobileDeviceIphoneCheckmarkIcon;

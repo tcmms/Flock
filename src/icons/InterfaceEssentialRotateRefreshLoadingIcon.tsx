@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialRotateRefreshLoadingIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.75 8.25H3V4.5M7.467 19.924c.9.52 1.897.89 2.959 1.076M3.482 15.173a9.1 9.1 0 0 0 1.57 2.73M13.574 21a9 9 0 0 0 2.959-1.076M18.948 17.903a9.1 9.1 0 0 0 1.57-2.73" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21 12a9 9 0 0 0-9-9C8.37 3 5.249 5.154 3.826 8.25" /></svg>;
+export default InterfaceEssentialRotateRefreshLoadingIcon;

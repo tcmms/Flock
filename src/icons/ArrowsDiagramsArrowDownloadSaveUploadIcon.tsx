@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ArrowsDiagramsArrowDownloadSaveUploadIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 19V5M17.001 13.999 12 19l-5.001-5.001" /></svg>;
+export default ArrowsDiagramsArrowDownloadSaveUploadIcon;

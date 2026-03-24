@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderBookmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18 6.94h1a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h4.471a1 1 0 0 1 .826.437l1.405 2.065a1 1 0 0 0 .827.438H14" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 6h-2a1 1 0 0 0-1 1v5l2-1 2 1V7a1 1 0 0 0-1-1" clipRule="evenodd" /></svg>;
+export default FoldersFolderBookmarkIcon;

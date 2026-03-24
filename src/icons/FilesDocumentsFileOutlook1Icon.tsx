@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FilesDocumentsFileOutlook1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m18.417 6.412-2.83-2.83a2 2 0 0 0-1.414-.586H6.998a2 2 0 0 0-2 2.001v14.006a2 2 0 0 0 2 2h10.004a2 2 0 0 0 2-2V7.826a2 2 0 0 0-.585-1.414" clipRule="evenodd" /><rect width={3.501} height={4.502} x={10.249} y={10.499} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={1.662} /></svg>;
+export default FilesDocumentsFileOutlook1Icon;

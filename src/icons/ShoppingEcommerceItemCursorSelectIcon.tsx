@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceItemCursorSelectIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 20H5a2 2 0 0 1-2-2V7.5A1.5 1.5 0 0 1 4.5 6h13A1.5 1.5 0 0 1 19 7.5V12" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.191 19.928h-2.892l-1.852 1.836a.807.807 0 0 1-1.375-.573v-7.383c0-.718.869-1.079 1.377-.57l5.313 5.313a.807.807 0 0 1-.571 1.377" clipRule="evenodd" /></svg>;
+export default ShoppingEcommerceItemCursorSelectIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialUmbrellaIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 3v1M8 18.183v1.01c0 1.099.895 1.99 2 1.99v0c1.105 0 2-.891 2-1.99v-7.416" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9 12.976c1.657-1.6 4.343-1.6 6 0 1.657-1.6 4.343-1.6 6 0a9 9 0 0 0-18 0c1.657-1.6 4.343-1.6 6 0" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialUmbrellaIcon;

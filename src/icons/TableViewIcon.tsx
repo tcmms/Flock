@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableViewIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 9h17.5M12 3H6m0 0a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3M6 3h12a3 3 0 0 1 3 3v7M6 21h12a3 3 0 0 0 3-3v-6M6 21h5m-8-6h18m-6.06 6V3m-6 18V3" /></svg>;
+export default TableViewIcon;

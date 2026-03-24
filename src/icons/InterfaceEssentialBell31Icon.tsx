@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBell31Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.723 20.004a1.984 1.984 0 0 1-3.446 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.499 8.999v-.502A5.5 5.5 0 0 1 12 2.997v0a5.5 5.5 0 0 1 5.501 5.5V9c0 2.597.843 5.125 2.401 7.203v0a.5.5 0 0 1-.4.8H4.498a.5.5 0 0 1-.4-.8v0a12 12 0 0 0 2.4-7.203" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialBell31Icon;

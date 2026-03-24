@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceAtmRecipeCheckmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m15.334 19.003-1.666 1-1.668-1-1.668 1-1.666-1-1.668 1V6.998h10.004v13.005z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 16.002h4M17.002 11h2a2.16 2.16 0 0 0 2.002-2.287v-3.43a2.16 2.16 0 0 0-2.001-2.287H4.997a2.16 2.16 0 0 0-2 2.287v3.43a2.157 2.157 0 0 0 2 2.287h2M13.75 11.013l-2.02 2.018-.98-.978" /></svg>;
+export default PaymentsFinanceAtmRecipeCheckmarkIcon;

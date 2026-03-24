@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCompassLocationMapOffSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m3.997 4.997 15.006 15.006M15.29 12.09l.7-3.508a.487.487 0 0 0-.573-.574l-3.507.7M9.076 10.076l-1.069 5.342a.487.487 0 0 0 .575.574l5.342-1.068" /><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={5} /></svg>;
+export default InterfaceEssentialCompassLocationMapOffSquareIcon;

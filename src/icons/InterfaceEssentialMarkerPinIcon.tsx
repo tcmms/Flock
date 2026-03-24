@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMarkerPinIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.513 8.76a2.14 2.14 0 1 1-3.026 3.025 2.14 2.14 0 0 1 3.025-3.025" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19 10a6.4 6.4 0 0 1-2.305 4.921L14.4 16.834a6.4 6.4 0 0 0-1.976 2.895L12 21l-.424-1.271A6.4 6.4 0 0 0 9.6 16.834l-2.296-1.913A6.4 6.4 0 0 1 5 10v.036c0-4.368 3.617-6.902 7-6.902s7 2.534 7 6.902" /></svg>;
+export default InterfaceEssentialMarkerPinIcon;

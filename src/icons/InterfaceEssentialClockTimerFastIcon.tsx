@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialClockTimerFastIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.398 6.998v5.604h4.652M2.996 15.001h5.002M7.998 18.002h-3M7.998 21.004h-1" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3.055 11A9.002 9.002 0 1 1 12 21.004" /></svg>;
+export default InterfaceEssentialClockTimerFastIcon;

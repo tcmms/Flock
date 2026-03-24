@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ShoppingEcommerceBarcodeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.5 9.478V6a2 2 0 0 0-2-2h-3.478M8.978 4H5.5a2 2 0 0 0-2 2v3.478M3.5 14.522V18a2 2 0 0 0 2 2h3.478M15.022 20H18.5a2 2 0 0 0 2-2v-3.478M10.535 15.965a.05.05 0 1 1-.07.07.05.05 0 0 1 .07-.07M13.535 15.965a.05.05 0 1 1-.07.07.05.05 0 0 1 .07-.07M16.5 8v8M7.5 8v8M13.5 8v5M10.5 8v5" /></svg>;
+export default ShoppingEcommerceBarcodeIcon;

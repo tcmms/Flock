@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSearchZoomLoupeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19.95 4.05a7 7 0 1 1-9.9 9.9 7 7 0 0 1 9.9-9.9" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15 16.583v3.136A2.28 2.28 0 0 1 12.719 22H4.281A2.28 2.28 0 0 1 2 19.719V11.28A2.28 2.28 0 0 1 4.281 9h3.136M11.421 7h3.839c.961 0 1.74.779 1.74 1.739v3.839" /></svg>;
+export default InterfaceEssentialSearchZoomLoupeIcon;

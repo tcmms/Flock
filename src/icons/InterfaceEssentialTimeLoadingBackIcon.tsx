@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialTimeLoadingBackIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m14.81 13.593-3.124-1.25V7.89M2.996 5.497v3.001h3.001" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3.055 13A8.992 8.992 0 1 0 3.703 8.5" /></svg>;
+export default InterfaceEssentialTimeLoadingBackIcon;

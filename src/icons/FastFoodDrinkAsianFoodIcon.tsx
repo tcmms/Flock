@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FastFoodDrinkAsianFoodIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 18.5H7a3 3 0 0 1-3-3v-5a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v5a3 3 0 0 1-3 3" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m16 3.5-5 6M20 5.5l-5 4M16 18.329v1.421c0 .69-.56 1.25-1.25 1.25h-7.5C6.56 21 6 20.44 6 19.75v-1.421M11 5c-.667-.552-.667-1.448 0-2M7 5c.667.552.667 1.448 0 2" /></svg>;
+export default FastFoodDrinkAsianFoodIcon;

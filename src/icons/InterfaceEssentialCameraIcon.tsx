@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCameraIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m19.478 16.055-3.426-2.112v-3.885l3.426-2.112a1 1 0 0 1 1.526.851v6.407a1 1 0 0 1-1.526.851" clipRule="evenodd" /><rect width={13.055} height={12.005} x={2.996} y={5.998} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={3} /></svg>;
+export default InterfaceEssentialCameraIcon;

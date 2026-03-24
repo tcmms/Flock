@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWifiArrowCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m18.003 17.002 2 2-2 2.002M15.001 19.003h5.002M20.771 14a9 9 0 0 0 .233-2A9.004 9.004 0 1 0 12 21.004" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12.005 15.752a.25.25 0 1 1-.255.25.255.255 0 0 1 .255-.25M16.877 10.372a7.975 7.975 0 0 0-9.754 0M9.156 13.213a4.656 4.656 0 0 1 5.69 0" /></svg>;
+export default InterfaceEssentialWifiArrowCircleIcon;

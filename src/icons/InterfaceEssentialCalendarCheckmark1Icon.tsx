@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCalendarCheckmark1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.502 2.996v3.001M7.498 2.996v3.001M10 21.004h8.003a3 3 0 0 0 3-3.001V7.498a3 3 0 0 0-3-3H5.997a3 3 0 0 0-3 3v6.503" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m7.998 17.002-2.5 2.501-1.501-1.5M7.498 11h9.004" /></svg>;
+export default InterfaceEssentialCalendarCheckmark1Icon;

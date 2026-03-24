@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const WeatherClimateTemperatureThermometerCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.642 12.934V8.358a1.358 1.358 0 0 1 2.716 0v4.578c.547.413.906 1.062.906 1.8a2.264 2.264 0 0 1-4.527.001c0-.738.359-1.388.906-1.8" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18" clipRule="evenodd" /></svg>;
+export default WeatherClimateTemperatureThermometerCircleIcon;

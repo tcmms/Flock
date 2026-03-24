@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMouseScrollDownIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 17c-2.946 0-5.357-2.411-5.357-5.357V7.357C6.643 4.411 9.054 2 12 2v0c2.946 0 5.357 2.411 5.357 5.357v4.286C17.357 14.589 14.946 17 12 17" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m9 20 3 2 3-2M12 6.286v2.143" /></svg>;
+export default InterfaceEssentialMouseScrollDownIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialNewsPaperTextIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 11h5.002M12 14.001h5.002M12 17.002h5.002M7.998 5.997h11.005a2 2 0 0 1 2 2.001v11.005a2 2 0 0 1-2 2H4.997a2 2 0 0 1-2-2v0a2 2 0 0 1 2-2.001h1a2 2 0 0 0 2.001-2V5.496a2.5 2.5 0 0 0-2.5-2.5v0a2.5 2.5 0 0 0-2.502 2.5v13.506" /></svg>;
+export default InterfaceEssentialNewsPaperTextIcon;

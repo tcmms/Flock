@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ComputersDevicesElectronicsComputerLaptopIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m15.276 17.447.447-.894c.17-.339.516-.553.895-.553H21a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2a1 1 0 0 1 1-1h4.382c.379 0 .725.214.894.553l.447.894c.17.339.516.553.895.553h4.764a1 1 0 0 0 .894-.553" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 16V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v11" /></svg>;
+export default ComputersDevicesElectronicsComputerLaptopIcon;

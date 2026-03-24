@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoodSausageIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m4.461 12.465 6.003-6.003a5 5 0 0 1 7.074 0v0a5 5 0 0 1 0 7.074l-6.003 6.003" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m16.528 5.68.354-1.521a1.5 1.5 0 0 1 2.522-.722l1.16 1.159a1.5 1.5 0 0 1-.723 2.523l-1.52.352" /><circle cx={7.998} cy={16.002} r={5.002} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default FoodSausageIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BusinessProductsChartCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.002 12A5 5 0 0 0 12 6.998V12z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.999 9.313a4.11 4.11 0 0 0-2.001 3.52 4.17 4.17 0 0 0 4.169 4.17A4.11 4.11 0 0 0 14.687 15" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default BusinessProductsChartCircleIcon;

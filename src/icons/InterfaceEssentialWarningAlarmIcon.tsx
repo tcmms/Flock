@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWarningAlarmIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m8.894 18.574-5.43-9.652c-1.337-2.376.38-5.314 3.107-5.314h10.858c2.728 0 4.444 2.936 3.107 5.314l-5.43 9.652c-1.36 2.424-4.849 2.424-6.212 0" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.999 11.021V7.75M11.997 14.63a.16.16 0 0 0-.16.162.16.16 0 1 0 .322 0 .16.16 0 0 0-.162-.162" /></svg>;
+export default InterfaceEssentialWarningAlarmIcon;

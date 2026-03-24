@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDivideIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636M8.5 12h7" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.625 8.501a.376.376 0 0 0 .75-.001.375.375 0 1 0-.75.001M11.625 15.501a.376.376 0 0 0 .75-.001.375.375 0 1 0-.75.001" /></svg>;
+export default InterfaceEssentialDivideIcon;

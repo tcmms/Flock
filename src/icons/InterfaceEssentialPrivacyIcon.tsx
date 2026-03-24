@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPrivacyIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13 3H3a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1M18 18l1.991 2.982h.018L22 18V5a2 2 0 0 0-2-2v0a2 2 0 0 0-2 2z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18 7h4" /></svg>;
+export default InterfaceEssentialPrivacyIcon;

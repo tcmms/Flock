@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialListTasksDeleteCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={7.498} cy={7.498} r={4.502} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.001 10h6.003M15.001 4.997h6.003M21.004 15.001H8.999M21.004 20.003H8.999M4.997 15.001a.25.25 0 1 1-.5 0 .25.25 0 0 1 .5 0M4.997 20.003a.25.25 0 1 1-.5 0 .25.25 0 0 1 .5 0M8.692 6.305 6.305 8.692" /></svg>;
+export default InterfaceEssentialListTasksDeleteCrossIcon;

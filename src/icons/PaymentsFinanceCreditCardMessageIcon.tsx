@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceCreditCardMessageIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.996 7.998h18.008M9.499 12H6.998M10 18.003H5.996a3 3 0 0 1-3-3.002V6.998a3 3 0 0 1 3-3.001h12.006a3 3 0 0 1 3 3V11" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.113 18.78h-.223A2.89 2.89 0 0 1 13 15.89v0A2.89 2.89 0 0 1 15.89 13h1.91a3.203 3.203 0 0 1 3.204 3.204v0a3.2 3.2 0 0 1-1.525 2.728l-3.366 2.072z" /></svg>;
+export default PaymentsFinanceCreditCardMessageIcon;

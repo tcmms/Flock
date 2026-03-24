@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialEmailCheckmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m6.998 8.999 3.083 2.377a3 3 0 0 0 3.602.047l3.32-2.424" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 20.004H7.998a5 5 0 0 1-5.002-5.002V8.999a5 5 0 0 1 5.002-5.002h8.004A5 5 0 0 1 21.004 9v4.002M20.003 17.502l-2.5 2.501-1.501-1.5" /></svg>;
+export default InterfaceEssentialEmailCheckmarkIcon;

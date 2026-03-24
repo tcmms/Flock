@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InternetNetworkLoudStorageSettingIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6.324 9.068C3.885 9.401 2 11.47 2 14a5 5 0 0 0 5 5h11a4 4 0 0 0 0-8A5.997 5.997 0 0 0 6.324 9.068" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 10.6v.8M12 14.6v.8M9.92 11.8l.69.4M13.39 13.8l.69.4M9.92 14.2l.69-.4M13.39 12.2l.69-.4M13.131 11.869a1.6 1.6 0 1 1-2.262 2.262 1.6 1.6 0 0 1 2.262-2.262" /></svg>;
+export default InternetNetworkLoudStorageSettingIcon;

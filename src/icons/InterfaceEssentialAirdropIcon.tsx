@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialAirdropIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M10.421 14.897a2.233 2.233 0 1 1 3.158 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.111 17.207a5.5 5.5 0 1 1 7.778 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5.636 19.682a9 9 0 0 1 0-12.728 9 9 0 0 1 12.728 0 9 9 0 0 1 0 12.728" /></svg>;
+export default InterfaceEssentialAirdropIcon;

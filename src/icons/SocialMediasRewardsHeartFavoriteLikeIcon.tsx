@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SocialMediasRewardsHeartFavoriteLikeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.746 8.75c1.499 0 2.504 1.397 2.504 2.698 0 2.64-4.174 4.802-4.25 4.802s-4.25-2.162-4.25-4.802c0-1.301 1.006-2.698 2.504-2.698.857 0 1.42.424 1.746.802a2.25 2.25 0 0 1 1.746-.802" clipRule="evenodd" /></svg>;
+export default SocialMediasRewardsHeartFavoriteLikeIcon;

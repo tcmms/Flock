@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FilesDocumentsFileAiIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5.998 2.996h12.005a2 2 0 0 1 2 2.001v14.006a2 2 0 0 1-2 2H5.997a2 2 0 0 1-2-2V4.997a2 2 0 0 1 2-2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.752 9.9a.05.05 0 1 0 0 .1.05.05 0 0 0 0-.1M15.752 12.25v2.751M8.52 13.435h3.958M7.998 15.001 9.942 9.17a.25.25 0 0 1 .237-.171h.64a.25.25 0 0 1 .238.17L13 15.002" /></svg>;
+export default FilesDocumentsFileAiIcon;

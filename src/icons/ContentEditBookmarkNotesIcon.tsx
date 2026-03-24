@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ContentEditBookmarkNotesIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 9h2M7 17h2M12 17h5M19 4a2 2 0 0 1 2 2v13a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2M7 13h2M12 13h5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 3H8a1 1 0 0 0-1 1v5l2-1 2 1V4a1 1 0 0 0-1-1" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 4h2M11 4h8" /></svg>;
+export default ContentEditBookmarkNotesIcon;

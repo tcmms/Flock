@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDeleteButtonIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeOpacity={0.88} strokeWidth={1.5} d="M5.838 18.003 3.531 14a4 4 0 0 1 0-4.001L5.84 5.998a4 4 0 0 1 3.467-2h5.388c1.43-.002 2.752.761 3.468 2L20.469 10a4 4 0 0 1 0 4.001l-2.308 4.002a4 4 0 0 1-3.467 2H9.306a4 4 0 0 1-3.468-2Z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9.499 14.501 14.501 9.5M14.501 14.501 9.499 9.5" /></svg>;
+export default InterfaceEssentialDeleteButtonIcon;

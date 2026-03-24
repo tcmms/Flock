@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPlusMinusCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 7.34v5.003M9.499 9.842h5.002M9.499 16.002h5.002" /></svg>;
+export default InterfaceEssentialPlusMinusCircleIcon;

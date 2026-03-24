@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const RealEstateCalendarHomeHouseIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.5 3v3M16.5 3v3M9 21H6a3 3 0 0 1-3-3V7.5a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3V10" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12.94 15.123V20a1 1 0 0 0 1 1H20a1 1 0 0 0 1-1v-4.8" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m21.925 16-4.346-3.757a1 1 0 0 0-1.308 0L11.925 16" /></svg>;
+export default RealEstateCalendarHomeHouseIcon;

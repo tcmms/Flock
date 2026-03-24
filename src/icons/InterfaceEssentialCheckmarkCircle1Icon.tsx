@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCheckmarkCircle1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m8.443 12.34 2.167 2.168-.014-.014 4.891-4.891" /></svg>;
+export default InterfaceEssentialCheckmarkCircle1Icon;

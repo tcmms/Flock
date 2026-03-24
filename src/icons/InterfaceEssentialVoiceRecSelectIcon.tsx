@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialVoiceRecSelectIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 6.498v11.005M15.001 9.499v5.002M18.003 11v2M8.999 14.501V9.5M2.996 16.002v2a3 3 0 0 0 3.001 3.002h2.001M2.996 7.998v-2a3 3 0 0 1 3.001-3.002h2.001M16.002 21.004h2a3 3 0 0 0 3.002-3.001v-2.001M16.002 2.996h2a3 3 0 0 1 3.002 3.001v2.001M5.997 13v-2" /></svg>;
+export default InterfaceEssentialVoiceRecSelectIcon;

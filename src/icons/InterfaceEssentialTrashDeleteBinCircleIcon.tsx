@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialTrashDeleteBinCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8 10h8M15.25 10v5.754c0 .689-.537 1.246-1.199 1.246H9.949c-.663 0-1.199-.558-1.199-1.246V10M13.5 7.5h-3" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636" /></svg>;
+export default InterfaceEssentialTrashDeleteBinCircleIcon;

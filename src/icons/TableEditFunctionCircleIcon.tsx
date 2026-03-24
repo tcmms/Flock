@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditFunctionCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.479 16.482c.333.333.784.52 1.255.52v0c.882 0 1.63-.647 1.758-1.52l1.016-6.964a1.776 1.776 0 0 1 1.758-1.52v0c.47 0 .922.187 1.255.52M15.265 11.55H9.263" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default TableEditFunctionCircleIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const OfficeWorkPresentationBoardIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18.008} height={3.001} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={1} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.997 5.997h16.007v11.005H3.997zM21.004 17.002H2.996M12 17.002v2" /><circle cx={12} cy={20.503} r={1.501} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default OfficeWorkPresentationBoardIcon;

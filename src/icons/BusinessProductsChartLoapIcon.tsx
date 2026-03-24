@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BusinessProductsChartLoapIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m20.003 20.003-3.201-3.201M3.997 14l6.002-3.957L13 13.044M13 13.044l6.003-3.957M4.022 11a7.49 7.49 0 0 1 13.47-4.002M18.978 12a7.49 7.49 0 0 1-13.47 4.002" /></svg>;
+export default BusinessProductsChartLoapIcon;

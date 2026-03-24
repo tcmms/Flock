@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ComputersDevicesElectronicsFlipphoneIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 18.003h2M5.998 2.996V12a1 1 0 0 0 1 1h10.004a1 1 0 0 0 1-1V7.998" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.999 4.997H15a3 3 0 0 1 3.002 3.001v8.004A5 5 0 0 1 13 21.004h-2a5 5 0 0 1-5.002-5.002V7.998a3 3 0 0 1 3-3" clipRule="evenodd" /></svg>;
+export default ComputersDevicesElectronicsFlipphoneIcon;

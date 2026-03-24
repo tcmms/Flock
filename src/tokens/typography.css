@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400..800&display=swap');
+
+:root {
+  --flock-font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --flock-font-family-code: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+
+  /* Font sizes */
+  --flock-font-size-sm:         12px;
+  --flock-font-size-base:       14px;
+  --flock-font-size-lg:         16px;
+  --flock-font-size-xl:         20px;
+  --flock-font-size-icon:       12px;
+  --flock-font-size-heading-1:  40px;
+  --flock-font-size-heading-2:  30px;
+  --flock-font-size-heading-3:  24px;
+  --flock-font-size-heading-4:  20px;
+  --flock-font-size-heading-5:  20px;
+  --flock-font-size-heading-6:  16px;
+
+  /* Line heights — pixel values, 4px grid */
+  --flock-line-height-sm:        16px;
+  --flock-line-height-base:      22px;
+  --flock-line-height-lg:        24px;
+  --flock-line-height-xl:        28px;
+  --flock-line-height-heading-1: 48px;
+  --flock-line-height-heading-2: 40px;
+  --flock-line-height-heading-3: 32px;
+  --flock-line-height-heading-4: 28px;
+  --flock-line-height-heading-5: 28px;
+  --flock-line-height-heading-6: 24px;
+
+  /* Font weights */
+  --flock-font-weight-regular:   400;
+  --flock-font-weight-medium:    500;
+  --flock-font-weight-semibold:  600;
+  --flock-font-weight-strong:    600;
+  --flock-font-weight-bold:      700;
+  --flock-font-weight-extrabold: 800;
+
+  /* Sidebar font weight — Inter variable, between regular (400) and medium (500) */
+  --flock-sidebar-item-font-weight:  450;
+
+  /* Heading font weights */
+  --flock-font-weight-heading-1: 800;
+  --flock-font-weight-heading-2: 700;
+  --flock-font-weight-heading-3: 700;
+  --flock-font-weight-heading-4: 700;
+  --flock-font-weight-heading-5: 600;
+  --flock-font-weight-heading-6: 500;
+}

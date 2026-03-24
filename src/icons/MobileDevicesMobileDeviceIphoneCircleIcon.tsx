@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MobileDevicesMobileDeviceIphoneCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.8 8.999v1.98a.613.613 0 0 0 .55.66h3.3a.613.613 0 0 0 .55-.66V9" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6.498 18.98V11.2a2.2 2.2 0 0 1 2.2-2.201h6.603a2.2 2.2 0 0 1 2.201 2.2v7.925" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default MobileDevicesMobileDeviceIphoneCircleIcon;

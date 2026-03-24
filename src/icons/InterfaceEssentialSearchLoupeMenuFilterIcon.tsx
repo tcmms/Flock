@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSearchLoupeMenuFilterIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9.993 4.085a7.058 7.058 0 1 0 8.12 6.974M14 3.996h4.003M18.003 6.998H14M20.003 20.004l-3.951-3.952" /></svg>;
+export default InterfaceEssentialSearchLoupeMenuFilterIcon;

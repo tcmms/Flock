@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsBucketPaintIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m7.258 16.418-3.742-3.742a2.117 2.117 0 0 1 0-2.994L9.15 4.048l6.736 6.736-5.634 5.634a2.12 2.12 0 0 1-2.994 0M18.883 13.774s-2.117 2.297-2.117 3.705c0 1.164.953 2.117 2.117 2.117A2.124 2.124 0 0 0 21 17.478c0-1.407-2.117-3.704-2.117-3.704" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.15 4.05 8.06 2.94M15.89 10.78H2.93M3.42 21.44H12" /></svg>;
+export default DesignToolsBucketPaintIcon;

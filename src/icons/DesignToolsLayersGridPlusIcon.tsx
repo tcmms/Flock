@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsLayersGridPlusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 14.672V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9.605M15 3v10.79M9 3v18M3 14.94h10.83M3 8.94h18" /><path stroke="currentColor" strokeWidth={1.5} d="M17.5 22a4.5 4.5 0 0 1-4.5-4.5c0-2.434 2.07-4.502 4.504-4.5a4.5 4.5 0 0 1-.004 9" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.5 15.7v3.6M19.3 17.5h-3.6" /></svg>;
+export default DesignToolsLayersGridPlusIcon;

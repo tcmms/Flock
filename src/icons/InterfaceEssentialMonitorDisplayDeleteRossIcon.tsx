@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMonitorDisplayDeleteRossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M20.003 3.997H4.997a2 2 0 0 0-2 2v9.082M21.004 2.997 3.997 20.004M21.004 7.999v7.003a2 2 0 0 1-2.001 2H6.998M16.002 21.004H7.998M9.922 17.002v4.002M14.078 17.002v4.002" /></svg>;
+export default InterfaceEssentialMonitorDisplayDeleteRossIcon;

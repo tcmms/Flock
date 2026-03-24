@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSyncSynchronizeSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.6 14.399H8.4l2.399 2.4M13.201 7.2 15.6 9.6H8.4" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16 21H8a5 5 0 0 1-5-5V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialSyncSynchronizeSquareIcon;

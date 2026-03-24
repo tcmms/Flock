@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SupportHelpQuestionQuestionCheckmarkCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 20.942a8 8 0 0 1-1 .062A9.004 9.004 0 1 1 21.004 12q0 .501-.062 1M20.003 17.002l-2.5 2.501-1.501-1.5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.685 9.685A2.18 2.18 0 0 1 11.9 7.998 2.137 2.137 0 0 1 14.15 10C14.15 11.504 12 12 12 13M12.125 15.752a.125.125 0 1 1-.25 0 .125.125 0 0 1 .25 0" /></svg>;
+export default SupportHelpQuestionQuestionCheckmarkCircleIcon;

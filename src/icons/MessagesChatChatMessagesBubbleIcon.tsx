@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MessagesChatChatMessagesBubbleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.5 14.5h-7M8.5 10.5h7" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.588} d="M4.151 16.396A8.95 8.95 0 0 1 3 12a9 9 0 0 1 9-9 9 9 0 0 1 9 9 9 9 0 0 1-9 9 8.95 8.95 0 0 1-4.396-1.151L3 21z" clipRule="evenodd" /></svg>;
+export default MessagesChatChatMessagesBubbleIcon;

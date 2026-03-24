@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialReceiptPlusIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16 7H8M11 11H8M9 15H8M17 22a5 5 0 0 1-5-5c0-2.704 2.3-5.003 5.004-5A5 5 0 0 1 17 22" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M20 13.022V4a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v15.191a.5.5 0 0 0 .724.447l1.943-.972 2.443 1.222c.141.07.306.07.447 0L12 18.667l.362.181M19 17h-4M17 19v-4" /></svg>;
+export default InterfaceEssentialReceiptPlusIcon;

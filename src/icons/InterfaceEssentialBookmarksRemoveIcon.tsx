@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBookmarksRemoveIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.536 3h8.929c.986 0 1.786.806 1.786 1.8V21l-6.242-3.273L5.75 21V4.8c0-.994.8-1.8 1.786-1.8" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m9.88 8.88 4.24 4.24M9.88 13.12l4.24-4.24" /></svg>;
+export default InterfaceEssentialBookmarksRemoveIcon;

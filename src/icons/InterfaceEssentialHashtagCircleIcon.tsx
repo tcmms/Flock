@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialHashtagCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m9.7 15.45 1.15-6.9M13.15 15.45l1.15-6.9M15.8 10.3h-7M15.2 13.7h-7M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636" /></svg>;
+export default InterfaceEssentialHashtagCircleIcon;

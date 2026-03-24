@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FruitsVegetablesLemonIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.187 4.582a.93.93 0 0 1-.76-.01 8.25 8.25 0 0 0-8.913 1.94 8.25 8.25 0 0 0-1.932 8.938 1 1 0 0 1 .04.768 2.414 2.414 0 0 0 3.16 3.16 1 1 0 0 1 .768.04 8.25 8.25 0 0 0 8.937-1.932 8.25 8.25 0 0 0 1.941-8.912.93.93 0 0 1-.01-.76 2.42 2.42 0 0 0-3.231-3.232" clipRule="evenodd" /></svg>;
+export default FruitsVegetablesLemonIcon;

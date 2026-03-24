@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialTimerAlarmClockIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.993 10.313A1.69 1.69 0 0 0 10.311 12v.008a1.689 1.689 0 1 0 1.682-1.695M13.193 13.193l1.251 1.25M7.798 7.799 10.8 10.8" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5.633 5.633A9.004 9.004 0 1 0 12 2.996v3.001" /></svg>;
+export default InterfaceEssentialTimerAlarmClockIcon;

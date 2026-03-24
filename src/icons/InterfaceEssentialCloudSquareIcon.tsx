@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCloudSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.3 21H8.7C5.5 21 3 18.4 3 15.3V8.7C3 5.5 5.5 3 8.7 3h6.7C18.5 3 21 5.5 21 8.7v6.7c0 3-2.5 5.6-5.7 5.6" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.9 12.8c0-1.3 1-2.3 2.2-2.5.4-1.2 1.5-2.1 2.9-2.1 1.7 0 3 1.4 3 3 1.1 0 2 .9 2 2s-.9 2-2 2H9.5c-1.4.1-2.6-1-2.6-2.4" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialCloudSquareIcon;

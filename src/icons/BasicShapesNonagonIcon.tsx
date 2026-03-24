@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BasicShapesNonagonIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m12.735 21.016 5.11-2.19c.44-.189.791-.54.98-.98l2.19-5.11a1.87 1.87 0 0 0 0-1.47l-2.19-5.11a1.87 1.87 0 0 0-.98-.98l-5.11-2.19a1.87 1.87 0 0 0-1.47 0l-5.11 2.19a1.87 1.87 0 0 0-.98.98l-2.19 5.11a1.87 1.87 0 0 0 0 1.47l2.19 5.11c.189.44.54.791.98.98l5.11 2.19a1.87 1.87 0 0 0 1.47 0" clipRule="evenodd" /></svg>;
+export default BasicShapesNonagonIcon;

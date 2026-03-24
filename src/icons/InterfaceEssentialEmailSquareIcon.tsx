@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialEmailSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14.78 17.002H12A5.002 5.002 0 1 1 17.002 12v.834a1.39 1.39 0 0 1-2.78 0V12A2.223 2.223 0 0 0 12 9.777v0A2.223 2.223 0 1 0 14.223 12" /><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={5} /></svg>;
+export default InterfaceEssentialEmailSquareIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialChatMessagesBubbleCheckMarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m9.188 15 1.912 2.55c.45.6 1.35.6 1.8 0L14.812 15H18a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7 21h10M14 8.25l-2.5 2.5-1.5-1.5" /></svg>;
+export default InterfaceEssentialChatMessagesBubbleCheckMarkIcon;

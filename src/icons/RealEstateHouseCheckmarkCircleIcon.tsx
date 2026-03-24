@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const RealEstateHouseCheckmarkCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m20 17-2.5 2.5L16 18M8.79 10.349V14c.002.552.449.998 1 1h4.5a1 1 0 0 0 1-1v-3.585" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 20.938A8 8 0 0 1 12 21a9 9 0 1 1 9-9q0 .501-.062 1" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m16 11-3.364-2.772a1 1 0 0 0-1.272 0L8 11" /></svg>;
+export default RealEstateHouseCheckmarkCircleIcon;

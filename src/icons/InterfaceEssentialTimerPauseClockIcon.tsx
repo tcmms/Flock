@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialTimerPauseClockIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={11.5} cy={13.5} r={8.003} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9.499 2.496h4.002M20.504 6.498l-2.001-2 1 1M13.278 15.502V11.5M9.721 15.502V11.5M19.503 5.497 17.16 7.841" /></svg>;
+export default InterfaceEssentialTimerPauseClockIcon;

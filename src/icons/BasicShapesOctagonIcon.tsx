@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BasicShapesOctagonIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.038 2.833H8.962a1.83 1.83 0 0 0-1.296.537L3.37 7.666c-.344.344-.537.81-.537 1.296v6.075c0 .486.193.953.537 1.296l4.296 4.296c.344.344.81.537 1.296.537h6.075a1.83 1.83 0 0 0 1.296-.537l4.296-4.296c.344-.344.537-.81.537-1.296V8.962a1.83 1.83 0 0 0-.537-1.296L16.334 3.37a1.83 1.83 0 0 0-1.296-.537" clipRule="evenodd" /></svg>;
+export default BasicShapesOctagonIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const NavigationMapsCompassMapIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.679 9.703 16 8l-1.679 6.297L8 16z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636M14.32 14.3 9.68 9.7" /></svg>;
+export default NavigationMapsCompassMapIcon;

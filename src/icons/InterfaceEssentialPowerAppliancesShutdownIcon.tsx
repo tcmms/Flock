@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPowerAppliancesShutdownIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.657 6.343a8 8 0 1 1-11.314 0M12 4v8" /></svg>;
+export default InterfaceEssentialPowerAppliancesShutdownIcon;

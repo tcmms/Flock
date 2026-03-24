@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MobileDevicesMobileDevicesNotificationIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.12 18.5h2.26M16.25 11.388V19a2 2 0 0 1-2 2h-6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2.97" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.25 11.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9M15.25 5.33v3.34M14.42 6.17l.83-.84M14.42 8.67h1.66" /></svg>;
+export default MobileDevicesMobileDevicesNotificationIcon;

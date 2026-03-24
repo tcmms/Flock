@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialItemEditSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.001 2.994H6.998a4 4 0 0 0-4.002 4.002v10.006a4 4 0 0 0 4.002 4.002h10.004a4 4 0 0 0 4.002-4.002V9M6.998 10h3.001M6.998 15.001H13M20.003 3.997 14.001 10" /></svg>;
+export default InterfaceEssentialItemEditSquareIcon;

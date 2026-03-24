@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLetterOpenIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m20.22 8.771-7.003-5.363a2 2 0 0 0-2.433 0L3.78 8.771a2 2 0 0 0-.785 1.589v8.643a2 2 0 0 0 2.001 2h14.006a2 2 0 0 0 2-2V10.36c0-.623-.29-1.21-.784-1.589" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m3.184 9.516 7.6 5.82a2 2 0 0 0 2.432 0l7.602-5.821" /></svg>;
+export default InterfaceEssentialLetterOpenIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialItalicIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14.182 18H5.455h3.98l5.13-12h3.98-8.727" /></svg>;
+export default InterfaceEssentialItalicIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ContentEditDocumentEditIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5.95 13h6.9M6 16h3.89M9.893 21H4.97C3.882 21 3 20.105 3 19V5c0-1.105.882-2 1.97-2h10.06C16.118 3 17 3.895 17 5v6" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.293 12.707 13 19v2h2l6.293-6.293a1 1 0 0 0 0-1.414l-.586-.586a1 1 0 0 0-1.414 0M7.5 9H6V6h1.5A1.5 1.5 0 0 1 9 7.5v0A1.5 1.5 0 0 1 7.5 9" clipRule="evenodd" /></svg>;
+export default ContentEditDocumentEditIcon;

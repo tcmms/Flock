@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCheckListCrossDeleteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={8.003} height={4.002} x={7.998} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={1} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.002 4.997h2a2 2 0 0 1 2.001 2v12.006a2 2 0 0 1-2 2H5.998a2 2 0 0 1-2.001-2V6.998a2 2 0 0 1 2-2h2.001M13.5 12.5l-3 3.001M13.5 15.501l-3-3.001" /></svg>;
+export default InterfaceEssentialCheckListCrossDeleteIcon;

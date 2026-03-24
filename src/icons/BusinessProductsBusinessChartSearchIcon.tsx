@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BusinessProductsBusinessChartSearchIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={16.002} cy={5.997} r={4.002} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21.004 11 18.83 8.827M16.002 21.004h2a3 3 0 0 0 3.002-3.001V15M2.996 11V6.998a3 3 0 0 1 3.001-3.001h2.001M2.996 17.252h3.001v3.752H2.996zM5.997 13h3.001v8.003H5.997zM8.999 15.251H12v5.752H8.999z" /></svg>;
+export default BusinessProductsBusinessChartSearchIcon;

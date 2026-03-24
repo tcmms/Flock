@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBrokenLinkUnlinkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m9.424 15.452 1.15-6.903M9.933 12H3.446M21.004 12h-6.488M13.426 15.452l1.15-6.903M18.367 5.633A9.004 9.004 0 1 1 5.633 18.366 9.004 9.004 0 0 1 18.367 5.633" /></svg>;
+export default InterfaceEssentialBrokenLinkUnlinkIcon;

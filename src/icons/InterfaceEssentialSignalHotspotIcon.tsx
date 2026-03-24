@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSignalHotspotIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.523 7.595a2.169 2.169 0 1 1-3.068 3.068 2.169 2.169 0 0 1 3.068-3.068M8.188 12.856a5.32 5.32 0 0 1-1.52-3.727c0-1.451.581-2.765 1.52-3.727M5.787 15.258a8.7 8.7 0 0 1-2.518-6.129c0-2.39.962-4.552 2.518-6.129M11.99 21v-9.7M15.812 5.402a5.32 5.32 0 0 1 1.52 3.727 5.32 5.32 0 0 1-1.52 3.727M18.213 3a8.7 8.7 0 0 1 2.518 6.129c0 2.39-.962 4.552-2.518 6.129" /></svg>;
+export default InterfaceEssentialSignalHotspotIcon;

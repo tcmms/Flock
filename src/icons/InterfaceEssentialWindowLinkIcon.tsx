@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWindowLinkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.668 21.004A2.67 2.67 0 0 1 13 18.336v0a2.67 2.67 0 0 1 2.668-2.668M18.336 15.668a2.67 2.67 0 0 1 2.668 2.668v0a2.67 2.67 0 0 1-2.668 2.668M15.668 18.336h2.668" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M10 21.004H5.996a3 3 0 0 1-3-3.002V5.997a3 3 0 0 1 3-3h12.006a3 3 0 0 1 3 3V13M21.004 7.998H2.996" /></svg>;
+export default InterfaceEssentialWindowLinkIcon;

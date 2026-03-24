@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const MoneyWalletIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.595 13.125a.376.376 0 0 0 .001.75.375.375 0 1 0-.001-.75" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 5v13.5a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-10a2 2 0 0 0-2-2H4.5a1.5 1.5 0 0 1 0-3H17" /></svg>;
+export default MoneyWalletIcon;

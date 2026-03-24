@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialThumpsUpIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.3 10.499v9.504" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m8.3 10.5 2.336-5.872a1 1 0 0 1 1.283-.566l.64.24A3 3 0 0 1 14.5 7.112V10.5h3a2.5 2.5 0 0 1 2.426 3.107l-1.125 4.502a2.5 2.5 0 0 1-2.426 1.895H5.497a1.5 1.5 0 0 1-1.5-1.5V12a1.5 1.5 0 0 1 1.5-1.5z" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialThumpsUpIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditChangeReplaceIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m13 15.001 2.001 2.001 2.001-2M15.001 11v6.002M11 13l-2.001-2-2.001 2M8.999 17.002V11M21.004 6.998H2.996" /><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={2} /></svg>;
+export default TableEditChangeReplaceIcon;

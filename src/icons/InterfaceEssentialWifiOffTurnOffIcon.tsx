@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWifiOffTurnOffIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11.999 19.25a.37.37 0 0 0-.373.375.374.374 0 1 0 .749 0 .375.375 0 0 0-.376-.375M6 20 19 3M14.116 9.387c-3.335-.628-6.937.24-9.525 2.613M17.514 4.944c-5.31-1.891-11.616-.938-15.92 2.86M17.267 10.497c.765.405 1.487.902 2.141 1.503M20.421 6.372c.693.425 1.366.887 1.985 1.432M14.262 14.427a6.2 6.2 0 0 1 2.158 1.394" /></svg>;
+export default InterfaceEssentialWifiOffTurnOffIcon;

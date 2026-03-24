@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLockKeystoneSquadCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={12} cy={12} r={9.504} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.393 13.15a2.99 2.99 0 0 0 1.567-3.17 3.001 3.001 0 1 0-4.353 3.17l-.9 2.692a.5.5 0 0 0 .476.66h3.626a.5.5 0 0 0 .476-.66z" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialLockKeystoneSquadCircleIcon;

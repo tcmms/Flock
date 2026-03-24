@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDashboardArrowRightCirceIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m7.998 17.502 2.001 2-2 2.002M10 19.503H3.996M14 20.278A9.004 9.004 0 1 0 3.94 15.502" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m11.073 7.783-.884 3.934A1.856 1.856 0 0 0 12 13.98v0a1.857 1.857 0 0 0 1.811-2.263l-.884-3.934a.95.95 0 0 0-1.854 0" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialDashboardArrowRightCirceIcon;

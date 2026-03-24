@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BusinessProductsCvResumeCheckmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m13 10 1.126 4h.751l1.125-4" /><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.282 10H9a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h1.283" /></svg>;
+export default BusinessProductsCvResumeCheckmarkIcon;

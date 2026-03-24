@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialStarFavoriteDeleteCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m19.055 13.026 2.082-2.014M7.44 20.89l3.902-2.034M21.137 11.016a1.2 1.2 0 0 0-.67-2.044l-5.103-.732-2.28-4.575a1.216 1.216 0 0 0-2.171 0L8.635 8.24l-5.103.734a1.195 1.195 0 0 0-.67 2.044l3.69 3.558-.869 5.027a1.208 1.208 0 0 0 1.757 1.26M16.014 17.018l3.01 3.01M16.014 20.028l3.01-3.01" /></svg>;
+export default InterfaceEssentialStarFavoriteDeleteCrossIcon;

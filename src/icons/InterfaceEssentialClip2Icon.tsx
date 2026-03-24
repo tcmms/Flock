@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialClip2Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.998 13.501h6.003a2 2 0 0 0 2-2v0a2 2 0 0 0-2-2.002H6.998a4 4 0 0 0-4.002 4.002v0a4 4 0 0 0 4.002 4.002H15.5A5.5 5.5 0 0 0 21.005 12v0A5.5 5.5 0 0 0 15.5 6.498H7.999" /></svg>;
+export default InterfaceEssentialClip2Icon;

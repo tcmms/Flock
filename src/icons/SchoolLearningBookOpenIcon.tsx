@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SchoolLearningBookOpenIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.131C9.406 4.678 7.088 4.1 4.017 4.001a.995.995 0 0 0-1.017 1v11.853c0 .541.433.99.974.998 3.092.046 5.42.616 8.026 2.148 2.606-1.532 4.934-2.102 8.026-2.148a.996.996 0 0 0 .974-.998V5.001a.995.995 0 0 0-1.017-1c-3.071.099-5.389.677-7.983 2.13" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.13V20" /></svg>;
+export default SchoolLearningBookOpenIcon;

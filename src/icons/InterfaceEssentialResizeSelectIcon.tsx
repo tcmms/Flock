@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialResizeSelectIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M5.998 20.004H3.996a1 1 0 0 1-1-1v-2.002M21.004 17.002v2.001a1 1 0 0 1-1 1h-2.001M21.004 12H2.996M21.004 10V14M2.996 6.998V4.997a1 1 0 0 1 1-1h2.001M18.003 3.997h2a1 1 0 0 1 1 1v2M2.996 10V14" /></svg>;
+export default InterfaceEssentialResizeSelectIcon;

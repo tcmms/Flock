@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCloudDownlaodIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.998 18.003 11 21.004l3.002-3M10.999 21.004 11 14M4.997 15.302a6.586 6.586 0 1 1 11.095-5.783c.14-.01.27-.02.41-.02a4.49 4.49 0 0 1 .5 8.953" /></svg>;
+export default InterfaceEssentialCloudDownlaodIcon;

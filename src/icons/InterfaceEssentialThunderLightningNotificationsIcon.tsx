@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialThunderLightningNotificationsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12.967 3 4.75 14H12l-.967 7 8.217-11H12z" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialThunderLightningNotificationsIcon;

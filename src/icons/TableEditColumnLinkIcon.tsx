@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditColumnLinkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 11V6a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h6M15 3v9M9 3v18M3 14.94h9M3 8.94h18" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19.414 20.243a2.59 2.59 0 0 1-3.657 0v0a2.59 2.59 0 0 1 0-3.657M17.586 14.757a2.59 2.59 0 0 1 3.657 0v0a2.59 2.59 0 0 1 0 3.657M17.586 18.414l1.828-1.828" /></svg>;
+export default TableEditColumnLinkIcon;

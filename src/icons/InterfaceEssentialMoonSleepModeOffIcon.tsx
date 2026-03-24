@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMoonSleepModeOffIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m3.997 3.997 17.007 17.007M11.504 11.502a6.84 6.84 0 0 1-7.773 1.245.532.532 0 0 0-.717.635A8.76 8.76 0 0 0 5.3 17.386a8.665 8.665 0 0 0 12.25.16M12.976 9.194a7.02 7.02 0 0 0-.228-5.463.532.532 0 0 1 .635-.717 8.816 8.816 0 0 1 5.743 12.329" /></svg>;
+export default InterfaceEssentialMoonSleepModeOffIcon;

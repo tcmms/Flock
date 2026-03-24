@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialUploadIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21 17a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4M12 3.001v14m5-9L11.999 3l-5 5.001" /></svg>;
+export default InterfaceEssentialUploadIcon;

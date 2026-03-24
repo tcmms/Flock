@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialEditPenCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.998 10.75h3.001M6.998 14.251h10.004M15.001 3.52a9.024 9.024 0 1 0 5.514 5.573M20.003 3.997 14.001 10" /></svg>;
+export default InterfaceEssentialEditPenCircleIcon;

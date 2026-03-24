@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFilterSortDeleteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14.5 16v3.124a1.25 1.25 0 0 1-.947 1.213l-2.5.625A1.25 1.25 0 0 1 9.5 19.749V13.5L4.293 8.293A1 1 0 0 1 4 7.586V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v1M15 13l4-4M19 13l-4-4" /></svg>;
+export default InterfaceEssentialFilterSortDeleteIcon;

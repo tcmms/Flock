@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProtectionSecurityMicRecShieldIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.5V11M15 9v1M9 14.5v-5M3 16v2a3 3 0 0 0 3 3h2M3 8V6a3 3 0 0 1 3-3h2M16 3h2a3 3 0 0 1 3 3v2M6 13v-2" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 14.938v1.131a5 5 0 0 0 3.244 4.682l.58.217a.5.5 0 0 0 .352 0l.58-.217A5 5 0 0 0 21 16.069v-1.131a1 1 0 0 0-.702-.955l-3-.937a1 1 0 0 0-.596 0l-3 .937a1 1 0 0 0-.702.954" clipRule="evenodd" /></svg>;
+export default ProtectionSecurityMicRecShieldIcon;

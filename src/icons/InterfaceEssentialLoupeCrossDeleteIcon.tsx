@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLoupeCrossDeleteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.98 6.467a6.728 6.728 0 1 1-9.513 9.515 6.728 6.728 0 0 1 9.514-9.515M19.503 19.503l-3.526-3.526M4.793 17.655 17.655 4.793" /></svg>;
+export default InterfaceEssentialLoupeCrossDeleteIcon;

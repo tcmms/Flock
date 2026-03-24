@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SchoolLearningTestCheckmarkDoneIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.003 21.004H5.997a2 2 0 0 1-2-2.001V4.997a2 2 0 0 1 2-2h12.006a2 2 0 0 1 2 2v14.006a2 2 0 0 1-2 2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.998 7.998h8.004M7.998 16.002H10M16.613 15.53l-1.946 1.945-1.166-1.167M7.998 12h8.004" /></svg>;
+export default SchoolLearningTestCheckmarkDoneIcon;

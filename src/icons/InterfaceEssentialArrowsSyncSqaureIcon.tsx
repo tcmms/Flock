@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialArrowsSyncSqaureIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9.599 7.198 12 9.6 9.599 12M14.401 12 12 14.401l2.401 2.401" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M2.996 16.002V7.999a5 5 0 0 1 5.002-5.002h8.004a5 5 0 0 1 5.002 5.002v8.003a5 5 0 0 1-5.002 5.002H7.998a5 5 0 0 1-5.002-5.002" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialArrowsSyncSqaureIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialAlarmClockTimeOffRmoveIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21 22 3 4M6.343 7.342a7.999 7.999 0 0 0 11.313 11.31M19.285 16.281a7.97 7.97 0 0 0 .105-6.346A8 8 0 0 0 8.939 5.606c-.077.032-.149.072-.225.107M10 2h4M20 5l-2.34 2.34M19 4l2 2" /></svg>;
+export default InterfaceEssentialAlarmClockTimeOffRmoveIcon;

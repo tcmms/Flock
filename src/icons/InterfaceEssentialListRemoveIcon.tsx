@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialListRemoveIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8 4h12M3 4h1M3 8h1M3 12h1M8 8h12M8 12h2" /><path stroke="currentColor" strokeOpacity={0.88} strokeWidth={1.5} d="M17 21a5 5 0 0 1-5-5c0-2.704 2.3-5.003 5.004-5A5 5 0 0 1 17 21" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19 16h-4" /></svg>;
+export default InterfaceEssentialListRemoveIcon;

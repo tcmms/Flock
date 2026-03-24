@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FilesDocumentsFileChartIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.003 10V7.825a2 2 0 0 0-.587-1.414l-2.829-2.83a2 2 0 0 0-1.415-.586H5.998a2 2 0 0 0-2 2.001v14.006a2 2 0 0 0 2 2H10" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M18.003 7.998H14a1 1 0 0 1-1-1V2.996M13 17.252h3.001v3.752H13zM16.002 13h3.001v8.003h-3.001zM19.003 15.251h3.001v5.752h-3.001z" /></svg>;
+export default FilesDocumentsFileChartIcon;

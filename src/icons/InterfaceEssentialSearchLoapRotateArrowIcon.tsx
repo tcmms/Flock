@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSearchLoapRotateArrowIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.223 10.169a6.844 6.844 0 0 1-11.52 6.212M16.38 6.703a6.844 6.844 0 0 0-11.56 6.248" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m16.334 12.19 1.958-2.096 1.958 2.095M4.73 13.05l-1.96-2.1M19.33 19.33l-2.98-2.98M6.69 10.95l-1.96 2.1" /></svg>;
+export default InterfaceEssentialSearchLoapRotateArrowIcon;

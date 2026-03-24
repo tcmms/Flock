@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ContentEditNotebookCheckListIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 16h4M7 15.726l.919.828 1.851-1.666M13 11h4M7 10.726l.919.828 1.85-1.666" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 4H5a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 3v3M12 3v3M8 3v3" /></svg>;
+export default ContentEditNotebookCheckListIcon;

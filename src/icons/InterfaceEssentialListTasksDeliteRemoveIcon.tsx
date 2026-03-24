@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialListTasksDeliteRemoveIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11 19.5H4M11 14.5H4M20 9.5H4M20 4.5H4M15 14.5l5 5M20 14.5l-5 5" /></svg>;
+export default InterfaceEssentialListTasksDeliteRemoveIcon;

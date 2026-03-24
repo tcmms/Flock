@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialAttachmentLink3Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m10 13 .953.954a4 4 0 0 0 5.659 0l3.032-3.033a4.643 4.643 0 0 0 0-6.565v0a4.643 4.643 0 0 0-6.566 0l-.887.888" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m14 10-.953-.954a4 4 0 0 0-5.659 0l-3.032 3.032a4.643 4.643 0 0 0 0 6.566v0a4.643 4.643 0 0 0 6.566 0l.887-.889" /></svg>;
+export default InterfaceEssentialAttachmentLink3Icon;

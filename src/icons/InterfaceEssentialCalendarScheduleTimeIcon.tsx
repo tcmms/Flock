@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCalendarScheduleTimeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.498 2.996v3.001M16.502 2.996v3.001M10 21.004H5.996a3 3 0 0 1-3-3.001V7.498a3 3 0 0 1 3-3h12.006a3 3 0 0 1 3 3V10M16.395 14.984v1.76l1.382.843" /><path stroke="currentColor" strokeOpacity={0.88} strokeWidth={1.5} d="M16.502 21.004A4.5 4.5 0 0 1 12 16.502 4.57 4.57 0 0 1 16.506 12a4.502 4.502 0 1 1-.004 9.004" /></svg>;
+export default InterfaceEssentialCalendarScheduleTimeIcon;

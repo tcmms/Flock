@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialAwardRatingIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.243 4.757a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8 13.463V21l4-2 4 2v-7.537" /></svg>;
+export default InterfaceEssentialAwardRatingIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BusinessProducts24HoursDayIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.736 5.537v2h-2 2M7.587 10.729a1.47 1.47 0 0 1 2.938 0c0 1.836-2.937 1.836-2.937 4.01h2.937M15.894 12.03l-2.512-.027a.26.26 0 0 1-.257-.26V9.261M15.89 9.32v5.42" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.3 7.538A9.46 9.46 0 0 0 12 2.667a9.333 9.333 0 1 0 0 18.666A9.333 9.333 0 0 0 21.333 12" /></svg>;
+export default BusinessProducts24HoursDayIcon;

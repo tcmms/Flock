@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialTaskListDocumentTextIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m8 4 1.3-1.625A1 1 0 0 1 10.081 2h3.839a1 1 0 0 1 .781.375L16 4v1a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8 4H6a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2M8 11h8M8 16h8" /></svg>;
+export default InterfaceEssentialTaskListDocumentTextIcon;

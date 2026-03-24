@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BuildingConstructionModernBuilding1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M11 21.004V9.827a2 2 0 0 0-.587-1.415L6.998 4.998 3.582 8.412a2 2 0 0 0-.586 1.415v11.177M6.998 12v8.003M3.177 8.999h7.64M6.998 2.996v2.001M14 21.004v-9.936a1 1 0 0 1 1.352-.937l5.003 1.876a1 1 0 0 1 .649.936v8.06M22.004 21.004H1.996M16.502 15.001h2M16.502 18.003h2" /></svg>;
+export default BuildingConstructionModernBuilding1Icon;

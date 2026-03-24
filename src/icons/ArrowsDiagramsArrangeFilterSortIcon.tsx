@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ArrowsDiagramsArrangeFilterSortIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 8 7 5 4 8M7 19V5M14 16l3 3 3-3M17 5v14" /></svg>;
+export default ArrowsDiagramsArrangeFilterSortIcon;

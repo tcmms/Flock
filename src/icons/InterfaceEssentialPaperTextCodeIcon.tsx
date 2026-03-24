@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPaperTextCodeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.999 8.016H15M8.999 12H12M4.497 3.997h11.505a2 2 0 0 1 2 2v10.005" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.498 20.004h11.505a2 2 0 0 0 2-2.001v-1a1 1 0 0 0-1-1H10a1 1 0 0 0-1 1v1.5a1.5 1.5 0 1 1-3.001 0V5.498a1.5 1.5 0 0 0-1.501-1.5v0a1.5 1.5 0 0 0-1.5 1.5v2.5a1 1 0 0 0 1 1.001h2" /></svg>;
+export default InterfaceEssentialPaperTextCodeIcon;

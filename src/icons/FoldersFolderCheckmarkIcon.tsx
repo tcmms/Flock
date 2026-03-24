@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderCheckMarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15.146 6.94h-2.617a1 1 0 0 1-.827-.438l-1.405-2.065A1 1 0 0 0 9.471 4H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6.537" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m20.383 7.309-1.729 1.729L17.617 8" /></svg>;
+export default FoldersFolderCheckMarkIcon;

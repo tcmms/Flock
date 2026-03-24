@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBackwardRearwardMoreDotsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M3.997 13A8.003 8.003 0 1 0 12 4.997H4.997" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m7.998 7.999-3-3.002 3-3M12 12.927a.073.073 0 1 0 0 .146.073.073 0 0 0 0-.146M15.558 12.927a.073.073 0 1 0 0 .146.073.073 0 0 0 0-.146M8.444 12.927a.073.073 0 1 0 0 .146.073.073 0 0 0 0-.146" /></svg>;
+export default InterfaceEssentialBackwardRearwardMoreDotsIcon;

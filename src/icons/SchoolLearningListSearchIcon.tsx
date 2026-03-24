@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SchoolLearningListSearchIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20.003 8.999V4.997a2 2 0 0 0-2-2H4.997a2 2 0 0 0-2 2v14.006a2 2 0 0 0 2 2H10M6.998 6.998h9.004M6.998 11H12M6.998 15.001h3.001M21.004 21.004l-1.64-1.64" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16.726 13a3.726 3.726 0 1 1 0 7.452 3.726 3.726 0 0 1 0-7.452" /></svg>;
+export default SchoolLearningListSearchIcon;

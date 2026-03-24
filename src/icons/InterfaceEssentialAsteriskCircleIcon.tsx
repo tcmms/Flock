@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialAsteriskCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 21a9 9 0 0 1-9-9v0a9 9 0 0 1 9-9v0a9 9 0 0 1 9 9v0a9 9 0 0 1-9 9" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 7.61v4.5M7.72 10.72 12 12.11M9.35 15.75 12 12.11M14.65 15.75 12 12.11M16.28 10.72 12 12.11" /></svg>;
+export default InterfaceEssentialAsteriskCircleIcon;

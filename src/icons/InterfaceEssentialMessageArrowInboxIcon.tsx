@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMessageArrowInboxIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M2.996 5.998a3 3 0 0 1 3.001-3.001h12.006a3 3 0 0 1 3 3v8.004a3 3 0 0 1-3 3.001H13l-5.002 4.002v-4.002h-2a3 3 0 0 1-3.002-3M2.996 10H10" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7.998 12 10 10 8 7.998" /></svg>;
+export default InterfaceEssentialMessageArrowInboxIcon;

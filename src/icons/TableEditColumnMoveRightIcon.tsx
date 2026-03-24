@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const TableEditColumnMoveRightIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 9h9M3 15h9M8.94 21V3M13 12h5M16 14l2-2-2-2M21 20.5v-17M15 18v1a2 2 0 0 1-2 2H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h7a2 2 0 0 1 2 2v2" /></svg>;
+export default TableEditColumnMoveRightIcon;

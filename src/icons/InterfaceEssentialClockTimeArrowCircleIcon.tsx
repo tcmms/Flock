@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialClockTimeArrowCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m7.998 17.502 2.001 2-2 2.002M12.007 10.313a1.689 1.689 0 1 0-.014 3.377 1.689 1.689 0 0 0 .014-3.377M13.2 10.8 16.203 7.8M9.556 14.444l1.25-1.25M10 19.503H3.996" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14 20.274A9.004 9.004 0 1 0 3.94 15.501" /></svg>;
+export default InterfaceEssentialClockTimeArrowCircleIcon;

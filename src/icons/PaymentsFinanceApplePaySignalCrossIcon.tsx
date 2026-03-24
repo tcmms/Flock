@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceApplePaySignalCrossIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m3.497 18.003 2.5 2.5M5.997 18.003l-2.5 2.5M10 20.773a9.032 9.032 0 1 0-6.773-6.772" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.149 6.998A7.38 7.38 0 0 1 15 12a7.38 7.38 0 0 1-1.852 5.002M11.11 8.666A5.25 5.25 0 0 1 12.223 12a5.25 5.25 0 0 1-1.111 3.334M8.999 10.332a2.78 2.78 0 0 1 0 3.336" /></svg>;
+export default PaymentsFinanceApplePaySignalCrossIcon;

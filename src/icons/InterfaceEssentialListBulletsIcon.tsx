@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialListBulletsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.999 6.437h11.004M20.003 12H11M13 17.564h7.003M4.497 5.937a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1M6.498 11.5a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1M8.499 17.064a.5.5 0 1 0 0 1 .5.5 0 0 0 0-1" /></svg>;
+export default InterfaceEssentialListBulletsIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialScanerBarcodeIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.998 21.004h-1a3 3 0 0 1-3.002-3.002v-1M17.002 2.996h1a3 3 0 0 1 3.002 3.001v1M2.996 6.998v-1a3 3 0 0 1 3.001-3.002h1M21.004 17.002v1a3 3 0 0 1-3.001 3.002h-1M5.998 12V9a3 3 0 0 1 3-3.002h6.003A3 3 0 0 1 18.003 9v3.002M18.003 15.001A3 3 0 0 1 15 18.002H9a3 3 0 0 1-3.002-3.001M3.997 12h17.007" /></svg>;
+export default InterfaceEssentialScanerBarcodeIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCodeSearchIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.747 6.187a7.467 7.467 0 1 1-10.56 10.56 7.467 7.467 0 0 1 10.56-10.56M17.04 17.04 20 20M11.93 10 11 13M14.35 13 16 11.5M14.35 10 16 11.5M11 13l.93-3M8.58 10l-1.65 1.5M8.58 13l-1.65-1.5" /></svg>;
+export default InterfaceEssentialCodeSearchIcon;

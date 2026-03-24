@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialQuoteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14 13.5h5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zc0-6 1-7 4-9M4 13.5h5a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zc0-6 1-7 4-9" /></svg>;
+export default InterfaceEssentialQuoteIcon;

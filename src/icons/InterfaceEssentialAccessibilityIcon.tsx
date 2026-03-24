@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialAccessibilityIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9.9 14.88h4.2M19.644 8.167c-4.222 1.278-11.067 1.278-15.289 0" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9.896 9.063c0 4.124 0 9.088-.958 11.562M14.104 9.063c0 6.384 0 7.732.958 11.562M13.237 3.607a1.75 1.75 0 1 1-2.475 2.474 1.75 1.75 0 0 1 2.475-2.474" /></svg>;
+export default InterfaceEssentialAccessibilityIcon;

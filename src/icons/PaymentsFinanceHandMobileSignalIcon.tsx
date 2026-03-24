@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceHandMobileSignalIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m3 16 2.55-4.25a3 3 0 0 1 1.231-1.14l.586-.293A3 3 0 0 1 8.708 10H10M15 3.5h-2a3 3 0 0 0-3 3V15M20.5 9v7a3 3 0 0 1-3 3H13" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 15h2l2.19-2.19a1.646 1.646 0 0 1 2.533 2.077l-2.993 4.488a4 4 0 0 1-1.968 1.543L7.767 22M18 2v1M21 6h1M20.293 3.707 21 3" /></svg>;
+export default PaymentsFinanceHandMobileSignalIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const PaymentsFinanceChartSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18} height={18} x={3} y={3} stroke="currentColor" strokeWidth={1.5} rx={5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 3v5.5M15 12.5V21M16.949 10.949 21 15" /><circle cx={15} cy={10.5} r={2} stroke="currentColor" strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13.05 10.945 9 15l-3-3-3 3" /></svg>;
+export default PaymentsFinanceChartSquareIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialIosAppApplicationStarIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21 12v3.317a5.67 5.67 0 0 1-5.669 5.67H8.669A5.67 5.67 0 0 1 3 15.316V8.655a5.67 5.67 0 0 1 5.669-5.669H12M17.5 2A4.5 4.5 0 0 0 22 6.5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M22 6.5a4.5 4.5 0 0 0-4.5 4.5M17.5 11A4.5 4.5 0 0 0 13 6.5M13 6.5A4.5 4.5 0 0 0 17.5 2" /></svg>;
+export default InterfaceEssentialIosAppApplicationStarIcon;

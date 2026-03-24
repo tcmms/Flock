@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoodBaconIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 12a16.1 16.1 0 0 1-6.58 6.58M12 12a16.1 16.1 0 0 1 6.58-6.58" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.496 15.655a16.1 16.1 0 0 0 6.58-6.58 16.1 16.1 0 0 1 6.58-6.579l5.848 5.849a16.1 16.1 0 0 0-6.58 6.58 16.1 16.1 0 0 1-6.58 6.579z" clipRule="evenodd" /></svg>;
+export default FoodBaconIcon;

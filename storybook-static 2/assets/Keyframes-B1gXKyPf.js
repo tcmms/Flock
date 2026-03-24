@@ -1,0 +1,1 @@
+var r=Object.defineProperty;var m=(t,e,s)=>e in t?r(t,e,{enumerable:!0,configurable:!0,writable:!0,value:s}):t[e]=s;var a=(t,e,s)=>m(t,typeof e!="symbol"?e+"":e,s);class i{constructor(e,s){a(this,"name");a(this,"style");a(this,"_keyframe",!0);this.name=e,this.style=s}getName(e=""){return e?`${e}-${this.name}`:this.name}}export{i as K};

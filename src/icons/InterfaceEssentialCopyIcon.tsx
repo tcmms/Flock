@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCopyIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M20 3a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-3.5M20 3h-1m1 0H8a1 1 0 0 0-1 1v3m8 14H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1" /></svg>;
+export default InterfaceEssentialCopyIcon;

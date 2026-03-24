@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BuildingConstructionHighRiseBuildingIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.998 21.004V3.997a1 1 0 0 1 1-1h6.003a1 1 0 0 1 1 1v17.007m5.003 0V7.91a.913.913 0 0 0-.914-.913h-4.088m-8.004 0H3.91a.913.913 0 0 0-.914.913v13.093M16.002 9.999h2.5M16.003 13h2.5m-2.5 3.002h2.5M5.498 9.999h2.501M5.498 13h2.5m-2.5 3.002h2.5M10.5 13h3.002m-3.002 3.002h3.002m-3.002-6.003h3.002m-3.002-3.001h3.002M12 19.003v2m10.004 0H1.996" /></svg>;
+export default BuildingConstructionHighRiseBuildingIcon;

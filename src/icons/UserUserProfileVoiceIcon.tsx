@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserUserProfileVoiceIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2.996 19.003a3.92 3.92 0 0 1 3.92-3.92h3.922a3.92 3.92 0 0 1 3.92 3.92v0M19.692 4.997a4.48 4.48 0 0 1 0 6.333M16.718 6.58a2.24 2.24 0 0 1 0 3.167" /><circle cx={8.877} cy={8.499} r={3.251} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default UserUserProfileVoiceIcon;

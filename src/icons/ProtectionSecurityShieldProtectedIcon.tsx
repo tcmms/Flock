@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProtectionSecurityShieldProtectedIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m13 8-3 3 4 2-3 3" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 11.182c0 4.541-3.413 8.787-8 9.818-4.587-1.031-8-5.277-8-9.818V7.615a2 2 0 0 1 1.243-1.851l5-2.046a4.64 4.64 0 0 1 3.514 0l5 2.046A2 2 0 0 1 20 7.615z" clipRule="evenodd" /></svg>;
+export default ProtectionSecurityShieldProtectedIcon;

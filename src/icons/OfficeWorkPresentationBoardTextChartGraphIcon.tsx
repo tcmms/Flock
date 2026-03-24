@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const OfficeWorkPresentationBoardTextChartGraphIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 16.002v4.001M7.998 21.004l1.858-5.002M16.002 21.004l-1.858-5.002M7.498 12v-2M10.5 12V6.998M13.5 12V8.999M16.502 12V7.453" /><rect width={18.008} height={13.005} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} rx={2} /></svg>;
+export default OfficeWorkPresentationBoardTextChartGraphIcon;

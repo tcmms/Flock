@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBracketsSqaureIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m11 14 2-4M9 8a1 1 0 0 0-1 1v2l-1 1 1 1v2a1 1 0 0 0 1 1M15 16a1 1 0 0 0 1-1v-2l1-1-1-1V9a1 1 0 0 0-1-1" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18 21H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialBracketsSqaureIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDeliteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m15 10-1.112-2.224a.5.5 0 0 0-.447-.276h-2.882a.5.5 0 0 0-.447.276L9 10M15.403 10l-.465 5.583a1 1 0 0 1-.997.917h-3.882c-.52 0-.953-.399-.997-.917L8.597 10M8 10h8" /></svg>;
+export default InterfaceEssentialDeliteIcon;

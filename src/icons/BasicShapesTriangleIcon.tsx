@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BasicShapesTriangleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.293 4.793 2.86 16.957C2.045 18.29 3.004 20 4.566 20h14.868c1.562 0 2.521-1.71 1.707-3.043L13.707 4.793c-.78-1.277-2.634-1.277-3.414 0" clipRule="evenodd" /></svg>;
+export default BasicShapesTriangleIcon;

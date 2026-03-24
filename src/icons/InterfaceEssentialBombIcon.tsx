@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBombIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><circle cx={10.578} cy={13.421} r={7.582} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m17.15 6.85-1.21 1.211M19.15 4.892l.906-.907M16.002 2.996l.5 1.043M21.004 7.998l-.948-.5" /></svg>;
+export default InterfaceEssentialBombIcon;

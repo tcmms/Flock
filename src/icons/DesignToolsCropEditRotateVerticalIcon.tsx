@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsCropEditRotateVerticalIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 18.992h2.5v-2.5M15 17v-2M9 9H7M12 9h3v3M17 15H9V7M20 5.008h-2.5v2.5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.654 5.008q.367.296.709.636a9 9 0 0 1 0 12.728c-2.27 2.27-5.449 3.065-8.364 2.403M14 3.225c-2.915-.662-6.094.133-8.364 2.403a9 9 0 0 0 .709 13.364" /></svg>;
+export default DesignToolsCropEditRotateVerticalIcon;

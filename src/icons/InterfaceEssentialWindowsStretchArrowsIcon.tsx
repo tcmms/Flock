@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialWindowsStretchArrowsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m16.002 11.5 2 2-2 2.002M7.998 12l-2-2 2-2.001M12 13.501h6.003M5.998 10H12" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 5.998h7.003a2 2 0 0 1 2 2v11.005a2 2 0 0 1-2 2.001H14a2 2 0 0 1-2.001-2V4.996a2 2 0 0 0-2-2H4.996a2 2 0 0 0-2 2v10.005a2 2 0 0 0 2 2H12" /></svg>;
+export default InterfaceEssentialWindowsStretchArrowsIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const DesignToolsCursorClickIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m18.197 15.932 1.976 1.976a1.12 1.12 0 0 1 0 1.58l-1.186 1.186a1.12 1.12 0 0 1-1.58 0l-1.976-1.976-1.489 1.489a.558.558 0 0 1-.925-.218l-2.872-8.617a.559.559 0 0 1 .707-.707l8.617 2.872a.558.558 0 0 1 .218.925zM4.78 10.93H2.5M6.44 6.94 4.82 5.32M6.4 14.96l-1.62 1.62M10.43 5.28V3M14.46 6.9l1.62-1.62" /></svg>;
+export default DesignToolsCursorClickIcon;

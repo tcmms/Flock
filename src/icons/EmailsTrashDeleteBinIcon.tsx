@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmailsTrashDeleteBinIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.138 21h-8.28a2 2 0 0 1-1.995-1.853L4.966 7H19l-.867 12.142A2 2 0 0 1 16.138 21" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 11v6M4 7h16M17 7l-1.013-2.702A2 2 0 0 0 14.114 3H9.886a2 2 0 0 0-1.873 1.298L7 7M15.43 11 15 17M8.57 11 9 17" /></svg>;
+export default EmailsTrashDeleteBinIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMarkerPinCrossDeleteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m10.08 9.6 3.84 3.84M10.08 13.44l3.84-3.84" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M17.276 6.022a7.46 7.46 0 0 1 0 10.554l-4.033 4.033c-.687.686-1.8.686-2.487 0l-4.033-4.033a7.46 7.46 0 0 1 0-10.554v0a7.46 7.46 0 0 1 10.553 0" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialMarkerPinCrossDeleteIcon;

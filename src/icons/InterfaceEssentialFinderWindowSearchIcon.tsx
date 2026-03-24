@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFinderWindowSearchIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M19.856 13.007a3.43 3.43 0 1 1-4.85 4.851 3.43 3.43 0 0 1 4.85-4.851M22.004 20.003l-2.149-2.148" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21.004 10V5.998a3 3 0 0 0-3.001-3.001H5.997a3 3 0 0 0-3 3v12.006a3 3 0 0 0 3 3.001h7.592M8.999 2.997v18.007" /></svg>;
+export default InterfaceEssentialFinderWindowSearchIcon;

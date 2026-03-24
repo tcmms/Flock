@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDocumentTextEditIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m18.293 20.707 3.414-3.414a1 1 0 0 0 0-1.414l-1.586-1.586a1 1 0 0 0-1.414 0l-3.414 3.414a1 1 0 0 0-.293.707V21h2.586a1 1 0 0 0 .707-.293" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M7 14h4M7 9h8M19 10V7a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v9a3 3 0 0 0 3 3h5" /></svg>;
+export default InterfaceEssentialDocumentTextEditIcon;

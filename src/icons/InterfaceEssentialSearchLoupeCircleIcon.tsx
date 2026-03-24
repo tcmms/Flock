@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialSearchLoupeCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m15.36 13.454-1.932-1.933M13.424 8.35a2.24 2.24 0 1 1-3.17 3.167 2.24 2.24 0 0 1 3.17-3.168M9.12 15.37H12" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.11 5.424a8.64 8.64 0 0 1 0 12.219A8.64 8.64 0 1 1 5.89 5.424a8.64 8.64 0 0 1 12.22 0" /></svg>;
+export default InterfaceEssentialSearchLoupeCircleIcon;

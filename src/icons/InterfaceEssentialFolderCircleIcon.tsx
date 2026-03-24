@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFolderCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636M16.5 12.5h-9" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15.5 9.47H12l-.702-1.033A1 1 0 0 0 10.471 8H8.5a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1v-4.53a1 1 0 0 0-1-1" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialFolderCircleIcon;

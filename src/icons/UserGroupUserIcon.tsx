@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserGroupUserIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M2 19c0-2.2 1.8-4 4-4h4c2.2 0 4 1.8 4 4M10.5 6c1.4 1.4 1.4 3.6 0 4.9s-3.6 1.4-4.9 0S4.2 7.4 5.5 6s3.6-1.3 5 0M16 14h3c1.7 0 3 1.3 3 3M19.3 6.7c1 1 1 2.6 0 3.5s-2.6 1-3.5 0-1-2.6 0-3.5c.9-.9 2.5-.9 3.5 0" /></svg>;
+export default UserGroupUserIcon;

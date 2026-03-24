@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FilesDocumentsFileExcel1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m18.417 6.412-2.83-2.83a2 2 0 0 0-1.414-.586H6.998a2 2 0 0 0-2 2.001v14.006a2 2 0 0 0 2 2h10.004a2 2 0 0 0 2-2V7.826a2 2 0 0 0-.585-1.414" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m13.5 15.001-3-3.501M10.5 15.001l3-3.501" /></svg>;
+export default FilesDocumentsFileExcel1Icon;

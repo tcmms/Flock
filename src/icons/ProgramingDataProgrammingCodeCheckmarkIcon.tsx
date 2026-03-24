@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ProgramingDataProgrammingCodeCheckmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.998 20.003a2.5 2.5 0 0 1-2.501-2.5V14.5A2.5 2.5 0 0 0 1.996 12a2.5 2.5 0 0 0 2.5-2.501V6.498a2.5 2.5 0 0 1 2.502-2.501M17.002 3.997a2.5 2.5 0 0 1 2.501 2.5V9.5A2.5 2.5 0 0 0 22.004 12a2.5 2.5 0 0 0-2.5 2.501v3.001a2.5 2.5 0 0 1-2.502 2.501M14.223 10.888l-2.778 2.78L9.778 12" /></svg>;
+export default ProgramingDataProgrammingCodeCheckmarkIcon;

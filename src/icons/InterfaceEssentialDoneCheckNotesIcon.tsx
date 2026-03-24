@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialDoneCheckNotesIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11 5h10M11 12h10M11 19h10M3.02 18.508l1.653 1.488L8 17M6.414 3.586a2 2 0 1 1-2.828 2.828 2 2 0 0 1 2.828-2.828M6.414 10.586a2 2 0 1 1-2.828 2.828 2 2 0 0 1 2.828-2.828" /></svg>;
+export default InterfaceEssentialDoneCheckNotesIcon;

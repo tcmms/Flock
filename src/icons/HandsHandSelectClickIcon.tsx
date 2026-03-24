@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const HandsHandSelectClickIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.45} strokeWidth={1.5} d="M5.25 5.25a4.25 4.25 0 0 1 8.5 0M14 12v-1.75a1.5 1.5 0 0 0-3 0m3 1a1.5 1.5 0 0 1 3 0V13m-6-1V5.25a1.5 1.5 0 0 0-3 0V14l-1.884-1.884a1.58 1.58 0 0 0-2.232 0 1.525 1.525 0 0 0-.191 1.924l3.526 5.288A6 6 0 0 0 12.211 22H14a6 6 0 0 0 6-6v-3.75a1.5 1.5 0 0 0-3 0" /></svg>;
+export default HandsHandSelectClickIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFingerprintCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.364 5.636A9 9 0 1 1 5.636 18.364 9 9 0 0 1 18.364 5.636" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M8.5 10.333v4a3.5 3.5 0 0 0 3.5 3.5 3.47 3.47 0 0 0 2.11-.724M12 10v4M15.5 13.667V9.666a3.5 3.5 0 0 0-3.5-3.5c-.797 0-1.522.276-2.11.724" /></svg>;
+export default InterfaceEssentialFingerprintCircleIcon;

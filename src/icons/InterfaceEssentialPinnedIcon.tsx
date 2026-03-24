@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPinnedIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 20v-5" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6.99 15h10.02a.99.99 0 0 0 .99-.99v0c0-.32-.154-.62-.415-.806L14.5 11V8l2.555-1.703c.278-.186.445-.498.445-.832V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1v.465a1 1 0 0 0 .445.832L9.5 8v3l-3.085 2.204A.99.99 0 0 0 6 14.01v0c0 .547.443.99.99.99" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialPinnedIcon;

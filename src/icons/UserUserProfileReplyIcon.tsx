@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const UserUserProfileReplyIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7.003 20.008a4.45 4.45 0 0 1 4.449-4.448h5.108a4.45 4.45 0 0 1 4.449 4.448M7.003 12.005H2M4.002 10.004 2 12.005l2 2" /><circle cx={14.006} cy={8.253} r={4.252} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default UserUserProfileReplyIcon;

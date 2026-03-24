@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const ArrowsDiagramsArrowRotateIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 16h-1c-4.971 0-9-2.015-9-4.5S7.029 7 12 7s9 2.015 9 4.5c0 1.56-1.589 2.934-4 3.741 2.411-.807 4-2.181 4-3.741C21 9.015 16.971 7 12 7s-9 2.015-9 4.5S7.029 16 12 16" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.5 18.5 13 16l-2.5-2.5" /></svg>;
+export default ArrowsDiagramsArrowRotateIcon;

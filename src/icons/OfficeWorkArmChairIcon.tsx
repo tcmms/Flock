@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const OfficeWorkArmChairIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinejoin="round" strokeWidth={1.5} d="M16.5 3.75a3 3 0 0 1 3 3v1.575a.75.75 0 0 1-.599.735l-.078.018A3 3 0 1 1 19.55 15H19.5v3.75a.75.75 0 0 1-.75.75H5.25a.75.75 0 0 1-.75-.75V15h-.049a3 3 0 1 1 .725-5.922l-.077-.018a.75.75 0 0 1-.599-.735V6.75a3 3 0 0 1 3-3zm-8.25 9a.75.75 0 0 1-.746-.673l-.004-.076V13.5a.75.75 0 0 1 .75-.75Zm-1.422-2.639-.006-.008-.013-.015zm10.35-.008-.007.008.02-.023zM15.75 12.75a.75.75 0 0 1 .75.75v-1.499a.75.75 0 0 1-.75.749Z" /></svg>;
+export default OfficeWorkArmChairIcon;

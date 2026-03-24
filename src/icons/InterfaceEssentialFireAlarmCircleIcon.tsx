@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialFireAlarmCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m8.587 9.388 2.049-2.39 2.209 2.577 1.429-1.667 1.139 1.329a4.7 4.7 0 0 1 1.134 3.066v.152A4.547 4.547 0 0 1 12 17.002v0a4.547 4.547 0 0 1-4.547-4.547v0c0-1.125.402-2.213 1.134-3.067" clipRule="evenodd" /><circle cx={12} cy={12} r={9.004} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialFireAlarmCircleIcon;

@@ -1,0 +1,10 @@
+:root {
+  --flock-radius-xs:   2px;
+  --flock-radius-sm:   4px;
+  --flock-radius-md:   6px;
+  --flock-radius-base: 8px;
+  --flock-radius-lg:   12px;
+  --flock-radius-xl:   16px;
+  --flock-radius-2xl:  24px;
+  --flock-radius-full: 9999px;
+}

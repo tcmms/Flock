@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialPasswordInputIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m13 13-2-2M13 11l-2 2M17.418 13h-2M8.583 13l-2.001-2M8.583 11l-2.001 2M19.003 19.003H4.997a2 2 0 0 1-2-2V6.997a2 2 0 0 1 2-2h14.006M19.003 19.003a2 2 0 0 0 2-2V6.997a2 2 0 0 0-2-2" /></svg>;
+export default InterfaceEssentialPasswordInputIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const GeometricAbstractTriangleCircleSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M4 14.5h6v6H4zM17.5 21a3.5 3.5 0 0 1-3.5-3.5v0a3.5 3.5 0 0 1 3.5-3.5v0a3.5 3.5 0 0 1 3.5 3.5v0a3.5 3.5 0 0 1-3.5 3.5M12 3l-4.5 7h9z" clipRule="evenodd" /></svg>;
+export default GeometricAbstractTriangleCircleSquareIcon;

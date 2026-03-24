@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMicrophoneMicRecCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M12 3.023a9 9 0 0 1 9 9v0a9 9 0 0 1-9 9v0a9 9 0 0 1-9-9v0a9 9 0 0 1 9-9" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M6 11.56v.88M8.4 9.78v4.44M8.4 9.78v4.44M10.8 8v8M15.6 8.89v6.22M18 11.11v1.78M13.2 10.22v3.56" /></svg>;
+export default InterfaceEssentialMicrophoneMicRecCircleIcon;

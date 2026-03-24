@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SchoolLearningBookBookmarkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3.997 4.997v14.006a2 2 0 0 0 2 2h12.006a2 2 0 0 0 2-2V8.999a2 2 0 0 0-2-2.001H5.997a2 2 0 0 1 0-4.002h13.006" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 6.998V12l-2-1-2.002 1V6.998" /></svg>;
+export default SchoolLearningBookBookmarkIcon;

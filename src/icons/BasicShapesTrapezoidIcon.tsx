@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const BasicShapesTrapezoidIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m17.282 6.001 4.082 10.476a2.095 2.095 0 0 1-1.952 2.856H4.589a2.095 2.095 0 0 1-1.952-2.856L6.718 6.001A2.1 2.1 0 0 1 8.67 4.667h6.659c.864 0 1.639.53 1.953 1.334" clipRule="evenodd" /></svg>;
+export default BasicShapesTrapezoidIcon;

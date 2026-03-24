@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCmdKeyboardIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9 9H6a3 3 0 0 1-3-3v0a3 3 0 0 1 3-3v0a3 3 0 0 1 3 3zM9 9h6v6H9zM6 21a3 3 0 0 1-3-3v0a3 3 0 0 1 3-3h3v3a3 3 0 0 1-3 3M15 15h3a3 3 0 0 1 3 3v0a3 3 0 0 1-3 3v0a3 3 0 0 1-3-3zM18 3a3 3 0 0 1 3 3v0a3 3 0 0 1-3 3h-3V6a3 3 0 0 1 3-3" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialCmdKeyboardIcon;

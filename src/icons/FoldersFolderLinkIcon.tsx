@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoldersFolderLinkIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="m20.47 17.502.555-.554a2.94 2.94 0 0 0 .218-4.009 2.83 2.83 0 0 0-4.11-.11l-.668.668M14.462 15.502l-.554.554a2.94 2.94 0 0 0-.218 4.008 2.83 2.83 0 0 0 4.11.11l.668-.667M15.798 18.17l3.337-3.337M21.004 8.999v-1.06a2 2 0 0 0-2.001-2.002h-6.474a1 1 0 0 1-.83-.44l-1.4-2.064a1 1 0 0 0-.829-.437H4.997a2 2 0 0 0-2 2.001v12.005a2 2 0 0 0 2 2H10" /></svg>;
+export default FoldersFolderLinkIcon;

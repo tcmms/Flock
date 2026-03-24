@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmailsReplyAllEveryoneIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M13.92 13.03c3.312 0 6.261 1.145 7.68 4.277v-.96c0-4.77-3.485-7.637-7.68-7.637V6.638a.852.852 0 0 0-1.403-.648L7.38 10.342a.848.848 0 0 0-.022 1.278l5.137 4.647c.549.495 1.425.108 1.425-.63z" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m7.548 15.959-4.882-4.417a.806.806 0 0 1 .02-1.214l4.882-4.136" /></svg>;
+export default EmailsReplyAllEveryoneIcon;

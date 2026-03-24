@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const FoodCandyIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6.898 9.93H4.567a1.569 1.569 0 0 1-.78-2.932.85.85 0 0 0 .36-.96 1.575 1.575 0 0 1 1.89-1.891.85.85 0 0 0 .96-.36 1.569 1.569 0 0 1 2.932.78v2.33M17.102 14.07h2.331a1.569 1.569 0 0 1 .78 2.932.85.85 0 0 0-.36.96 1.575 1.575 0 0 1-1.89 1.891.85.85 0 0 0-.96.36 1.569 1.569 0 0 1-2.932-.78v-2.33" /><circle cx={12} cy={12} r={5.502} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} /></svg>;
+export default FoodCandyIcon;

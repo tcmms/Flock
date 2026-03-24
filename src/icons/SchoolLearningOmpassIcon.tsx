@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SchoolLearningOmpassIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 3v2M13.414 5.586a2 2 0 1 1-2.828 2.828 2 2 0 0 1 2.828-2.828M4.588 14.647c1.257 2.493 4.1 4.235 7.412 4.235s6.155-1.742 7.412-4.235M11.12 8.79 4 21M20 21 12.88 8.79" /></svg>;
+export default SchoolLearningOmpassIcon;

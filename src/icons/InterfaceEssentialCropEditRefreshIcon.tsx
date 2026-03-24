@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCropEditRefreshIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m18.994 9.958 1.601-1.6c1.439 3.399.779 7.476-1.992 10.246-3.367 3.367-8.661 3.618-12.324.768M17.721 4.628c-3.664-2.85-8.958-2.599-12.324.768-2.77 2.77-3.431 6.847-1.992 10.246l1.601-1.601" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M15 15H9V9M15 17v-2h2M9 7v2H7M12 9h3v3" /></svg>;
+export default InterfaceEssentialCropEditRefreshIcon;

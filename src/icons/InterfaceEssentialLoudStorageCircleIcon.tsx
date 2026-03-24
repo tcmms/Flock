@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLoudStorageCircleIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M9.243 9.87a2.42 2.42 0 0 0-2.1 2.395 2.43 2.43 0 0 0 2.428 2.43h5.343a1.943 1.943 0 1 0 0-3.887 2.913 2.913 0 0 0-5.67-.938" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M18.11 5.424A8.64 8.64 0 1 1 5.89 17.643 8.64 8.64 0 0 1 18.11 5.424" /></svg>;
+export default InterfaceEssentialLoudStorageCircleIcon;

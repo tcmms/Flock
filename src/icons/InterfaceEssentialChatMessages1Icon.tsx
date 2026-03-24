@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialChatMessages1Icon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M20.003 12.987v1.403a2.834 2.834 0 0 1-2.834 2.835h-4.447l-4.724 3.78v-3.78H5.83a2.834 2.834 0 0 1-2.834-2.835V6.831A2.834 2.834 0 0 1 5.83 3.997H11M16.677 5.632l.846-.848v3.387M16.68 8.173h1.687" /><circle cx={17.502} cy={6.498} r={4.502} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} /></svg>;
+export default InterfaceEssentialChatMessages1Icon;

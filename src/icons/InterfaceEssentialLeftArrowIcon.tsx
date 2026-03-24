@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialLeftArrowIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M4.01 11.98H19m-8.987-5.992L4.002 12l6.011 6.012" /></svg>;
+export default InterfaceEssentialLeftArrowIcon;

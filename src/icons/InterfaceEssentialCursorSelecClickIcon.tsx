@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialCursorSelecClickIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M21 11v7a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3h7M20 4l1-1M21 7h1M17 3V2M8 16l3.33-3.33" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m8.466 10.947 2.867 1.72 1.72 2.867a.25.25 0 0 0 .452-.05l2.337-7.01a.25.25 0 0 0-.316-.316l-7.01 2.337a.25.25 0 0 0-.05.452" clipRule="evenodd" /></svg>;
+export default InterfaceEssentialCursorSelecClickIcon;

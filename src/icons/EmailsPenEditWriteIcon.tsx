@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const EmailsPenEditWriteIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m20.707 4.707-1.414-1.414a1 1 0 0 0-1.414 0L7.293 13.879a1 1 0 0 0-.293.707V17h2.414c.265 0 .52-.105.707-.293L20.707 6.121a1 1 0 0 0 0-1.414" clipRule="evenodd" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m18.91 7.91-2.82-2.82M21 11v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8" /></svg>;
+export default EmailsPenEditWriteIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialMenuDotsSquareIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><rect width={18.008} height={18.008} x={2.996} y={2.996} stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} rx={5} /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M16.252 12a.25.25 0 1 1-.25-.25v0a.25.25 0 0 1 .25.25M8.248 12a.25.25 0 1 1-.25-.25v0a.25.25 0 0 1 .25.25M12.25 12a.25.25 0 1 1-.25-.25v0a.25.25 0 0 1 .25.25" /></svg>;
+export default InterfaceEssentialMenuDotsSquareIcon;

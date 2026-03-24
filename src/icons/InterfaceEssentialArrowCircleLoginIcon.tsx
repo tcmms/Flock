@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialArrowCircleLoginIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M11 8.999 14 12l-3 3.002" /><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="M14.01 12H4.183a1.354 1.354 0 0 1-1.353-1.354v0c0-1.882.746-3.687 2.074-5.02v0a9.53 9.53 0 0 1 6.75-2.796A9.187 9.187 0 1 1 3.45 16.077" /></svg>;
+export default InterfaceEssentialArrowCircleLoginIcon;

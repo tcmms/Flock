@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const InterfaceEssentialBluetoothIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="1em" height="1em" {...props}><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeOpacity={0.88} strokeWidth={1.5} d="m6 17 11-9.5L11 3v18l6-4.5L6 7" /></svg>;
+export default InterfaceEssentialBluetoothIcon;
