@@ -188,6 +188,78 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
     text-align: left;
   }
 
+  /* Quick Start — Ant Collapse inside code block (dark, monospace headers) */
+  .fi-code-commands .fi-code-collapse.ant-collapse {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background: transparent;
+  }
+
+  .fi-code-commands .fi-code-collapse .ant-collapse-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .fi-code-commands .fi-code-collapse .ant-collapse-item:last-child {
+    border-bottom: none;
+  }
+
+  .fi-code-commands .fi-code-collapse .ant-collapse-header {
+    align-items: center;
+    padding: var(--flock-padding-sm) 0 !important;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+
+  .fi-code-commands .fi-code-collapse .ant-collapse-header-text {
+    flex: 1;
+  }
+
+  .fi-code-commands .fi-code-collapse .fi-code-collapse-label {
+    display: block;
+    margin: 0;
+    line-height: 1.9;
+    color: var(--flock-color-text-light-solid);
+    font-weight: var(--flock-font-weight-bold);
+  }
+
+  .fi-code-commands .fi-code-collapse .ant-collapse-expand-icon {
+    color: rgba(255, 255, 255, 0.45);
+    padding-inline-start: var(--flock-space-2);
+    transform: none !important;
+  }
+
+  .fi-code-commands .fi-code-collapse .ant-collapse-item-active .ant-collapse-expand-icon {
+    transform: none !important;
+  }
+
+  .fi-code-commands .fi-code-collapse .fi-code-collapse-chevron {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    transition: transform 0.2s ease;
+  }
+
+  .fi-code-commands .fi-code-collapse .fi-code-collapse-chevron--expanded {
+    transform: rotate(180deg);
+  }
+
+  .fi-code-commands .fi-code-collapse .ant-collapse-content {
+    color: inherit;
+    background: transparent;
+    border-top: none;
+  }
+
+  .fi-code-commands .fi-code-collapse .ant-collapse-content-box {
+    padding: 0 0 var(--flock-padding-md) !important;
+  }
+
   .fi-code-line-with-caption {
     margin: 0 0 var(--flock-margin-sm);
     width: 100%;

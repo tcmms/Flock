@@ -65,6 +65,7 @@
 - [x] Introduction: removed “Screens” feature card; core blocks grid → `fi-grid-2` (Design Tokens + Components).
 - [x] Introduction: “Now we are ready” H2 uses Flock Heading 2 tokens (size / line-height / weight).
 - [x] Introduction: section title “Core building blocks” above Design Tokens + Components cards (`.fi-section--core-blocks`).
+- [x] QuickStartCommands: three Ant Design Collapse panels (# Before you start, # Clone & install, # Run Storybook); dark styles in Introduction.mdx.
 
 ---
 
@@ -125,6 +126,7 @@
 | 2026-03-25 | update | Introduction.mdx | Removed “Screens” card from core building blocks; grid uses `fi-grid-2`. |
 | 2026-03-25 | update | Introduction.mdx | “Now we are ready” uses `--flock-font-size-heading-2` (+ line-height, weight). |
 | 2026-03-25 | update | Introduction.mdx | H2 “Core building blocks” for tokens + components row; `.fi-section--core-blocks` spacing. |
+| 2026-03-25 | feature | QuickStartCommands | Collapse panels for Before you start / Clone & install / Run Storybook; `.fi-code-collapse` styles in Introduction.mdx. |
 
 ---
 

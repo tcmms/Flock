@@ -1,4 +1,6 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
+import { Collapse } from '../components/Collapse'
+import { FlockIcons } from '../icons/flockIcons'
 
 type Row =
   | { id: string; copyText: string; variant: 'split'; cmd: string; arg: string }
@@ -72,6 +74,20 @@ const STORYBOOK_ROW: AnnotatedRow = {
     'Starts Storybook locally. Default URL is http://localhost:6006 — if that port is busy, open the Local URL printed in the terminal. Leave this window open while you use Storybook.',
 }
 
+const COLLAPSE_KEYS = ['before', 'clone', 'storybook'] as const
+
+/** Chevron down from Flock icons; rotate 180° when panel is open = chevron up (same stroke as collapsed). */
+function QuickStartCollapseExpandIcon({ isActive }: { isActive?: boolean }) {
+  return (
+    <span
+      className={`fi-code-collapse-chevron${isActive ? ' fi-code-collapse-chevron--expanded' : ''}`}
+      aria-hidden
+    >
+      <FlockIcons.ArrowDown />
+    </span>
+  )
+}
+
 export function QuickStartCommands() {
   const [copiedId, setCopiedId] = useState<string | null>(null)
 
@@ -85,25 +101,56 @@ export function QuickStartCommands() {
     }
   }, [])
 
+  const collapseItems = useMemo(
+    () => [
+      {
+        key: COLLAPSE_KEYS[0],
+        label: <span className="fi-code-collapse-label">0. Before you start</span>,
+        children: (
+          <>
+            <p className="fi-code-caption fi-code-section-intro">
+              These commands only check your setup — they do not install Git or Node. If something is missing, install Git
+              and Node.js 20 LTS (includes npm) first, then run the checks below.
+            </p>
+            {PREREQ_ROWS.map((row) => (
+              <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
+            ))}
+          </>
+        ),
+      },
+      {
+        key: COLLAPSE_KEYS[1],
+        label: <span className="fi-code-collapse-label">1. Clone &amp; install</span>,
+        children: (
+          <>
+            {DOWNLOAD_ROWS.map((row) => (
+              <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
+            ))}
+          </>
+        ),
+      },
+      {
+        key: COLLAPSE_KEYS[2],
+        label: <span className="fi-code-collapse-label">2. Run Storybook</span>,
+        children: <CodeLineWithCaption row={STORYBOOK_ROW} copiedId={copiedId} onCopy={copyLine} />,
+      },
+    ],
+    [copiedId, copyLine],
+  )
+
   return (
     <div className="fi-code fi-code-commands">
       <h2 id="fi-quickstart-title" className="fi-code-commands-title">
         Download Flock DS &amp; Own it
       </h2>
-      <p className="fi-code-comment fi-code-commands-hint"># Before you start</p>
-      <p className="fi-code-caption fi-code-section-intro">
-        These commands only check your setup — they do not install Git or Node. If something is missing, install Git and
-        Node.js 20 LTS (includes npm) first, then run the checks below.
-      </p>
-      {PREREQ_ROWS.map((row) => (
-        <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
-      ))}
-      <p className="fi-code-comment fi-code-commands-hint fi-code-commands-gap"># Clone &amp; install</p>
-      {DOWNLOAD_ROWS.map((row) => (
-        <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
-      ))}
-      <p className="fi-code-comment fi-code-commands-hint fi-code-commands-gap"># Run Storybook</p>
-      <CodeLineWithCaption row={STORYBOOK_ROW} copiedId={copiedId} onCopy={copyLine} />
+      <Collapse
+        className="fi-code-collapse"
+        bordered={false}
+        defaultActiveKey={[COLLAPSE_KEYS[0]]}
+        expandIcon={({ isActive }) => <QuickStartCollapseExpandIcon isActive={isActive} />}
+        expandIconPosition="end"
+        items={collapseItems}
+      />
     </div>
   )
 }
