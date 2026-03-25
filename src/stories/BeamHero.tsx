@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { BRAND_SNOONU_LOGO_WORDMARK_URL } from '../constants/brandAssets'
 import LightPillar from './LightPillar'
 import TextType from './TextType/TextType'
 
@@ -84,7 +85,7 @@ export default function BeamHero() {
         .bh-hero-white {
           position: relative;
           flex: 0 0 auto;
-          padding: 176px var(--fi-align, 40px) 140px;
+          padding: calc(2 * var(--flock-padding-md)) var(--fi-align, 40px) 140px;
           min-height: clamp(440px, 52vh, 720px);
           box-sizing: border-box;
           overflow: hidden;
@@ -124,6 +125,15 @@ export default function BeamHero() {
           -webkit-mask-position: left center;
           mask-position: left center;
         }
+        .bh-hero-brand-shell {
+          position: relative;
+          z-index: 1;
+          width: 100%;
+          max-width: var(--fi-content-max, 960px);
+          margin: 0 auto;
+          margin-bottom: calc(3 * var(--flock-margin-3xl));
+          line-height: 0;
+        }
         .bh-hero-inner {
           position: relative;
           z-index: 1;
@@ -131,6 +141,16 @@ export default function BeamHero() {
           max-width: var(--fi-content-max, 960px);
           margin: 0 auto;
           text-align: left;
+        }
+        .bh-hero-brand {
+          margin: 0;
+          line-height: 0;
+        }
+        .bh-hero-logo {
+          display: block;
+          width: 99px;
+          height: 20px;
+          object-fit: contain;
         }
         /*
           Docs + Ant Design global typography often wins over a plain .bh-hero-title rule.
@@ -219,6 +239,17 @@ export default function BeamHero() {
             mixBlendMode="normal"
             quality="high"
           />
+        </div>
+        <div className="bh-hero-brand-shell">
+          <div className="bh-hero-brand">
+            <img
+              className="bh-hero-logo"
+              src={BRAND_SNOONU_LOGO_WORDMARK_URL}
+              width={99}
+              height={20}
+              alt="Snoonu"
+            />
+          </div>
         </div>
         <div className="bh-hero-inner">
           <h1 id="bh-hero-title" className="bh-hero-title">

@@ -1,3 +1,4 @@
+import { BRAND_SNOONU_LOGO_MARK_URL, BRAND_SNOONU_LOGO_WORDMARK_URL } from '../../constants/brandAssets'
 import { NavGroup } from '../NavGroup'
 import type { SidebarVariant } from '../NavGroup'
 import { NavItem } from '../NavItem'
@@ -37,8 +38,6 @@ const ICONS: Record<string, string> = {
   'account-contacts': 'https://www.figma.com/api/mcp/asset/b387c291-50f8-4baf-bbce-fcd07542caa0',
   'learn-grow':       'https://www.figma.com/api/mcp/asset/8ad204c8-574d-4827-aed5-6d929a5f73a6',
 }
-const ICON_SNOONU_LOGO_FULL = 'https://www.figma.com/api/mcp/asset/3a6b9d40-750b-408a-9c6a-4763158f99c8'
-const ICON_SNOONU_LOGO_S    = 'https://www.figma.com/api/mcp/asset/52d01b2d-0d5e-4f0f-a097-c79b4951a720'
 const ICON_LAYOUT_TOGGLE = 'https://www.figma.com/api/mcp/asset/ac1b1c8a-8338-4eb9-8b37-44c5f182c1e3'
 const ICON_STORE_AVATAR  = 'https://www.figma.com/api/mcp/asset/23a42348-2217-4050-b673-3a764d945f8c'
 const ICON_CHEVRON_RIGHT = 'https://www.figma.com/api/mcp/asset/b4bebe92-ac6e-4580-91a4-a3007be79c3b'
@@ -184,7 +183,13 @@ export const Sidebar = ({
             transform: 'translateZ(0)',
           }}
         >
-          <img src={ICON_SNOONU_LOGO_FULL} width={99} height={20} alt="Snoonu" style={{ display: 'block', filter: isLight ? 'brightness(0)' : undefined }} />
+          <img
+            src={BRAND_SNOONU_LOGO_WORDMARK_URL}
+            width={99}
+            height={20}
+            alt="Snoonu"
+            style={{ display: 'block', filter: isLight ? 'brightness(0)' : undefined }}
+          />
           <span
             onClick={onBrandClick}
             style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 400, fontSize: 13, letterSpacing: '1px', color: isLight ? 'var(--flock-sidebar-light-text)' : 'white', lineHeight: 'normal', cursor: onBrandClick ? 'pointer' : undefined }}
@@ -204,7 +209,13 @@ export const Sidebar = ({
             transform: 'translateZ(0)',
           }}
         >
-          <img src={ICON_SNOONU_LOGO_S} width={22} height={20} alt="S" style={{ display: 'block', filter: isLight ? 'brightness(0)' : undefined }} />
+          <img
+            src={BRAND_SNOONU_LOGO_MARK_URL}
+            width={22}
+            height={20}
+            alt="S"
+            style={{ display: 'block', filter: isLight ? 'brightness(0)' : undefined }}
+          />
         </div>
       </div>
 
