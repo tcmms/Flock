@@ -87,6 +87,9 @@ export function QuickStartCommands() {
 
   return (
     <div className="fi-code fi-code-commands">
+      <h2 id="fi-quickstart-title" className="fi-code-commands-title">
+        Download Flock DS &amp; Own it
+      </h2>
       <p className="fi-code-comment fi-code-commands-hint"># Before you start</p>
       <p className="fi-code-caption fi-code-section-intro">
         These commands only check your setup — they do not install Git or Node. If something is missing, install Git and
@@ -95,7 +98,7 @@ export function QuickStartCommands() {
       {PREREQ_ROWS.map((row) => (
         <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
       ))}
-      <p className="fi-code-comment fi-code-commands-hint fi-code-commands-gap"># Download &amp; Own it</p>
+      <p className="fi-code-comment fi-code-commands-hint fi-code-commands-gap"># Clone &amp; install</p>
       {DOWNLOAD_ROWS.map((row) => (
         <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
       ))}

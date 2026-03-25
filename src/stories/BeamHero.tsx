@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from 'react'
+import { useEffect, useMemo, type ComponentProps } from 'react'
 import { BRAND_SNOONU_LOGO_WORDMARK_URL } from '../constants/brandAssets'
 import { Hyperspeed, hyperspeedPresets } from './Hyperspeed'
 import TextType from './TextType/TextType'
@@ -244,7 +244,13 @@ export default function BeamHero() {
         aria-labelledby="bh-hero-title"
       >
         <div className="bh-hero-pillar" aria-hidden>
-          <Hyperspeed effectOptions={hyperspeedEffectOptions} />
+          <Hyperspeed
+            effectOptions={
+              hyperspeedEffectOptions as unknown as NonNullable<
+                ComponentProps<typeof Hyperspeed>['effectOptions']
+              >
+            }
+          />
         </div>
         <div className="bh-hero-brand-shell">
           <div className="bh-hero-brand">

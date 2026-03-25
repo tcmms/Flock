@@ -1,4 +1,5 @@
 import type { Preview } from '@storybook/react'
+import './docs-headings.css'
 import '../src/tokens/index.css'
 import { FlockProvider } from '../src/providers/FlockProvider'
 

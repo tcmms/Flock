@@ -3,7 +3,6 @@ import BeamHero from './BeamHero'
 import { QuickStartCommands } from './QuickStartCommands'
 import { DesignWithAIDemoVideo } from './DesignWithAIDemoVideo'
 import BasicShapesCircleIcon from '../icons/BasicShapesCircleIcon'
-import ComputersDevicesElectronicsScreenMonitorIcon from '../icons/ComputersDevicesElectronicsScreenMonitorIcon'
 import DesignToolsColorPaletteIcon from '../icons/DesignToolsColorPaletteIcon'
 import DesignToolsPaintRollerPaintIcon from '../icons/DesignToolsPaintRollerPaintIcon'
 import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGridLayersAddIcon'
@@ -30,15 +29,6 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
-  .fi-grid-3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    width: 100%;
-    max-width: var(--fi-content-max);
-    margin: 0 auto 48px;
-  }
-
   .fi-grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -48,9 +38,10 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
     margin: 0 auto;
   }
 
-  @media (max-width: 900px) {
-    .fi-grid-3 { grid-template-columns: 1fr; }
+  .fi-section.fi-section--core-blocks {
+    margin-bottom: var(--flock-space-12);
   }
+
   @media (max-width: 640px) {
     .fi-grid-2 { grid-template-columns: 1fr; }
   }
@@ -107,6 +98,11 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
     margin-bottom: 0;
   }
 
+  /* Triple the default section gap after Quick Start (was --flock-margin-2xl). */
+  .fi-section.fi-section--quickstart {
+    margin-bottom: calc(3 * var(--flock-margin-2xl));
+  }
+
   .fi-section h2 {
     font-size: 17px;
     font-weight: 600;
@@ -116,6 +112,16 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
     font-family: 'Inter', sans-serif;
     text-align: left;
     line-height: 1.35;
+  }
+
+  .fi-section.fi-section--ready > h2 {
+    text-align: center;
+    font-family: var(--flock-font-family);
+    font-size: var(--flock-font-size-heading-2);
+    line-height: var(--flock-line-height-heading-2);
+    font-weight: var(--flock-font-weight-heading-2);
+    letter-spacing: -0.02em;
+    margin: 0 0 var(--flock-margin-lg);
   }
 
   .fi-code {
@@ -169,6 +175,17 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
 
   .fi-code-commands-gap {
     margin-top: 1.25em;
+  }
+
+  .fi-code-commands-title {
+    margin: 0 0 var(--flock-margin-md);
+    font-family: var(--flock-font-family);
+    font-size: var(--flock-font-size-heading-6);
+    line-height: var(--flock-line-height-heading-6);
+    font-weight: var(--flock-font-weight-semibold);
+    letter-spacing: -0.015em;
+    color: rgba(255, 255, 255, 0.92);
+    text-align: left;
   }
 
   .fi-code-line-with-caption {
@@ -249,17 +266,17 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
     outline-offset: 2px;
   }
 
-  /* Design with AI — dark glassmorphism + brand glow */
+  /* Design with AI — dark glassmorphism + brand glow (2-up cards) */
   .fi-dwa-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     width: 100%;
     max-width: var(--fi-content-max);
     margin: 0 auto;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 640px) {
     .fi-dwa-grid {
       grid-template-columns: 1fr;
     }
@@ -422,32 +439,25 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
 
 <div className="fi-body">
 
-  <div className="fi-section" role="region" aria-label="Quick start">
+  <div className="fi-section fi-section--quickstart" role="region" aria-labelledby="fi-quickstart-title">
     <QuickStartCommands />
   </div>
 
-  <div className="fi-section">
-    <h2>Design with AI</h2>
+  <div className="fi-section fi-section--ready">
+    <h2>Now we are ready</h2>
     <div className="fi-dwa-grid">
       <div className="fi-dwa-card">
-        <h3>Download &amp; Own it</h3>
+        <h3>Connect any AI</h3>
         <p>
-          Clone the system locally. You don&apos;t need to be a dev to have the source of truth on your
-          machine.
-        </p>
-      </div>
-      <div className="fi-dwa-card">
-        <h3>Connect Claude Code</h3>
-        <p>
-          Use Claude Code or Cursor to talk to the system. Prompt your way through layouts using our
-          pre-built React components.
+          Use Claude Code, Cursor, or any coding agent to talk to the system. Prompt your way through layouts
+          using our pre-built React components.
         </p>
       </div>
       <div className="fi-dwa-card">
         <h3>Build on the Web</h3>
         <p>
-          Skip the export-to-dev handoff. Build, tweak, and preview your interfaces directly in the browser
-          in real-time.
+          Build the UI in code and review interactions and animations as they will behave in the product—no
+          guesswork from static mocks. When you&apos;re ready, push a handoff into Figma with Code to Figma.
         </p>
       </div>
     </div>
@@ -471,32 +481,28 @@ import InterfaceEssentialGridLayersAddIcon from '../icons/InterfaceEssentialGrid
     </div>
   </div>
 
-  <div className="fi-grid-3">
-    <div className="fi-card">
-      <span className="fi-card-icon" aria-hidden>
-        <DesignToolsColorPaletteIcon />
-      </span>
-      <h3>Design Tokens</h3>
-      <p>Colors, spacing, typography, radius, shadows — all CSS custom properties. Zero hardcoded values anywhere.</p>
-    </div>
-    <div className="fi-card">
-      <span className="fi-card-icon" aria-hidden>
-        <InterfaceEssentialGridLayersAddIcon />
-      </span>
-      <h3>Components</h3>
-      <p>Merchant-grade components built on Ant Design. Every state — default, hover, focus, disabled, loading, error.</p>
-    </div>
-    <div className="fi-card">
-      <span className="fi-card-icon" aria-hidden>
-        <ComputersDevicesElectronicsScreenMonitorIcon />
-      </span>
-      <h3>Screens</h3>
-      <p>Full page compositions assembled from components. B2B patterns for forms, tables, dashboards.</p>
+  <div className="fi-section fi-section--core-blocks">
+    <h2>Core building blocks</h2>
+    <div className="fi-grid-2">
+      <div className="fi-card">
+        <span className="fi-card-icon" aria-hidden>
+          <DesignToolsColorPaletteIcon />
+        </span>
+        <h3>Design Tokens</h3>
+        <p>Colors, spacing, typography, radius, shadows — all CSS custom properties. Zero hardcoded values anywhere.</p>
+      </div>
+      <div className="fi-card">
+        <span className="fi-card-icon" aria-hidden>
+          <InterfaceEssentialGridLayersAddIcon />
+        </span>
+        <h3>Components</h3>
+        <p>Merchant-grade components built on Ant Design. Every state — default, hover, focus, disabled, loading, error.</p>
+      </div>
     </div>
   </div>
 
   <div className="fi-section">
-    <h2>Token System</h2>
+    <h2>Tokens - 100% match with Flock at Figma</h2>
     <div className="fi-grid-2">
       <div className="fi-card">
         <h3>Colors</h3>

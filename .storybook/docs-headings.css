@@ -1,0 +1,21 @@
+/**
+ * Storybook Docs / MDX default typography adds a 1px border under h2.
+ * Remove bottom rules from all doc headings (Introduction + every Docs page).
+ */
+.sbdocs-content h1,
+.sbdocs-content h2,
+.sbdocs-content h3,
+.sbdocs-content h4,
+.sbdocs-content h5,
+.sbdocs-content h6 {
+  border-bottom: none !important;
+}
+
+/* h2 paired border with paddingBottom: 4px in SB theme — drop extra gap */
+.sbdocs-content h2 {
+  padding-bottom: 0;
+}
+
+.sbdocs-title {
+  border-bottom: none !important;
+}

@@ -58,6 +58,14 @@
 - [x] Prompt 51: Animation timing tuned — close 180ms snap, open 340ms with 120ms label delay + stagger
 - [x] Prompt 52: Logo crossfade — both logo states always in DOM, opacity crossfade (collapse: full fades 120ms → S fades in 140ms+60ms delay; expand: S fades 120ms → full fades in 140ms+100ms delay). overflow:clip on root. No mount/unmount.
 
+### 2026-03-25
+- [x] Introduction: Quick Start H2 inside code block + `aria-labelledby`; Design with AI → 2 cards (Connect any AI, Build on the Web); tokens section title per Figma wording; DWA grid 2-up.
+- [x] Introduction: “Design with AI” → “Now we are ready” (centered H2); Quick Start → section gap 3× via `calc(3 * var(--flock-margin-2xl))`.
+- [x] Storybook Docs: `.storybook/docs-headings.css` — remove default h1–h6 / `.sbdocs-title` bottom borders on all MDX docs pages.
+- [x] Introduction: removed “Screens” feature card; core blocks grid → `fi-grid-2` (Design Tokens + Components).
+- [x] Introduction: “Now we are ready” H2 uses Flock Heading 2 tokens (size / line-height / weight).
+- [x] Introduction: section title “Core building blocks” above Design Tokens + Components cards (`.fi-section--core-blocks`).
+
 ---
 
 ## Changelog
@@ -110,6 +118,13 @@
 | 2026-03-20 | feature | NavGroup | Created — molecule, 2 states: expanded/collapsed. Token audit passed. |
 | 2026-03-20 | feature | NavItem | Created — molecule, 7 stories, signifier/dot/doc variants. Token audit passed. |
 | 2026-03-20 | feature | Sidebar | Created — organism, expanded/collapsed, 280px/78px, header/store selector/nav/footer. Token audit passed. |
+| 2026-03-25 | update | Introduction.mdx, QuickStartCommands | Quick Start: H2 “Download Flock DS & Own it” inside code block + `aria-labelledby`. Design with AI: two cards (Connect any AI, Build on the Web). Tokens section title → “Tokens - 100% match with Flock at Figma”. DWA grid 2 columns. |
+| 2026-03-25 | fix | BeamHero | Hyperspeed `effectOptions` type assertion — satisfies `Partial<HyperspeedOptions>` / tsc. |
+| 2026-03-25 | update | Introduction.mdx | Section title “Now we are ready” (centered); `.fi-section--quickstart` margin-bottom 3× after instructions block. |
+| 2026-03-25 | update | .storybook | `docs-headings.css` + preview import — strip Storybook Docs heading `border-bottom` on all titles. |
+| 2026-03-25 | update | Introduction.mdx | Removed “Screens” card from core building blocks; grid uses `fi-grid-2`. |
+| 2026-03-25 | update | Introduction.mdx | “Now we are ready” uses `--flock-font-size-heading-2` (+ line-height, weight). |
+| 2026-03-25 | update | Introduction.mdx | H2 “Core building blocks” for tokens + components row; `.fi-section--core-blocks` spacing. |
 
 ---
 
