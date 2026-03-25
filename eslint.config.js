@@ -32,4 +32,11 @@ export default defineConfig([
       '@typescript-eslint/no-explicit-any': 'off',
     },
   },
+  {
+    // Third-party WebGL background (React Bits Hyperspeed) — upstream uses explicit any
+    files: ['src/stories/Hyperspeed/**/*.tsx'],
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
+    },
+  },
 ])

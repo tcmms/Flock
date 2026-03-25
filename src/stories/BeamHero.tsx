@@ -1,6 +1,6 @@
-import { useEffect } from 'react'
+import { useEffect, useMemo } from 'react'
 import { BRAND_SNOONU_LOGO_WORDMARK_URL } from '../constants/brandAssets'
-import LightPillar from './LightPillar'
+import { Hyperspeed, hyperspeedPresets } from './Hyperspeed'
 import TextType from './TextType/TextType'
 
 const HERO_TYPE_TEXTS = ['Next-Gen Design. Welcome', 'Flock Design System'] as const
@@ -15,6 +15,19 @@ const HERO_CHIPS = [
 ] as const
 
 export default function BeamHero() {
+  const hyperspeedEffectOptions = useMemo(
+    () => ({
+      ...hyperspeedPresets.two,
+      colors: {
+        ...hyperspeedPresets.two.colors,
+        leftCars: [0xd90217, 0xeb383e, 0xff102a],
+        rightCars: [0x8f97e4, 0x5c44f0, 0xbebae3],
+        sticks: 0x8f97e4,
+      },
+    }),
+    [],
+  )
+
   useEffect(() => {
     const el = document.querySelector<HTMLElement>('.sbdocs-content')
     const wrap = document.querySelector<HTMLElement>('.sbdocs')
@@ -92,38 +105,44 @@ export default function BeamHero() {
           background-color: #0c0c0d;
           isolation: isolate;
         }
-        /* Pillar layer anchored right so the beam reads on the hero’s right side */
+        /* Hyperspeed layer: centered column, soft fade on both sides */
         .bh-hero-pillar {
           position: absolute;
           top: 0;
-          right: -10%;
           bottom: 0;
-          left: 36%;
-          width: auto;
-          z-index: 0;
+          left: 50%;
+          right: auto;
+          width: min(92%, 1120px);
+          max-width: 100%;
           height: 100%;
+          transform: translateX(-50%);
+          z-index: 0;
           pointer-events: none;
           background: transparent;
           -webkit-mask-image: linear-gradient(
             to right,
             transparent 0%,
-            rgba(0, 0, 0, 0.35) 10%,
-            #000 22%,
-            #000 100%
+            rgba(0, 0, 0, 0.35) 8%,
+            #000 20%,
+            #000 80%,
+            rgba(0, 0, 0, 0.35) 92%,
+            transparent 100%
           );
           mask-image: linear-gradient(
             to right,
             transparent 0%,
-            rgba(0, 0, 0, 0.35) 10%,
-            #000 22%,
-            #000 100%
+            rgba(0, 0, 0, 0.35) 8%,
+            #000 20%,
+            #000 80%,
+            rgba(0, 0, 0, 0.35) 92%,
+            transparent 100%
           );
           -webkit-mask-size: 100% 100%;
           mask-size: 100% 100%;
           -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
-          -webkit-mask-position: left center;
-          mask-position: left center;
+          -webkit-mask-position: center;
+          mask-position: center;
         }
         .bh-hero-brand-shell {
           position: relative;
@@ -225,20 +244,7 @@ export default function BeamHero() {
         aria-labelledby="bh-hero-title"
       >
         <div className="bh-hero-pillar" aria-hidden>
-          <LightPillar
-            topColor="#5C44F0"
-            bottomColor="#D90217"
-            intensity={0.82}
-            rotationSpeed={0.3}
-            glowAmount={0.0075}
-            pillarWidth={4 / 3}
-            pillarHeight={0.4}
-            noiseIntensity={0.28}
-            pillarRotation={25}
-            interactive={false}
-            mixBlendMode="normal"
-            quality="high"
-          />
+          <Hyperspeed effectOptions={hyperspeedEffectOptions} />
         </div>
         <div className="bh-hero-brand-shell">
           <div className="bh-hero-brand">
