@@ -123,7 +123,7 @@ export const NavItem = ({
         style={{
           flex: isCollapsed ? '0 0 0px' : 1,
           fontFamily: 'var(--flock-font-family)',
-          fontWeight: 600,
+          fontWeight: 500,
           fontSize: 'var(--flock-font-size-base)',
           lineHeight: 'var(--flock-line-height-base)',
           color: isLight ? 'var(--flock-sidebar-light-text)' : 'var(--flock-sidebar-text)',
