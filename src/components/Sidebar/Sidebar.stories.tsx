@@ -38,10 +38,13 @@ const meta: Meta<typeof Sidebar> = {
 export default meta
 type Story = StoryObj<typeof Sidebar>
 
+const KFC_LOGO = 'https://upload.wikimedia.org/wikipedia/en/b/bf/KFC_logo.svg'
+
 export const Expanded: Story = {
   args: {
     isCollapsed: false,
     activeItem: 'live-orders',
+    storeLogo: KFC_LOGO,
   },
 }
 
@@ -49,6 +52,7 @@ export const Collapsed: Story = {
   args: {
     isCollapsed: true,
     activeItem: 'live-orders',
+    storeLogo: KFC_LOGO,
   },
 }
 
@@ -62,6 +66,7 @@ export const Interactive: Story = {
         onToggle={() => setCollapsed(!collapsed)}
         activeItem={active}
         onItemClick={setActive}
+        storeLogo={KFC_LOGO}
       />
     )
   },

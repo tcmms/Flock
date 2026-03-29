@@ -20,6 +20,8 @@ export interface SidebarProps {
   variant?: SidebarVariant
   /** Callback when the brand label ("MERCHANT") is clicked */
   onBrandClick?: () => void
+  /** Store logo URL — shown as avatar in the store selector */
+  storeLogo?: string
 }
 
 /* ─── Nav icon names (flock-ds Icon component) ─── */
@@ -125,6 +127,7 @@ export const Sidebar = ({
   onItemClick,
   variant = 'dark',
   onBrandClick,
+  storeLogo,
 }: SidebarProps) => {
   const isLight = variant === 'light'
 
@@ -248,9 +251,17 @@ export const Sidebar = ({
           flexShrink: 0,
         }}
       >
-        <div style={{ width: 28, height: 28, display: 'flex', alignItems: 'center', justifyContent: 'center', color: isLight ? 'var(--flock-color-primary)' : 'white' }}>
-          <Icon name="BuildingConstructionStoreIcon" size={20} color="currentColor" />
-        </div>
+        {storeLogo ? (
+          <img
+            src={storeLogo}
+            alt={storeName}
+            style={{ width: 28, height: 28, borderRadius: 4, display: 'block', objectFit: 'cover' }}
+          />
+        ) : (
+          <div style={{ width: 28, height: 28, display: 'flex', alignItems: 'center', justifyContent: 'center', color: isLight ? 'var(--flock-color-primary)' : 'white' }}>
+            <Icon name="BuildingConstructionStoreIcon" size={20} color="currentColor" />
+          </div>
+        )}
       </div>
       {!isCollapsed && (
         <>
