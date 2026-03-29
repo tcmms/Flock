@@ -52,7 +52,7 @@ const TOKEN_ROWS_EN: AnnotatedRow[] = [
     cmd: 'echo',
     arg: "'export GITHUB_TOKEN=ghp_YOUR_TOKEN' >> ~/.zshrc",
     copyText: "echo 'export GITHUB_TOKEN=ghp_YOUR_TOKEN' >> ~/.zshrc",
-    caption: 'Paste this into the terminal. Replace ghp_YOUR_TOKEN with the token you just copied from GitHub. This saves it permanently so you never have to do this again.',
+    caption: 'Paste this into the terminal. Replace ghp_YOUR_TOKEN with the token you just copied. This saves it permanently. Linux or older macOS users: replace ~/.zshrc with ~/.bashrc.',
   },
   {
     id: 'token-source',
@@ -75,18 +75,11 @@ const INSTALL_ROWS_EN: AnnotatedRow[] = [
 
 const AI_ROWS_EN: AnnotatedRow[] = [
   {
-    id: 'storybook-dev',
-    variant: 'full',
-    line: 'npm run storybook',
-    copyText: 'npm run storybook',
-    caption: 'Start this in the Flock DS folder first. The AI needs Storybook running at localhost:6006 to read component data.',
-  },
-  {
     id: 'mcp-claude',
     variant: 'full',
-    line: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"http://localhost:6006/index.json"}}'`,
-    copyText: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"http://localhost:6006/index.json"}}'`,
-    caption: 'Run this once in your terminal to connect Claude Code to Storybook. After this Claude will know every component, its props, and variants — and will use them automatically when you ask it to build UI.',
+    line: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"https://tcmms.github.io/Flock/index.json"}}'`,
+    copyText: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"https://tcmms.github.io/Flock/index.json"}}'`,
+    caption: 'Run this once in your terminal. It connects Claude Code to the deployed Flock DS Storybook — no need to run anything locally. After this Claude will know every component, its props, and variants, and will use them automatically when you ask it to build UI.',
   },
 ]
 
@@ -164,7 +157,7 @@ const TOKEN_ROWS_RU: AnnotatedRow[] = [
     cmd: 'echo',
     arg: "'export GITHUB_TOKEN=ghp_ВАШ_ТОКЕН' >> ~/.zshrc",
     copyText: "echo 'export GITHUB_TOKEN=ghp_ВАШ_ТОКЕН' >> ~/.zshrc",
-    caption: 'Вставь в терминал. Замени ghp_ВАШ_ТОКЕН на токен который ты только что скопировал. Это сохраняет его навсегда — больше делать не нужно.',
+    caption: 'Вставь в терминал. Замени ghp_ВАШ_ТОКЕН на токен который ты только что скопировал. Сохраняется навсегда — больше делать не нужно. Linux или старый macOS: замени ~/.zshrc на ~/.bashrc.',
   },
   {
     id: 'token-source',
@@ -187,18 +180,11 @@ const INSTALL_ROWS_RU: AnnotatedRow[] = [
 
 const AI_ROWS_RU: AnnotatedRow[] = [
   {
-    id: 'storybook-dev',
-    variant: 'full',
-    line: 'npm run storybook',
-    copyText: 'npm run storybook',
-    caption: 'Сначала запусти это в папке Flock DS. ИИ читает компоненты через Storybook на localhost:6006 — он должен быть запущен.',
-  },
-  {
     id: 'mcp-claude',
     variant: 'full',
-    line: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"http://localhost:6006/index.json"}}'`,
-    copyText: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"http://localhost:6006/index.json"}}'`,
-    caption: 'Запусти один раз в терминале — это подключает Claude Code к Storybook. После этого Claude будет знать все компоненты, их пропсы и варианты, и сам будет использовать их когда ты просишь сверстать интерфейс.',
+    line: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"https://tcmms.github.io/Flock/index.json"}}'`,
+    copyText: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"https://tcmms.github.io/Flock/index.json"}}'`,
+    caption: 'Запусти один раз в терминале. Подключает Claude Code к задеплоенному Storybook — ничего локально запускать не нужно. После этого Claude будет знать все компоненты, их пропсы и варианты, и сам будет использовать их когда ты просишь сверстать интерфейс.',
   },
 ]
 
@@ -269,9 +255,8 @@ const CONTENT = {
         label: '3. Use with Claude Code or Cursor',
         intro: (
           <>
-            Connect your AI coding assistant to Storybook so it knows every Flock DS component.
-            Instead of guessing, Claude will pick the right component with the right props — automatically.
-            Works with <strong style={{ color: 'rgba(255,255,255,0.72)' }}>Claude Code</strong> and any editor that supports MCP (Cursor, Windsurf).
+            Connect <strong style={{ color: 'rgba(255,255,255,0.72)' }}>Claude Code</strong> to Flock DS so it knows every component, prop, and variant.
+            Instead of guessing, Claude will pick the right component automatically when you ask it to build UI.
           </>
         ),
         rows: AI_ROWS_EN,
@@ -315,9 +300,8 @@ const CONTENT = {
         label: '3. Работа с Claude Code или Cursor',
         intro: (
           <>
-            Подключи своего ИИ-помощника к Storybook — и он будет знать все компоненты Flock DS.
-            Вместо того чтобы придумывать код из головы, Claude сам возьмёт нужный компонент с правильными пропсами.
-            Работает с <strong style={{ color: 'rgba(255,255,255,0.72)' }}>Claude Code</strong> и любым редактором с поддержкой MCP (Cursor, Windsurf).
+            Подключи <strong style={{ color: 'rgba(255,255,255,0.72)' }}>Claude Code</strong> к Flock DS — и он будет знать все компоненты, пропсы и варианты.
+            Вместо того чтобы придумывать код из головы, Claude сам возьмёт нужный компонент когда ты просишь сверстать интерфейс.
           </>
         ),
         rows: AI_ROWS_RU,
