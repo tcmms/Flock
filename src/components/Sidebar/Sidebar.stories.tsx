@@ -38,7 +38,7 @@ const meta: Meta<typeof Sidebar> = {
 export default meta
 type Story = StoryObj<typeof Sidebar>
 
-const KFC_LOGO = '/kfc-logo.svg'
+const KFC_LOGO = '/kfc-logo.png'
 
 export const Expanded: Story = {
   args: {
