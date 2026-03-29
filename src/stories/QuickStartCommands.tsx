@@ -69,7 +69,7 @@ const INSTALL_ROWS_EN: AnnotatedRow[] = [
     variant: 'full',
     line: 'npm install',
     copyText: 'npm install',
-    caption: 'Run this inside the Merchant Portal project folder. It will download all dependencies — including @tcmms/flock-ds from GitHub Packages.',
+    caption: 'Run this inside your project folder. It will download all dependencies — including @tcmms/flock-ds from GitHub Packages.',
   },
 ]
 
@@ -164,7 +164,7 @@ const INSTALL_ROWS_RU: AnnotatedRow[] = [
     variant: 'full',
     line: 'npm install',
     copyText: 'npm install',
-    caption: 'Запусти внутри папки Merchant Portal. Скачает все зависимости — включая @tcmms/flock-ds с GitHub Packages. Локальная папка flock-ds не нужна.',
+    caption: 'Запусти внутри папки своего проекта. Скачает все зависимости — включая @tcmms/flock-ds с GitHub Packages. Локальная папка flock-ds не нужна.',
   },
 ]
 
@@ -221,10 +221,10 @@ const CONTENT = {
       },
       {
         key: 'install',
-        label: '2. Install in Merchant Portal',
+        label: '2. Install in your project',
         intro: (
           <>
-            Open your terminal inside the Merchant Portal project folder, then run the command below.
+            Open your terminal inside your project folder, then run the command below.
             You do <strong style={{ color: 'rgba(255,255,255,0.72)' }}>not</strong> need to clone the Flock DS repo — it installs automatically as a package.
           </>
         ),
@@ -255,10 +255,10 @@ const CONTENT = {
       },
       {
         key: 'install',
-        label: '2. Установка в Merchant Portal',
+        label: '2. Установка в проект',
         intro: (
           <>
-            Открой терминал внутри папки Merchant Portal и запусти команду ниже.
+            Открой терминал внутри папки своего проекта и запусти команду ниже.
             Клонировать репозиторий Flock DS <strong style={{ color: 'rgba(255,255,255,0.72)' }}>не нужно</strong> — он установится как обычный пакет.
           </>
         ),
