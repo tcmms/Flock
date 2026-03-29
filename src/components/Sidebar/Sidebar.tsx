@@ -255,7 +255,7 @@ export const Sidebar = ({
           <img
             src={storeLogo}
             alt={storeName}
-            style={{ width: 28, height: 28, borderRadius: 4, display: 'block', objectFit: 'cover' }}
+            style={{ width: 32, height: 32, borderRadius: '50%', display: 'block', objectFit: 'cover' }}
           />
         ) : (
           <div style={{ width: 28, height: 28, display: 'flex', alignItems: 'center', justifyContent: 'center', color: isLight ? 'var(--flock-color-primary)' : 'white' }}>

@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Icon } from '../Icon'
 import type { SidebarVariant } from '../NavGroup'
 
 export interface NavItemProps {
@@ -187,6 +188,7 @@ export const NavItem = ({
           }}
         >
           .doc
+          <Icon name="InterfaceEssentialShareArrowSquareIcon" size={12} color="currentColor" />
         </div>
       )}
     </div>
