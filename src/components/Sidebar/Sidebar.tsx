@@ -185,15 +185,10 @@ export const Sidebar = ({
         >
           <img
             src={snoonuWordmark}
-            alt="Snoonu"
-            style={{ height: 20, width: 'auto', display: 'block', filter: isLight ? 'brightness(0) saturate(100%) invert(13%) sepia(97%) saturate(7469%) hue-rotate(353deg) brightness(89%) contrast(109%)' : undefined }}
-          />
-          <span
+            alt="Snoonu Merchant"
             onClick={onBrandClick}
-            style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 400, fontSize: 13, letterSpacing: '1px', color: isLight ? 'var(--flock-sidebar-light-text)' : 'white', lineHeight: 'normal', cursor: onBrandClick ? 'pointer' : undefined }}
-          >
-            MERCHANT
-          </span>
+            style={{ height: 20, width: 'auto', display: 'block', filter: isLight ? 'brightness(0) saturate(100%) invert(13%) sepia(97%) saturate(7469%) hue-rotate(353deg) brightness(89%) contrast(109%)' : undefined, cursor: onBrandClick ? 'pointer' : undefined }}
+          />
         </div>
         {/* "S" icon (collapsed) */}
         <div
@@ -351,12 +346,12 @@ export const Sidebar = ({
             </span>
           </div>
           <div style={{ width: 16, height: 16, flexShrink: 0, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', color: isLight ? 'var(--flock-sidebar-light-text)' : 'white' }}>
-            <Icon name="InterfaceEssentialDoorLogOutInCircleIcon" size={16} color="currentColor" />
+            <Icon name="SidebarDocPillIcon" size={16} color="currentColor" />
           </div>
         </div>
       ) : (
         <div style={{ width: 16, height: 16, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', color: isLight ? 'var(--flock-sidebar-light-text)' : 'white' }}>
-          <Icon name="InterfaceEssentialDoorLogOutInCircleIcon" size={16} color="currentColor" />
+          <Icon name="SidebarDocPillIcon" size={16} color="currentColor" />
         </div>
       )}
     </div>
