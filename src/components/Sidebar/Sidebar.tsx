@@ -24,19 +24,19 @@ export interface SidebarProps {
 
 /* ─── Nav icon names (flock-ds Icon component) ─── */
 const ICONS: Record<string, string> = {
-  'live-orders':      'ShoppingEcommerceBagShoppingIcon',
-  'order-history':    'InterfaceEssentialReceiptIcon',
+  'live-orders':      'ShoppingEcommerceShoppingBagCreditCardIcon',
+  'order-history':    'InterfaceEssentialAlarmClockTimeCheckmarkIcon',
   'notifications':    'InterfaceEssentialBellNotificationIcon',
-  'menu':             'FastFoodDrinkBurgerIcon',
-  'working-hours':    'InterfaceEssentialAlarmClockTimeIcon',
-  'business-profile': 'BuildingConstructionStoreIcon',
-  'advertisements':   'BusinessProductsPromotionIcon',
-  'discounts':        'DeliveryPackageDeliveryDiscountIcon',
-  'analytics':        'BusinessProductsBusinessChartIcon',
-  'payouts':          'MoneyWalletIcon',
+  'menu':             'InterfaceEssentialChecklistTasksChechmarkSquareIcon',
+  'working-hours':    'InterfaceEssentialAlarmClockTimeTimerIcon',
+  'business-profile': 'UserUserProfileIcon',
+  'advertisements':   'BusinessProductsPromotionRocketIcon',
+  'discounts':        'ShoppingEcommerceSaleDiscountPromotionIcon',
+  'analytics':        'ShoppingEcommerceAnalyticsIcon',
+  'payouts':          'PaymentsFinanceCreditCardDollarIcon',
   'dbs':              'DeliveryDeliveryTruckFastIcon',
-  'account-contacts': 'UserGroupUserIcon',
-  'learn-grow':       'ContentEditBookOpenIcon',
+  'account-contacts': 'SupportHelpQuestionHeadphonesCustomerSupportIcon',
+  'learn-grow':       'SchoolLearningGraduateHatCircleIcon',
 }
 
 /* ─── Icon helper ─── */
