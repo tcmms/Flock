@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
-import kfcLogo from '../../assets/kfc-logo.png'
 import { Sidebar } from './Sidebar'
 
 /**
@@ -39,7 +38,8 @@ const meta: Meta<typeof Sidebar> = {
 export default meta
 type Story = StoryObj<typeof Sidebar>
 
-const KFC_LOGO = kfcLogo
+// KFC brand logo — placeholder for story demo (real app receives URL from backend)
+const KFC_LOGO = 'https://placehold.co/64x64/cc0000/ffffff?text=KFC'
 
 export const Expanded: Story = {
   args: {
