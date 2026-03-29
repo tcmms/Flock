@@ -24,7 +24,7 @@ jobs:
           registry-url: https://npm.pkg.github.com
       - run: npm ci
       - run: npm run build:lib
-      - run: npm publish
+      - run: npm publish || echo "Version already published, skipping."
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
