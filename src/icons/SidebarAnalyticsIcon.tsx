@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SidebarAnalyticsIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" width="1em" height="1em" {...props}><path d="M7.5 14.1667V6.66667C7.5 6.20667 7.87333 5.83333 8.33333 5.83333H12.5M12.5 5.83333V14.1667M12.5 5.83333V3.33333C12.5 2.87333 12.8733 2.5 13.3333 2.5H16.6667C17.1267 2.5 17.5 2.87333 17.5 3.33333V13.3333C17.5 13.7933 17.1267 14.1667 16.6667 14.1667H3.33333C2.87333 14.1667 2.5 13.7933 2.5 13.3333V10C2.5 9.54 2.87333 9.16667 3.33333 9.16667H7.5M2.5 17.5H17.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>;
+export default SidebarAnalyticsIcon;

@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SidebarDocPillIcon = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 12" width="1em" height="1em" {...props}><path d="M4.93005 6H10.0001" stroke="currentColor" strokeOpacity={0.88} strokeLinecap="round" strokeLinejoin="round"/><path d="M5.43203 9.9905L3.34803 10C2.75053 10.003 2.26453 9.524 2.26453 8.9325V3.0675C2.26453 2.478 2.74703 2 3.34303 2H5.50003" stroke="currentColor" strokeOpacity={0.88} strokeLinecap="round" strokeLinejoin="round"/><path d="M8 8L10 6L8 4" stroke="currentColor" strokeOpacity={0.88} strokeLinecap="round" strokeLinejoin="round"/></svg>;
+export default SidebarDocPillIcon;

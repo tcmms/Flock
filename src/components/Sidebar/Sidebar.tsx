@@ -1,3 +1,4 @@
+import snoonuWordmark from '../../assets/snoonu-wordmark.svg'
 import { Icon } from '../Icon'
 import { NavGroup } from '../NavGroup'
 import type { SidebarVariant } from '../NavGroup'
@@ -26,19 +27,19 @@ export interface SidebarProps {
 
 /* ─── Nav icon names (flock-ds Icon component) ─── */
 const ICONS: Record<string, string> = {
-  'live-orders':      'ShoppingEcommerceShoppingBagCreditCardIcon',
-  'order-history':    'InterfaceEssentialAlarmClockTimeCheckmarkIcon',
-  'notifications':    'InterfaceEssentialBellNotificationIcon',
-  'menu':             'InterfaceEssentialChecklistTasksChechmarkSquareIcon',
-  'working-hours':    'InterfaceEssentialAlarmClockTimeTimerIcon',
-  'business-profile': 'UserUserProfileIcon',
-  'advertisements':   'BusinessProductsPromotionRocketIcon',
-  'discounts':        'ShoppingEcommerceSaleDiscountPromotionIcon',
-  'analytics':        'ShoppingEcommerceAnalyticsIcon',
-  'payouts':          'PaymentsFinanceCreditCardDollarIcon',
-  'dbs':              'DeliveryDeliveryTruckFastIcon',
-  'account-contacts': 'SupportHelpQuestionHeadphonesCustomerSupportIcon',
-  'learn-grow':       'SchoolLearningGraduateHatCircleIcon',
+  'live-orders':      'SidebarLiveOrdersIcon',
+  'order-history':    'SidebarOrderHistoryIcon',
+  'notifications':    'SidebarNotificationsIcon',
+  'menu':             'SidebarMenuIcon',
+  'working-hours':    'SidebarWorkingHoursIcon',
+  'business-profile': 'SidebarBusinessProfileIcon',
+  'advertisements':   'SidebarAdvertisementsIcon',
+  'discounts':        'SidebarDiscountsIcon',
+  'analytics':        'SidebarAnalyticsIcon',
+  'payouts':          'SidebarPayoutsIcon',
+  'dbs':              'SidebarDeliveryIcon',
+  'account-contacts': 'SidebarAccountContactsIcon',
+  'learn-grow':       'SidebarLearnGrowIcon',
 }
 
 /* ─── Icon helper ─── */
@@ -182,9 +183,11 @@ export const Sidebar = ({
             transform: 'translateZ(0)',
           }}
         >
-          <span style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 700, fontSize: 18, letterSpacing: '2px', color: isLight ? 'var(--flock-color-primary)' : 'white', lineHeight: '20px' }}>
-              snoonu
-            </span>
+          <img
+            src={snoonuWordmark}
+            alt="Snoonu"
+            style={{ height: 20, width: 'auto', display: 'block', filter: isLight ? 'brightness(0) saturate(100%) invert(13%) sepia(97%) saturate(7469%) hue-rotate(353deg) brightness(89%) contrast(109%)' : undefined }}
+          />
           <span
             onClick={onBrandClick}
             style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 400, fontSize: 13, letterSpacing: '1px', color: isLight ? 'var(--flock-sidebar-light-text)' : 'white', lineHeight: 'normal', cursor: onBrandClick ? 'pointer' : undefined }}
@@ -204,9 +207,11 @@ export const Sidebar = ({
             transform: 'translateZ(0)',
           }}
         >
-          <span style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 700, fontSize: 18, letterSpacing: '2px', color: isLight ? 'var(--flock-color-primary)' : 'white', lineHeight: '20px' }}>
-              S
-            </span>
+          <img
+            src={snoonuWordmark}
+            alt="S"
+            style={{ height: 20, width: 'auto', display: 'block', filter: isLight ? 'brightness(0) saturate(100%) invert(13%) sepia(97%) saturate(7469%) hue-rotate(353deg) brightness(89%) contrast(109%)' : undefined, maxWidth: 22, objectFit: 'cover', objectPosition: 'left' }}
+          />
         </div>
       </div>
 

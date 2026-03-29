@@ -188,7 +188,7 @@ export const NavItem = ({
           }}
         >
           .doc
-          <Icon name="InterfaceEssentialShareArrowSquareIcon" size={12} color="currentColor" />
+          <Icon name="SidebarDocPillIcon" size={12} color="currentColor" />
         </div>
       )}
     </div>
