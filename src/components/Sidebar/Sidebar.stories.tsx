@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
+import kfcLogo from '../../assets/kfc-logo.png'
 import { Sidebar } from './Sidebar'
 
 /**
@@ -38,7 +39,7 @@ const meta: Meta<typeof Sidebar> = {
 export default meta
 type Story = StoryObj<typeof Sidebar>
 
-const KFC_LOGO = '/kfc-logo.png'
+const KFC_LOGO = kfcLogo
 
 export const Expanded: Story = {
   args: {
