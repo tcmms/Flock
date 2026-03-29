@@ -103,6 +103,19 @@
   --flock-color-control-item-bg-active:       #FFE7E6;
   --flock-color-control-item-bg-active-hover: #FFA9A6;
 
+  /* ─── Accent: Volcano (orange-red) ─── */
+  --flock-color-volcano:    #fa541c;
+  --flock-color-volcano-bg: #fff4ed;
+
+  /* ─── Customer Tiers ─── */
+  --flock-color-tier-platinum:     #722ED1;
+  --flock-color-tier-platinum-bg:  #F9F0FF;
+  --flock-color-tier-gold:         #D48806;
+  --flock-color-tier-gold-bg:      #FFFBE6;
+  --flock-color-tier-splus-start:  #FF5AC8;
+  --flock-color-tier-splus-mid:    #FF5078;
+  --flock-color-tier-splus-end:    #FF8C28;
+
   /* ─── Misc ─── */
   --flock-color-black:       #000000;
   --flock-color-white:       #FFFFFF;

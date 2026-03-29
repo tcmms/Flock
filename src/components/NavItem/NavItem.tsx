@@ -104,10 +104,16 @@ export const NavItem = ({
 
       {/* Dot indicator */}
       {hasDot && (
-        <img
-          src="https://www.figma.com/api/mcp/asset/d0ba386e-9e25-496e-9dd8-449fca5993aa"
-          alt=""
-          style={{ position: 'absolute', width: 6, height: 6, left: 26, top: 6 }}
+        <div
+          style={{
+            position: 'absolute',
+            width: 6,
+            height: 6,
+            left: 26,
+            top: 6,
+            borderRadius: '50%',
+            background: 'var(--flock-color-error)',
+          }}
         />
       )}
 
@@ -116,7 +122,7 @@ export const NavItem = ({
         style={{
           flex: isCollapsed ? '0 0 0px' : 1,
           fontFamily: 'var(--flock-font-family)',
-          fontWeight: 550,
+          fontWeight: 600,
           fontSize: 'var(--flock-font-size-base)',
           lineHeight: 'var(--flock-line-height-base)',
           color: isLight ? 'var(--flock-sidebar-light-text)' : 'var(--flock-sidebar-text)',
@@ -181,7 +187,6 @@ export const NavItem = ({
           }}
         >
           .doc
-          <img src="https://www.figma.com/api/mcp/asset/aa34dd51-7dee-4b7e-a46b-431145fb12a8" alt="" style={{ width: 12, height: 12, display: 'block' }} />
         </div>
       )}
     </div>

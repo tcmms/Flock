@@ -141,6 +141,9 @@ export const FlockProvider = ({
           warningActiveShadow: '0 0 0 2px rgba(255, 153, 0, 0.1)',
           paddingInline: 12,
         },
+        Steps: {
+          colorSplit: 'rgba(0, 0, 0, 0.03)',
+        },
       },
     }}
   >

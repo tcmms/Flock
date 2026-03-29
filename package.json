@@ -11,7 +11,14 @@
       "require": "./dist/lib/index.cjs",
       "types": "./dist/lib/lib.d.ts"
     },
-    "./tokens/*": "./src/tokens/*"
+    "./tokens": {
+      "style": "./src/tokens/index.css",
+      "default": "./src/tokens/index.css"
+    },
+    "./tokens/*": {
+      "style": "./src/tokens/*",
+      "default": "./src/tokens/*"
+    }
   },
   "files": [
     "dist/lib",
@@ -28,15 +35,20 @@
     "build-storybook": "storybook build",
     "export-icons": "npx tsx --env-file=.env scripts/export-icons.ts"
   },
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-dom": ">=19.0.0",
+    "antd": ">=6.0.0"
+  },
   "dependencies": {
-    "antd": "^6.3.3",
     "gsap": "^3.14.2",
     "postprocessing": "^6.39.0",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4",
     "three": "^0.183.2"
   },
   "devDependencies": {
+    "antd": "^6.3.3",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "@eslint/js": "^9.39.4",
     "@storybook/addon-a11y": "^8.6.18",
     "@storybook/addon-essentials": "^8.6.18",

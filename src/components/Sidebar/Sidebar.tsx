@@ -1,4 +1,4 @@
-import { BRAND_SNOONU_LOGO_MARK_URL, BRAND_SNOONU_LOGO_WORDMARK_URL } from '../../constants/brandAssets'
+import { Icon } from '../Icon'
 import { NavGroup } from '../NavGroup'
 import type { SidebarVariant } from '../NavGroup'
 import { NavItem } from '../NavItem'
@@ -22,31 +22,27 @@ export interface SidebarProps {
   onBrandClick?: () => void
 }
 
-/* ─── Figma MCP asset URLs ─── */
+/* ─── Nav icon names (flock-ds Icon component) ─── */
 const ICONS: Record<string, string> = {
-  'live-orders':      'https://www.figma.com/api/mcp/asset/f3f65fd6-1214-4fa7-8262-bdca402df9a7',
-  'order-history':    'https://www.figma.com/api/mcp/asset/1ebe3871-a2e4-483c-9910-84c6b02dd706',
-  'notifications':    'https://www.figma.com/api/mcp/asset/7f4a2db4-0517-41fc-9c55-ffd19baa7f58',
-  'menu':             'https://www.figma.com/api/mcp/asset/35a4d6d2-98f8-4aee-9594-02c54ada6a17',
-  'working-hours':    'https://www.figma.com/api/mcp/asset/73100f25-ac7c-4de2-a2a4-e8afc2d33446',
-  'business-profile': 'https://www.figma.com/api/mcp/asset/030113ee-63e8-4b36-af8c-64fba238b737',
-  'advertisements':   'https://www.figma.com/api/mcp/asset/7ae6bd58-68ad-44f9-b966-657ccd0db700',
-  'discounts':        'https://www.figma.com/api/mcp/asset/bed2e34a-0330-42a4-9fba-474eda55b483',
-  'analytics':        'https://www.figma.com/api/mcp/asset/5959bf0f-563e-42ce-ba53-602ff2c49bb2',
-  'payouts':          'https://www.figma.com/api/mcp/asset/db71bfe2-e2e2-4801-a104-7c1907e923ca',
-  'dbs':              'https://www.figma.com/api/mcp/asset/9ce4df9d-5364-4722-8184-55520376e706',
-  'account-contacts': 'https://www.figma.com/api/mcp/asset/b387c291-50f8-4baf-bbce-fcd07542caa0',
-  'learn-grow':       'https://www.figma.com/api/mcp/asset/8ad204c8-574d-4827-aed5-6d929a5f73a6',
+  'live-orders':      'ShoppingEcommerceBagShoppingIcon',
+  'order-history':    'InterfaceEssentialReceiptIcon',
+  'notifications':    'InterfaceEssentialBellNotificationIcon',
+  'menu':             'FastFoodDrinkBurgerIcon',
+  'working-hours':    'InterfaceEssentialAlarmClockTimeIcon',
+  'business-profile': 'BuildingConstructionStoreIcon',
+  'advertisements':   'BusinessProductsPromotionIcon',
+  'discounts':        'DeliveryPackageDeliveryDiscountIcon',
+  'analytics':        'BusinessProductsBusinessChartIcon',
+  'payouts':          'MoneyWalletIcon',
+  'dbs':              'DeliveryDeliveryTruckFastIcon',
+  'account-contacts': 'UserGroupUserIcon',
+  'learn-grow':       'ContentEditBookOpenIcon',
 }
-const ICON_LAYOUT_TOGGLE = 'https://www.figma.com/api/mcp/asset/ac1b1c8a-8338-4eb9-8b37-44c5f182c1e3'
-const ICON_STORE_AVATAR  = 'https://www.figma.com/api/mcp/asset/23a42348-2217-4050-b673-3a764d945f8c'
-const ICON_CHEVRON_RIGHT = 'https://www.figma.com/api/mcp/asset/b4bebe92-ac6e-4580-91a4-a3007be79c3b'
-const ICON_LOGOUT        = 'https://www.figma.com/api/mcp/asset/5c1494be-e7a6-4149-95fe-07a04efbe34e'
 
 /* ─── Icon helper ─── */
-const NavIcon = ({ src, alt = '', invert = false }: { src: string; alt?: string; invert?: boolean }) => (
-  <div style={{ position: 'relative', width: 20, height: 20, flexShrink: 0 }}>
-    <img src={src} alt={alt} style={{ display: 'block', position: 'absolute', inset: '-0.02%', width: '100%', height: '100%', filter: invert ? 'brightness(0) saturate(100%)' : undefined }} />
+const NavIcon = ({ name, invert = false }: { name: string; invert?: boolean }) => (
+  <div style={{ width: 20, height: 20, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', color: invert ? 'black' : 'white' }}>
+    <Icon name={name} size={20} color="currentColor" />
   </div>
 )
 
@@ -183,13 +179,9 @@ export const Sidebar = ({
             transform: 'translateZ(0)',
           }}
         >
-          <img
-            src={BRAND_SNOONU_LOGO_WORDMARK_URL}
-            width={99}
-            height={20}
-            alt="Snoonu"
-            style={{ display: 'block', filter: isLight ? 'brightness(0)' : undefined }}
-          />
+          <span style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 700, fontSize: 18, letterSpacing: '2px', color: isLight ? 'var(--flock-color-primary)' : 'white', lineHeight: '20px' }}>
+              snoonu
+            </span>
           <span
             onClick={onBrandClick}
             style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 400, fontSize: 13, letterSpacing: '1px', color: isLight ? 'var(--flock-sidebar-light-text)' : 'white', lineHeight: 'normal', cursor: onBrandClick ? 'pointer' : undefined }}
@@ -209,13 +201,9 @@ export const Sidebar = ({
             transform: 'translateZ(0)',
           }}
         >
-          <img
-            src={BRAND_SNOONU_LOGO_MARK_URL}
-            width={22}
-            height={20}
-            alt="S"
-            style={{ display: 'block', filter: isLight ? 'brightness(0)' : undefined }}
-          />
+          <span style={{ fontFamily: "'Josefin Sans', sans-serif", fontWeight: 700, fontSize: 18, letterSpacing: '2px', color: isLight ? 'var(--flock-color-primary)' : 'white', lineHeight: '20px' }}>
+              S
+            </span>
         </div>
       </div>
 
@@ -230,7 +218,7 @@ export const Sidebar = ({
             : 'transform 360ms cubic-bezier(0.34, 1.56, 0.64, 1)',
         }}
       >
-        <img src={ICON_LAYOUT_TOGGLE} alt="Toggle sidebar" style={{ position: 'absolute', display: 'block', width: '100%', height: '100%', filter: isLight ? 'brightness(0)' : undefined }} />
+        <Icon name="InterfaceEssentialLayoutIcon" size={24} color={isLight ? 'black' : 'white'} />
       </div>
     </div>
 
@@ -260,12 +248,8 @@ export const Sidebar = ({
           flexShrink: 0,
         }}
       >
-        <div style={{ width: 28, height: 28, position: 'relative', overflow: 'hidden' }}>
-          <img
-            src={ICON_STORE_AVATAR}
-            alt={storeName}
-            style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-          />
+        <div style={{ width: 28, height: 28, display: 'flex', alignItems: 'center', justifyContent: 'center', color: isLight ? 'var(--flock-color-primary)' : 'white' }}>
+          <Icon name="BuildingConstructionStoreIcon" size={20} color="currentColor" />
         </div>
       </div>
       {!isCollapsed && (
@@ -287,8 +271,8 @@ export const Sidebar = ({
               {storeName}
             </p>
           </div>
-          <div style={{ width: 20, height: 20, flexShrink: 0, position: 'relative' }}>
-            <img src={ICON_CHEVRON_RIGHT} alt="" style={{ position: 'absolute', display: 'block', width: '100%', height: '100%', filter: isLight ? 'brightness(0)' : undefined }} />
+          <div style={{ width: 20, height: 20, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', color: isLight ? 'var(--flock-sidebar-light-text)' : 'white' }}>
+            <Icon name="InterfaceEssentialArrowRightIcon" size={16} color="currentColor" />
           </div>
         </>
       )}
@@ -307,7 +291,7 @@ export const Sidebar = ({
               return (
                 <NavItem
                   key={item.id}
-                  icon={<NavIcon src={ICONS[item.id]} alt={item.label} invert={isLight} />}
+                  icon={<NavIcon name={ICONS[item.id]} invert={isLight} />}
                   label={item.label}
                   isSelected={activeItem === item.id}
                   signifier={item.signifier}
@@ -350,13 +334,13 @@ export const Sidebar = ({
               {merchantEmail}
             </span>
           </div>
-          <div style={{ width: 16, height: 16, flexShrink: 0, position: 'relative', cursor: 'pointer' }}>
-            <img src={ICON_LOGOUT} alt="Logout" style={{ position: 'absolute', display: 'block', width: '100%', height: '100%', filter: isLight ? 'brightness(0)' : undefined }} />
+          <div style={{ width: 16, height: 16, flexShrink: 0, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', color: isLight ? 'var(--flock-sidebar-light-text)' : 'white' }}>
+            <Icon name="InterfaceEssentialDoorLogOutInCircleIcon" size={16} color="currentColor" />
           </div>
         </div>
       ) : (
-        <div style={{ width: 16, height: 16, position: 'relative', cursor: 'pointer' }}>
-          <img src={ICON_LOGOUT} alt="Logout" style={{ position: 'absolute', display: 'block', width: '100%', height: '100%', filter: isLight ? 'brightness(0)' : undefined }} />
+        <div style={{ width: 16, height: 16, cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', color: isLight ? 'var(--flock-sidebar-light-text)' : 'white' }}>
+          <Icon name="InterfaceEssentialDoorLogOutInCircleIcon" size={16} color="currentColor" />
         </div>
       )}
     </div>
