@@ -73,6 +73,23 @@ const INSTALL_ROWS_EN: AnnotatedRow[] = [
   },
 ]
 
+const AI_ROWS_EN: AnnotatedRow[] = [
+  {
+    id: 'storybook-dev',
+    variant: 'full',
+    line: 'npm run storybook',
+    copyText: 'npm run storybook',
+    caption: 'Start this in the Flock DS folder first. The AI needs Storybook running at localhost:6006 to read component data.',
+  },
+  {
+    id: 'mcp-claude',
+    variant: 'full',
+    line: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"http://localhost:6006/index.json"}}'`,
+    copyText: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"http://localhost:6006/index.json"}}'`,
+    caption: 'Run this once in your terminal to connect Claude Code to Storybook. After this Claude will know every component, its props, and variants — and will use them automatically when you ask it to build UI.',
+  },
+]
+
 const CONTRIBUTE_ROWS_EN: AnnotatedRow[] = [
   {
     id: 'clone',
@@ -168,6 +185,23 @@ const INSTALL_ROWS_RU: AnnotatedRow[] = [
   },
 ]
 
+const AI_ROWS_RU: AnnotatedRow[] = [
+  {
+    id: 'storybook-dev',
+    variant: 'full',
+    line: 'npm run storybook',
+    copyText: 'npm run storybook',
+    caption: 'Сначала запусти это в папке Flock DS. ИИ читает компоненты через Storybook на localhost:6006 — он должен быть запущен.',
+  },
+  {
+    id: 'mcp-claude',
+    variant: 'full',
+    line: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"http://localhost:6006/index.json"}}'`,
+    copyText: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"http://localhost:6006/index.json"}}'`,
+    caption: 'Запусти один раз в терминале — это подключает Claude Code к Storybook. После этого Claude будет знать все компоненты, их пропсы и варианты, и сам будет использовать их когда ты просишь сверстать интерфейс.',
+  },
+]
+
 const CONTRIBUTE_ROWS_RU: AnnotatedRow[] = [
   {
     id: 'clone',
@@ -231,8 +265,20 @@ const CONTENT = {
         rows: INSTALL_ROWS_EN,
       },
       {
+        key: 'ai',
+        label: '3. Use with Claude Code or Cursor',
+        intro: (
+          <>
+            Connect your AI coding assistant to Storybook so it knows every Flock DS component.
+            Instead of guessing, Claude will pick the right component with the right props — automatically.
+            Works with <strong style={{ color: 'rgba(255,255,255,0.72)' }}>Claude Code</strong> and any editor that supports MCP (Cursor, Windsurf).
+          </>
+        ),
+        rows: AI_ROWS_EN,
+      },
+      {
         key: 'contribute',
-        label: '3. Working on Flock DS itself (optional)',
+        label: '4. Working on Flock DS itself (optional)',
         intro: 'Only do this if you need to add or change components in the design system. Portal developers skip this step.',
         rows: CONTRIBUTE_ROWS_EN,
       },
@@ -265,8 +311,20 @@ const CONTENT = {
         rows: INSTALL_ROWS_RU,
       },
       {
+        key: 'ai',
+        label: '3. Работа с Claude Code или Cursor',
+        intro: (
+          <>
+            Подключи своего ИИ-помощника к Storybook — и он будет знать все компоненты Flock DS.
+            Вместо того чтобы придумывать код из головы, Claude сам возьмёт нужный компонент с правильными пропсами.
+            Работает с <strong style={{ color: 'rgba(255,255,255,0.72)' }}>Claude Code</strong> и любым редактором с поддержкой MCP (Cursor, Windsurf).
+          </>
+        ),
+        rows: AI_ROWS_RU,
+      },
+      {
         key: 'contribute',
-        label: '3. Работа над самим Flock DS (опционально)',
+        label: '4. Работа над самим Flock DS (опционально)',
         intro: 'Только если тебе нужно добавить или изменить компоненты в дизайн-системе. Разработчики портала пропускают этот шаг.',
         rows: CONTRIBUTE_ROWS_RU,
       },
@@ -276,7 +334,7 @@ const CONTENT = {
 
 // ─── Component ───────────────────────────────────────────────────────────────
 
-const COLLAPSE_KEYS = ['before', 'token', 'install', 'contribute'] as const
+const COLLAPSE_KEYS = ['before', 'token', 'install', 'ai', 'contribute'] as const
 
 function QuickStartCollapseExpandIcon({ isActive }: { isActive?: boolean }) {
   return (
