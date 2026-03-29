@@ -1,6 +1,10 @@
 {
-  "name": "flock-ds",
-  "version": "0.0.0",
+  "name": "@tcmms/flock-ds",
+  "version": "0.1.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
   "type": "module",
   "main": "./dist/lib/index.cjs",
   "module": "./dist/lib/index.js",

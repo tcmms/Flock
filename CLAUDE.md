@@ -20,6 +20,22 @@ B2B interface for merchants: stores, products, orders, analytics.
 **Font:** Inter
 **Package manager:** npm
 
+## Package Distribution
+
+- Package name: `@tcmms/flock-ds`
+- Registry: GitHub Packages (`https://npm.pkg.github.com`)
+- Published automatically on every push to `main` via GitHub Actions
+- Storybook deployed to GitHub Pages on every push to `main`
+
+### Release workflow
+1. Make changes in `src/`
+2. Bump version in `package.json` (`npm version patch|minor|major`)
+3. Push to `main` — GitHub Actions publishes the package and deploys Storybook
+
+### Commands
+- `npm run build:lib` — build the component library locally
+- `npm run storybook` — start Storybook dev server on :6006
+
 ---
 
 ## Your Role
