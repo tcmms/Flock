@@ -54,7 +54,13 @@ const TOKEN_ROWS_EN: AnnotatedRow[] = [
   },
   {
     id: 'token-source', variant: 'full', line: 'source ~/.zshrc', copyText: 'source ~/.zshrc',
-    caption: 'Makes your token work right now without reopening the terminal.',
+    caption: 'Makes your token active right now without reopening the terminal.',
+  },
+  {
+    id: 'token-npmrc', variant: 'full',
+    line: "echo '//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}' >> ~/.npmrc",
+    copyText: "echo '//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}' >> ~/.npmrc",
+    caption: 'Tells npm to use your token when downloading from GitHub Packages. Without this, npm install will fail with a 401 error.',
   },
 ]
 
@@ -140,7 +146,13 @@ const TOKEN_ROWS_RU: AnnotatedRow[] = [
   },
   {
     id: 'token-source', variant: 'full', line: 'source ~/.zshrc', copyText: 'source ~/.zshrc',
-    caption: 'Активирует токен прямо сейчас — не нужно закрывать и открывать терминал заново.',
+    caption: 'Активирует токен прямо сейчас — не нужно закрывать терминал.',
+  },
+  {
+    id: 'token-npmrc', variant: 'full',
+    line: "echo '//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}' >> ~/.npmrc",
+    copyText: "echo '//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}' >> ~/.npmrc",
+    caption: 'Говорит npm использовать твой токен при скачивании с GitHub Packages. Без этого npm install упадёт с ошибкой 401.',
   },
 ]
 
