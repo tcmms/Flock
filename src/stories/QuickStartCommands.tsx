@@ -60,8 +60,22 @@ const TOKEN_ROWS_EN: AnnotatedRow[] = [
 
 const INSTALL_ROWS_EN: AnnotatedRow[] = [
   {
+    id: 'clone', variant: 'split',
+    cmd: 'git clone',
+    arg: 'https://github.com/tcmms/flock-starter.git my-project',
+    copyText: 'git clone https://github.com/tcmms/flock-starter.git my-project',
+    caption: 'Downloads the starter to a folder called my-project. You can replace my-project with any name you want.',
+  },
+  {
+    id: 'cd-project', variant: 'split',
+    cmd: 'cd',
+    arg: 'my-project',
+    copyText: 'cd my-project',
+    caption: 'Move into the folder you just downloaded.',
+  },
+  {
     id: 'npm-install', variant: 'full', line: 'npm install', copyText: 'npm install',
-    caption: 'Run this inside your project folder. It downloads Flock DS and everything else your project needs.',
+    caption: 'Downloads Flock DS and all other dependencies. Wait until it finishes.',
   },
   {
     id: 'mcp-claude', variant: 'full',
@@ -132,8 +146,22 @@ const TOKEN_ROWS_RU: AnnotatedRow[] = [
 
 const INSTALL_ROWS_RU: AnnotatedRow[] = [
   {
+    id: 'clone', variant: 'split',
+    cmd: 'git clone',
+    arg: 'https://github.com/tcmms/flock-starter.git my-project',
+    copyText: 'git clone https://github.com/tcmms/flock-starter.git my-project',
+    caption: 'Скачивает стартер в папку my-project. Можешь заменить my-project на любое другое название.',
+  },
+  {
+    id: 'cd-project', variant: 'split',
+    cmd: 'cd',
+    arg: 'my-project',
+    copyText: 'cd my-project',
+    caption: 'Заходишь в папку которую только что скачал.',
+  },
+  {
     id: 'npm-install', variant: 'full', line: 'npm install', copyText: 'npm install',
-    caption: 'Запусти внутри папки своего проекта. Скачивает Flock DS и всё остальное что нужно проекту.',
+    caption: 'Скачивает Flock DS и все остальные зависимости. Дождись окончания.',
   },
   {
     id: 'mcp-claude', variant: 'full',
@@ -197,7 +225,7 @@ const SECTIONS_EN: Section[] = [
     key: 'install',
     stepNum: 3,
     label: 'Install Flock DS and connect Claude',
-    intro: <>In your terminal, navigate into your project folder first: {ic('cd your-project-name')}. Then run {ic('npm install')} — that installs Flock DS. After that, run the second command (you can do it from any terminal window) to connect Claude Code to the design system.</>,
+    intro: <>Clone the starter project — it comes with Flock DS already wired up. Then run {ic('npm install')} to download everything. The last command connects Claude Code to the design system — run it once from any terminal window.</>,
     rows: INSTALL_ROWS_EN,
   },
   {
@@ -229,7 +257,7 @@ const SECTIONS_RU: Section[] = [
     key: 'install',
     stepNum: 3,
     label: 'Установи Flock DS и подключи Claude',
-    intro: <>В терминале перейди в папку своего проекта: {ic('cd название-папки-проекта')}. Запусти {ic('npm install')} — установит Flock DS. После этого запусти вторую команду (можно в любом окне терминала) — она подключит Claude Code к дизайн-системе.</>,
+    intro: <>Склонируй стартер — в нём уже всё настроено для работы с Flock DS. Запусти {ic('npm install')} чтобы скачать зависимости. Последняя команда подключает Claude Code к дизайн-системе — запусти её один раз в любом окне терминала.</>,
     rows: INSTALL_ROWS_RU,
   },
   {
