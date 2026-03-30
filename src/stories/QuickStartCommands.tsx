@@ -1,6 +1,4 @@
-import { useCallback, useMemo, useState } from 'react'
-import { Collapse } from '../components/Collapse'
-import { FlockIcons } from '../icons/flockIcons'
+import { useCallback, useState } from 'react'
 
 type Row =
   | { id: string; copyText: string; variant: 'split'; cmd: string; arg: string }
@@ -9,327 +7,258 @@ type Row =
 
 type AnnotatedRow = Row & { caption: string }
 
+type WhereContext = 'terminal' | 'browser' | 'project'
+
+type Section = {
+  key: string
+  stepNum: number
+  label: string
+  where: WhereContext
+  intro: string
+  rows: AnnotatedRow[]
+  optional?: boolean
+}
+
 type Lang = 'en' | 'ru'
 
-// ─── English ────────────────────────────────────────────────────────────────
+const WHERE_CONFIG: Record<WhereContext, { emoji: string; en: string; ru: string }> = {
+  terminal: { emoji: '💻', en: 'In terminal', ru: 'В терминале' },
+  browser:  { emoji: '🌐', en: 'In browser', ru: 'В браузере' },
+  project:  { emoji: '📁', en: 'In your project folder', ru: 'В папке проекта' },
+}
+
+// ─── Row data — EN ───────────────────────────────────────────────────────────
 
 const PREREQ_ROWS_EN: AnnotatedRow[] = [
   {
-    id: 'git-version',
-    variant: 'full',
-    line: 'git --version',
-    copyText: 'git --version',
-    caption: 'Should print a Git version. If the command is not found, install Git first (macOS: Xcode Command Line Tools).',
+    id: 'git-version', variant: 'full', line: 'git --version', copyText: 'git --version',
+    caption: 'Should print a Git version. If not found — install Git first (macOS: Xcode Command Line Tools).',
   },
   {
-    id: 'node-v',
-    variant: 'full',
-    line: 'node -v',
-    copyText: 'node -v',
-    caption: 'Expect v20.x. If missing, install Node.js 20 LTS from nodejs.org.',
+    id: 'node-v', variant: 'full', line: 'node -v', copyText: 'node -v',
+    caption: 'Expect v20.x. If missing — install Node.js 20 LTS from nodejs.org.',
   },
   {
-    id: 'npm-v',
-    variant: 'full',
-    line: 'npm -v',
-    copyText: 'npm -v',
-    caption: 'npm ships with Node. If this fails, reinstall the Node.js LTS installer.',
+    id: 'npm-v', variant: 'full', line: 'npm -v', copyText: 'npm -v',
+    caption: 'npm ships with Node. If this fails — reinstall the Node.js LTS installer.',
   },
 ]
 
-const TOKEN_ROWS_EN: AnnotatedRow[] = [
+const TOKEN_BROWSER_ROWS_EN: AnnotatedRow[] = [
   {
-    id: 'token-url',
-    variant: 'url',
+    id: 'token-url', variant: 'url',
     label: 'github.com/settings/tokens/new',
     url: 'https://github.com/settings/tokens/new?scopes=read:packages&description=flock-ds+npm',
     copyText: 'https://github.com/settings/tokens/new?scopes=read:packages&description=flock-ds+npm',
-    caption: '👆 Open this link in your browser — not in the terminal. The read:packages scope will be pre-selected. Click "Generate token", then copy the token that appears.',
+    caption: 'Click this link — it opens GitHub in your browser. The read:packages scope is pre-selected. Click "Generate token", then copy the token that appears.',
   },
+]
+
+const TOKEN_TERMINAL_ROWS_EN: AnnotatedRow[] = [
   {
-    id: 'token-export',
-    variant: 'split',
+    id: 'token-export', variant: 'split',
     cmd: 'echo',
     arg: "'export GITHUB_TOKEN=ghp_YOUR_TOKEN' >> ~/.zshrc",
     copyText: "echo 'export GITHUB_TOKEN=ghp_YOUR_TOKEN' >> ~/.zshrc",
-    caption: 'Paste this into the terminal. Replace ghp_YOUR_TOKEN with the token you just copied. This saves it permanently. Linux or older macOS users: replace ~/.zshrc with ~/.bashrc.',
+    caption: 'Paste into your terminal. Replace ghp_YOUR_TOKEN with the token you just copied. Linux or older macOS: replace ~/.zshrc with ~/.bashrc.',
   },
   {
-    id: 'token-source',
-    variant: 'full',
-    line: 'source ~/.zshrc',
-    copyText: 'source ~/.zshrc',
-    caption: 'Run this so the token takes effect in the current terminal window right now.',
+    id: 'token-source', variant: 'full', line: 'source ~/.zshrc', copyText: 'source ~/.zshrc',
+    caption: 'Makes the token active right now — without closing and reopening the terminal.',
   },
 ]
 
 const INSTALL_ROWS_EN: AnnotatedRow[] = [
   {
-    id: 'npm-install',
-    variant: 'full',
-    line: 'npm install',
-    copyText: 'npm install',
-    caption: 'Run this inside your project folder. It will download all dependencies — including @tcmms/flock-ds from GitHub Packages.',
+    id: 'npm-install', variant: 'full', line: 'npm install', copyText: 'npm install',
+    caption: 'Downloads all dependencies — including @tcmms/flock-ds from GitHub Packages. No need to clone the Flock repo.',
   },
 ]
 
 const AI_ROWS_EN: AnnotatedRow[] = [
   {
-    id: 'mcp-claude',
-    variant: 'full',
+    id: 'mcp-claude', variant: 'full',
     line: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"https://tcmms.github.io/Flock/index.json"}}'`,
     copyText: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"https://tcmms.github.io/Flock/index.json"}}'`,
-    caption: 'Run this once in your terminal. It connects Claude Code to the deployed Flock DS Storybook — no need to run anything locally. After this Claude will know every component, its props, and variants, and will use them automatically when you ask it to build UI.',
+    caption: 'Run once anywhere. Connects Claude Code to the deployed Flock Storybook — nothing to run locally. After this Claude knows every component, prop, and variant, and will use them automatically.',
   },
 ]
 
 const CONTRIBUTE_ROWS_EN: AnnotatedRow[] = [
   {
-    id: 'clone',
-    variant: 'split',
-    cmd: 'git clone',
-    arg: 'https://github.com/tcmms/Flock.git',
+    id: 'clone', variant: 'split', cmd: 'git clone', arg: 'https://github.com/tcmms/Flock.git',
     copyText: 'git clone https://github.com/tcmms/Flock.git',
     caption: 'Downloads the Flock DS repository to your computer.',
   },
   {
-    id: 'cd-flock',
-    variant: 'split',
-    cmd: 'cd',
-    arg: 'Flock',
+    id: 'cd-flock', variant: 'split', cmd: 'cd', arg: 'Flock',
     copyText: 'cd Flock',
-    caption: 'Go into the folder you just downloaded.',
+    caption: 'Move into the folder you just downloaded.',
   },
   {
-    id: 'flock-install',
-    variant: 'full',
-    line: 'npm install',
-    copyText: 'npm install',
+    id: 'flock-install', variant: 'full', line: 'npm install', copyText: 'npm install',
     caption: 'Installs all dependencies. Wait until it finishes.',
   },
   {
-    id: 'storybook',
-    variant: 'full',
-    line: 'npm run storybook',
-    copyText: 'npm run storybook',
+    id: 'storybook', variant: 'full', line: 'npm run storybook', copyText: 'npm run storybook',
     caption: 'Opens Storybook at http://localhost:6006. Keep this terminal window open while you work.',
   },
 ]
 
-// ─── Russian ─────────────────────────────────────────────────────────────────
+// ─── Row data — RU ───────────────────────────────────────────────────────────
 
 const PREREQ_ROWS_RU: AnnotatedRow[] = [
   {
-    id: 'git-version',
-    variant: 'full',
-    line: 'git --version',
-    copyText: 'git --version',
-    caption: 'Должна напечататься версия Git. Если команда не найдена — сначала установи Git (macOS: Xcode Command Line Tools).',
+    id: 'git-version', variant: 'full', line: 'git --version', copyText: 'git --version',
+    caption: 'Должна появиться версия Git. Если команда не найдена — сначала установи Git (macOS: Xcode Command Line Tools).',
   },
   {
-    id: 'node-v',
-    variant: 'full',
-    line: 'node -v',
-    copyText: 'node -v',
+    id: 'node-v', variant: 'full', line: 'node -v', copyText: 'node -v',
     caption: 'Ожидай v20.x. Если нет — установи Node.js 20 LTS с nodejs.org.',
   },
   {
-    id: 'npm-v',
-    variant: 'full',
-    line: 'npm -v',
-    copyText: 'npm -v',
-    caption: 'npm идёт в комплекте с Node. Если не работает — переустанови Node.js LTS.',
+    id: 'npm-v', variant: 'full', line: 'npm -v', copyText: 'npm -v',
+    caption: 'npm идёт с Node. Если не работает — переустанови Node.js LTS.',
   },
 ]
 
-const TOKEN_ROWS_RU: AnnotatedRow[] = [
+const TOKEN_BROWSER_ROWS_RU: AnnotatedRow[] = [
   {
-    id: 'token-url',
-    variant: 'url',
+    id: 'token-url', variant: 'url',
     label: 'github.com/settings/tokens/new',
     url: 'https://github.com/settings/tokens/new?scopes=read:packages&description=flock-ds+npm',
     copyText: 'https://github.com/settings/tokens/new?scopes=read:packages&description=flock-ds+npm',
-    caption: '👆 Открой эту ссылку в браузере — не в терминале. Галочка read:packages уже будет стоять. Нажми "Generate token" и скопируй токен, который появится.',
+    caption: 'Открой ссылку в браузере. Галочка read:packages уже стоит. Нажми "Generate token" и скопируй токен, который появится.',
   },
+]
+
+const TOKEN_TERMINAL_ROWS_RU: AnnotatedRow[] = [
   {
-    id: 'token-export',
-    variant: 'split',
+    id: 'token-export', variant: 'split',
     cmd: 'echo',
     arg: "'export GITHUB_TOKEN=ghp_ВАШ_ТОКЕН' >> ~/.zshrc",
     copyText: "echo 'export GITHUB_TOKEN=ghp_ВАШ_ТОКЕН' >> ~/.zshrc",
-    caption: 'Вставь в терминал. Замени ghp_ВАШ_ТОКЕН на токен который ты только что скопировал. Сохраняется навсегда — больше делать не нужно. Linux или старый macOS: замени ~/.zshrc на ~/.bashrc.',
+    caption: 'Вставь в терминал. Замени ghp_ВАШ_ТОКЕН на токен который только что скопировал. Linux или старый macOS: замени ~/.zshrc на ~/.bashrc.',
   },
   {
-    id: 'token-source',
-    variant: 'full',
-    line: 'source ~/.zshrc',
-    copyText: 'source ~/.zshrc',
-    caption: 'Запусти чтобы токен сразу заработал в текущем окне терминала.',
+    id: 'token-source', variant: 'full', line: 'source ~/.zshrc', copyText: 'source ~/.zshrc',
+    caption: 'Активирует токен прямо сейчас — без закрытия и открытия терминала.',
   },
 ]
 
 const INSTALL_ROWS_RU: AnnotatedRow[] = [
   {
-    id: 'npm-install',
-    variant: 'full',
-    line: 'npm install',
-    copyText: 'npm install',
-    caption: 'Запусти внутри папки своего проекта. Скачает все зависимости — включая @tcmms/flock-ds с GitHub Packages. Локальная папка flock-ds не нужна.',
+    id: 'npm-install', variant: 'full', line: 'npm install', copyText: 'npm install',
+    caption: 'Скачивает все зависимости — включая @tcmms/flock-ds с GitHub Packages. Клонировать репозиторий Flock не нужно.',
   },
 ]
 
 const AI_ROWS_RU: AnnotatedRow[] = [
   {
-    id: 'mcp-claude',
-    variant: 'full',
+    id: 'mcp-claude', variant: 'full',
     line: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"https://tcmms.github.io/Flock/index.json"}}'`,
     copyText: `claude mcp add-json "storybook" '{"command":"npx","args":["-y","storybook-mcp@latest"],"env":{"STORYBOOK_URL":"https://tcmms.github.io/Flock/index.json"}}'`,
-    caption: 'Запусти один раз в терминале. Подключает Claude Code к задеплоенному Storybook — ничего локально запускать не нужно. После этого Claude будет знать все компоненты, их пропсы и варианты, и сам будет использовать их когда ты просишь сверстать интерфейс.',
+    caption: 'Запусти один раз в любом терминале. Подключает Claude Code к задеплоенному Storybook — локально ничего запускать не нужно. После этого Claude знает все компоненты, пропсы и варианты, и использует их сам.',
   },
 ]
 
 const CONTRIBUTE_ROWS_RU: AnnotatedRow[] = [
   {
-    id: 'clone',
-    variant: 'split',
-    cmd: 'git clone',
-    arg: 'https://github.com/tcmms/Flock.git',
+    id: 'clone', variant: 'split', cmd: 'git clone', arg: 'https://github.com/tcmms/Flock.git',
     copyText: 'git clone https://github.com/tcmms/Flock.git',
     caption: 'Скачивает репозиторий Flock DS на твой компьютер.',
   },
   {
-    id: 'cd-flock',
-    variant: 'split',
-    cmd: 'cd',
-    arg: 'Flock',
+    id: 'cd-flock', variant: 'split', cmd: 'cd', arg: 'Flock',
     copyText: 'cd Flock',
     caption: 'Заходишь в папку которую только что скачал.',
   },
   {
-    id: 'flock-install',
-    variant: 'full',
-    line: 'npm install',
-    copyText: 'npm install',
+    id: 'flock-install', variant: 'full', line: 'npm install', copyText: 'npm install',
     caption: 'Устанавливает все зависимости. Дождись окончания.',
   },
   {
-    id: 'storybook',
-    variant: 'full',
-    line: 'npm run storybook',
-    copyText: 'npm run storybook',
-    caption: 'Открывает Storybook по адресу http://localhost:6006. Держи это окно терминала открытым пока работаешь.',
+    id: 'storybook', variant: 'full', line: 'npm run storybook', copyText: 'npm run storybook',
+    caption: 'Открывает Storybook по адресу http://localhost:6006. Держи это окно открытым пока работаешь.',
   },
 ]
 
-// ─── Content map ─────────────────────────────────────────────────────────────
+// ─── Sections ────────────────────────────────────────────────────────────────
+
+const SECTIONS_EN: Section[] = [
+  {
+    key: 'prereq', stepNum: 1, label: 'Check your setup', where: 'terminal',
+    intro: "Run these to make sure everything is installed. They don't change anything.",
+    rows: PREREQ_ROWS_EN,
+  },
+  {
+    key: 'token-browser', stepNum: 2, label: 'Get a GitHub token', where: 'browser',
+    intro: 'Flock DS lives on GitHub Packages — a private shelf. You need a personal key to download from it. Do this once.',
+    rows: TOKEN_BROWSER_ROWS_EN,
+  },
+  {
+    key: 'token-terminal', stepNum: 3, label: 'Save the token', where: 'terminal',
+    intro: 'Come back to your terminal. Replace ghp_YOUR_TOKEN with the token you just copied.',
+    rows: TOKEN_TERMINAL_ROWS_EN,
+  },
+  {
+    key: 'install', stepNum: 4, label: 'Install Flock DS', where: 'project',
+    intro: 'Open a terminal inside your project folder and run:',
+    rows: INSTALL_ROWS_EN,
+  },
+  {
+    key: 'ai', stepNum: 5, label: 'Connect Claude Code', where: 'terminal',
+    intro: "Run this once anywhere — Claude will then know every Flock component and pick them automatically when you ask it to build UI.",
+    rows: AI_ROWS_EN,
+  },
+  {
+    key: 'contribute', stepNum: 6, label: 'Working on Flock DS itself', where: 'terminal',
+    intro: 'Only if you need to add or change components in the design system. Portal developers skip this.',
+    rows: CONTRIBUTE_ROWS_EN,
+    optional: true,
+  },
+]
+
+const SECTIONS_RU: Section[] = [
+  {
+    key: 'prereq', stepNum: 1, label: 'Проверь, что всё установлено', where: 'terminal',
+    intro: 'Запусти эти команды — они просто выводят версии, ничего не меняют.',
+    rows: PREREQ_ROWS_RU,
+  },
+  {
+    key: 'token-browser', stepNum: 2, label: 'Получи GitHub-токен', where: 'browser',
+    intro: 'Flock DS хранится на GitHub Packages. Чтобы скачать оттуда — нужен личный ключ доступа. Делается один раз.',
+    rows: TOKEN_BROWSER_ROWS_RU,
+  },
+  {
+    key: 'token-terminal', stepNum: 3, label: 'Сохрани токен', where: 'terminal',
+    intro: 'Вернись в терминал. Замени ghp_ВАШ_ТОКЕН на токен который только что скопировал.',
+    rows: TOKEN_TERMINAL_ROWS_RU,
+  },
+  {
+    key: 'install', stepNum: 4, label: 'Установи Flock DS', where: 'project',
+    intro: 'Открой терминал внутри папки своего проекта и запусти:',
+    rows: INSTALL_ROWS_RU,
+  },
+  {
+    key: 'ai', stepNum: 5, label: 'Подключи Claude Code', where: 'terminal',
+    intro: 'Запусти один раз в любом терминале — после этого Claude знает все компоненты Flock и использует их сам.',
+    rows: AI_ROWS_RU,
+  },
+  {
+    key: 'contribute', stepNum: 6, label: 'Работа над самим Flock DS', where: 'terminal',
+    intro: 'Только если нужно добавить или изменить компоненты в дизайн-системе. Разработчики портала пропускают этот шаг.',
+    rows: CONTRIBUTE_ROWS_RU,
+    optional: true,
+  },
+]
 
 const CONTENT = {
-  en: {
-    title: 'Install Flock DS',
-    sections: [
-      {
-        key: 'before',
-        label: '0. Check your setup',
-        intro: "Run these in your terminal to make sure everything is installed. These commands don't change anything — they just print version numbers.",
-        rows: PREREQ_ROWS_EN,
-      },
-      {
-        key: 'token',
-        label: '1. Get a GitHub token',
-        intro: 'Flock DS lives on GitHub Packages — like a private shelf. To download packages from it, you need a personal key called a token. Do this once and forget about it.',
-        rows: TOKEN_ROWS_EN,
-      },
-      {
-        key: 'install',
-        label: '2. Install in your project',
-        intro: (
-          <>
-            Open your terminal inside your project folder, then run the command below.
-            You do <strong style={{ color: 'rgba(255,255,255,0.72)' }}>not</strong> need to clone the Flock DS repo — it installs automatically as a package.
-          </>
-        ),
-        rows: INSTALL_ROWS_EN,
-      },
-      {
-        key: 'ai',
-        label: '3. Use with Claude Code or Cursor',
-        intro: (
-          <>
-            Connect <strong style={{ color: 'rgba(255,255,255,0.72)' }}>Claude Code</strong> to Flock DS so it knows every component, prop, and variant.
-            Instead of guessing, Claude will pick the right component automatically when you ask it to build UI.
-          </>
-        ),
-        rows: AI_ROWS_EN,
-      },
-      {
-        key: 'contribute',
-        label: '4. Working on Flock DS itself (optional)',
-        intro: 'Only do this if you need to add or change components in the design system. Portal developers skip this step.',
-        rows: CONTRIBUTE_ROWS_EN,
-      },
-    ],
-  },
-  ru: {
-    title: 'Установка Flock DS',
-    sections: [
-      {
-        key: 'before',
-        label: '0. Проверь, всё ли установлено',
-        intro: 'Запусти эти команды в терминале — они просто выводят номера версий, ничего не меняют. Если что-то не работает — смотри подсказку.',
-        rows: PREREQ_ROWS_RU,
-      },
-      {
-        key: 'token',
-        label: '1. Получи GitHub-токен',
-        intro: 'Flock DS хранится на GitHub Packages — это как закрытый склад. Чтобы скачать оттуда пакеты, нужен личный ключ доступа — токен. Делается один раз, потом забываешь.',
-        rows: TOKEN_ROWS_RU,
-      },
-      {
-        key: 'install',
-        label: '2. Установка в проект',
-        intro: (
-          <>
-            Открой терминал внутри папки своего проекта и запусти команду ниже.
-            Клонировать репозиторий Flock DS <strong style={{ color: 'rgba(255,255,255,0.72)' }}>не нужно</strong> — он установится как обычный пакет.
-          </>
-        ),
-        rows: INSTALL_ROWS_RU,
-      },
-      {
-        key: 'ai',
-        label: '3. Работа с Claude Code или Cursor',
-        intro: (
-          <>
-            Подключи <strong style={{ color: 'rgba(255,255,255,0.72)' }}>Claude Code</strong> к Flock DS — и он будет знать все компоненты, пропсы и варианты.
-            Вместо того чтобы придумывать код из головы, Claude сам возьмёт нужный компонент когда ты просишь сверстать интерфейс.
-          </>
-        ),
-        rows: AI_ROWS_RU,
-      },
-      {
-        key: 'contribute',
-        label: '4. Работа над самим Flock DS (опционально)',
-        intro: 'Только если тебе нужно добавить или изменить компоненты в дизайн-системе. Разработчики портала пропускают этот шаг.',
-        rows: CONTRIBUTE_ROWS_RU,
-      },
-    ],
-  },
+  en: { title: 'Install Flock DS', sections: SECTIONS_EN },
+  ru: { title: 'Установка Flock DS', sections: SECTIONS_RU },
 }
 
 // ─── Component ───────────────────────────────────────────────────────────────
-
-const COLLAPSE_KEYS = ['before', 'token', 'install', 'ai', 'contribute'] as const
-
-function QuickStartCollapseExpandIcon({ isActive }: { isActive?: boolean }) {
-  return (
-    <span
-      className={`fi-code-collapse-chevron${isActive ? ' fi-code-collapse-chevron--expanded' : ''}`}
-      aria-hidden
-    >
-      <FlockIcons.ArrowDown />
-    </span>
-  )
-}
 
 export function QuickStartCommands() {
   const [lang, setLang] = useState<Lang>('en')
@@ -347,26 +276,10 @@ export function QuickStartCommands() {
 
   const content = CONTENT[lang]
 
-  const collapseItems = useMemo(
-    () =>
-      content.sections.map((section) => ({
-        key: section.key,
-        label: <span className="fi-code-collapse-label">{section.label}</span>,
-        children: (
-          <>
-            <p className="fi-code-caption fi-code-section-intro">{section.intro}</p>
-            {section.rows.map((row) => (
-              <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
-            ))}
-          </>
-        ),
-      })),
-    [content, copiedId, copyLine],
-  )
-
   return (
     <div className="fi-code fi-code-commands">
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--flock-margin-md)' }}>
+      {/* Header */}
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--flock-margin-lg)' }}>
         <h2 id="fi-quickstart-title" className="fi-code-commands-title" style={{ margin: 0 }}>
           {content.title}
         </h2>
@@ -381,7 +294,7 @@ export function QuickStartCommands() {
                 fontSize: 11,
                 fontWeight: 600,
                 letterSpacing: '0.04em',
-                textTransform: 'uppercase',
+                textTransform: 'uppercase' as const,
                 padding: '5px 10px',
                 borderRadius: 8,
                 border: '1px solid',
@@ -396,14 +309,83 @@ export function QuickStartCommands() {
           ))}
         </div>
       </div>
-      <Collapse
-        className="fi-code-collapse"
-        bordered={false}
-        defaultActiveKey={[COLLAPSE_KEYS[0]]}
-        expandIcon={({ isActive }) => <QuickStartCollapseExpandIcon isActive={isActive} />}
-        expandIconPosition="end"
-        items={collapseItems}
-      />
+
+      {/* Timeline steps */}
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
+        {content.sections.map((section, idx) => {
+          const where = WHERE_CONFIG[section.where]
+          const whereLabel = lang === 'en' ? where.en : where.ru
+          const optionalLabel = lang === 'en' ? 'optional' : 'опционально'
+          const isLast = idx === content.sections.length - 1
+
+          return (
+            <div key={section.key} style={{ display: 'flex', gap: 14 }}>
+              {/* Timeline spine */}
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: 28, flexShrink: 0 }}>
+                <div style={{
+                  width: 28, height: 28, borderRadius: '50%', flexShrink: 0,
+                  background: section.optional ? 'rgba(255,255,255,0.04)' : 'rgba(217,2,23,0.12)',
+                  border: `1px solid ${section.optional ? 'rgba(255,255,255,0.1)' : 'rgba(217,2,23,0.3)'}`,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontFamily: 'Inter, sans-serif', fontSize: 11, fontWeight: 700,
+                  color: section.optional ? 'rgba(255,255,255,0.28)' : '#ff6b7a',
+                }}>
+                  {section.stepNum}
+                </div>
+                {!isLast && (
+                  <div style={{
+                    width: 1, flex: 1, minHeight: 12,
+                    background: 'rgba(255,255,255,0.07)',
+                    margin: '3px 0',
+                  }} />
+                )}
+              </div>
+
+              {/* Step content */}
+              <div style={{ flex: 1, paddingBottom: isLast ? 0 : 20 }}>
+                {/* WHERE badge */}
+                <div style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 5,
+                  marginBottom: 6,
+                  padding: '2px 8px 2px 6px',
+                  borderRadius: 999,
+                  background: 'rgba(255,255,255,0.05)',
+                  border: '1px solid rgba(255,255,255,0.09)',
+                }}>
+                  <span style={{ fontSize: 11, lineHeight: 1 }}>{where.emoji}</span>
+                  <span style={{
+                    fontFamily: 'Inter, sans-serif', fontSize: 10, fontWeight: 600,
+                    letterSpacing: '0.05em', textTransform: 'uppercase' as const,
+                    color: 'rgba(255,255,255,0.4)',
+                  }}>
+                    {whereLabel}{section.optional ? ` — ${optionalLabel}` : ''}
+                  </span>
+                </div>
+
+                {/* Step title */}
+                <p style={{
+                  margin: '0 0 5px',
+                  fontFamily: 'Inter, sans-serif', fontSize: 14, fontWeight: 600,
+                  lineHeight: 1.3, letterSpacing: '-0.015em',
+                  color: section.optional ? 'rgba(255,255,255,0.42)' : 'rgba(255,255,255,0.88)',
+                }}>
+                  {section.label}
+                </p>
+
+                {/* Intro */}
+                <p className="fi-code-caption fi-code-section-intro" style={{ marginBottom: 10 }}>
+                  {section.intro}
+                </p>
+
+                {/* Commands */}
+                {section.rows.map((row) => (
+                  <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
+                ))}
+              </div>
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }
@@ -411,9 +393,7 @@ export function QuickStartCommands() {
 // ─── Sub-components ──────────────────────────────────────────────────────────
 
 function CodeLineWithCaption({
-  row,
-  copiedId,
-  onCopy,
+  row, copiedId, onCopy,
 }: {
   row: AnnotatedRow
   copiedId: string | null
