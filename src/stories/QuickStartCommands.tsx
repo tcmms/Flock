@@ -1,4 +1,6 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useMemo, useState } from 'react'
+import { Collapse } from '../components/Collapse'
+import { FlockIcons } from '../icons/flockIcons'
 
 type Row =
   | { id: string; copyText: string; variant: 'split'; cmd: string; arg: string }
@@ -247,6 +249,17 @@ const CONTENT = {
 
 // ─── Component ───────────────────────────────────────────────────────────────
 
+function CollapseExpandIcon({ isActive }: { isActive?: boolean }) {
+  return (
+    <span
+      className={`fi-code-collapse-chevron${isActive ? ' fi-code-collapse-chevron--expanded' : ''}`}
+      aria-hidden
+    >
+      <FlockIcons.ArrowDown />
+    </span>
+  )
+}
+
 export function QuickStartCommands() {
   const [lang, setLang] = useState<Lang>('en')
   const [copiedId, setCopiedId] = useState<string | null>(null)
@@ -263,10 +276,40 @@ export function QuickStartCommands() {
 
   const content = CONTENT[lang]
 
+  const collapseItems = useMemo(
+    () =>
+      content.sections.map((section) => ({
+        key: section.key,
+        label: (
+          <span className="fi-code-collapse-label">
+            {section.stepNum}. {section.label}
+            {section.optional && (
+              <span style={{
+                marginLeft: 8, fontSize: 10, fontWeight: 600,
+                letterSpacing: '0.05em', textTransform: 'uppercase' as const,
+                color: 'rgba(255,255,255,0.3)',
+                verticalAlign: 'middle',
+              }}>
+                {lang === 'en' ? 'optional' : 'опционально'}
+              </span>
+            )}
+          </span>
+        ),
+        children: (
+          <>
+            <p className="fi-code-caption fi-code-section-intro">{section.intro}</p>
+            {section.rows.map((row) => (
+              <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
+            ))}
+          </>
+        ),
+      })),
+    [content, copiedId, copyLine, lang],
+  )
+
   return (
     <div className="fi-code fi-code-commands">
-      {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--flock-margin-lg)' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 'var(--flock-margin-md)' }}>
         <h2 id="fi-quickstart-title" className="fi-code-commands-title" style={{ margin: 0 }}>
           {content.title}
         </h2>
@@ -296,76 +339,14 @@ export function QuickStartCommands() {
           ))}
         </div>
       </div>
-
-      {/* Steps */}
-      <div style={{ display: 'flex', flexDirection: 'column' }}>
-        {content.sections.map((section, idx) => {
-          const isLast = idx === content.sections.length - 1
-          const dimmed = section.optional
-
-          return (
-            <div key={section.key} style={{ display: 'flex', gap: 14 }}>
-              {/* Timeline */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: 28, flexShrink: 0 }}>
-                <div style={{
-                  width: 28, height: 28, borderRadius: '50%', flexShrink: 0,
-                  background: dimmed ? 'rgba(255,255,255,0.04)' : 'rgba(217,2,23,0.12)',
-                  border: `1px solid ${dimmed ? 'rgba(255,255,255,0.1)' : 'rgba(217,2,23,0.3)'}`,
-                  display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  fontFamily: 'Inter, sans-serif', fontSize: 11, fontWeight: 700,
-                  color: dimmed ? 'rgba(255,255,255,0.25)' : '#ff6b7a',
-                }}>
-                  {section.stepNum}
-                </div>
-                {!isLast && (
-                  <div style={{
-                    width: 1, flex: 1, minHeight: 12,
-                    background: 'rgba(255,255,255,0.07)',
-                    margin: '3px 0',
-                  }} />
-                )}
-              </div>
-
-              {/* Content */}
-              <div style={{ flex: 1, paddingBottom: isLast ? 0 : 24 }}>
-                {/* Label */}
-                <p style={{
-                  margin: '4px 0 8px',
-                  fontFamily: 'Inter, sans-serif', fontSize: 14, fontWeight: 600,
-                  lineHeight: 1.3, letterSpacing: '-0.015em',
-                  color: dimmed ? 'rgba(255,255,255,0.35)' : 'rgba(255,255,255,0.88)',
-                }}>
-                  {section.label}
-                  {section.optional && (
-                    <span style={{
-                      marginLeft: 8, fontSize: 10, fontWeight: 600,
-                      letterSpacing: '0.05em', textTransform: 'uppercase' as const,
-                      color: 'rgba(255,255,255,0.25)',
-                      verticalAlign: 'middle',
-                    }}>
-                      {lang === 'en' ? 'optional' : 'опционально'}
-                    </span>
-                  )}
-                </p>
-
-                {/* Intro — storytelling */}
-                <p style={{
-                  margin: '0 0 12px',
-                  fontFamily: 'Inter, sans-serif', fontSize: 13,
-                  lineHeight: 1.65, color: 'rgba(255,255,255,0.5)',
-                }}>
-                  {section.intro}
-                </p>
-
-                {/* Commands */}
-                {section.rows.map((row) => (
-                  <CodeLineWithCaption key={row.id} row={row} copiedId={copiedId} onCopy={copyLine} />
-                ))}
-              </div>
-            </div>
-          )
-        })}
-      </div>
+      <Collapse
+        className="fi-code-collapse"
+        bordered={false}
+        defaultActiveKey={['prereq']}
+        expandIcon={({ isActive }) => <CollapseExpandIcon isActive={isActive} />}
+        expandIconPosition="end"
+        items={collapseItems}
+      />
     </div>
   )
 }
