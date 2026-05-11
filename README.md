@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+# Flock DS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Design system for Snoonu's Merchant Portal — React components, design tokens, and patterns built on Vite + TypeScript.
 
-Currently, two official plugins are available:
+**Storybook:** https://tcmms.github.io/Flock/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+`@tcmms/flock-ds` is published to **GitHub Packages**, which requires authentication even for read access. You need a Personal Access Token (PAT) with the `read:packages` scope.
 
-## Expanding the ESLint configuration
+### 1. Generate a token
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Open [github.com/settings/tokens/new?scopes=read:packages&description=flock-ds+npm](https://github.com/settings/tokens/new?scopes=read:packages&description=flock-ds+npm), scroll down, click **Generate token**, and copy the `ghp_...` string.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### 2. Configure `~/.npmrc`
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Add your token to the global npm config so every project can resolve `@tcmms` packages:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```sh
+echo "@tcmms:registry=https://npm.pkg.github.com" >> ~/.npmrc
+echo "//npm.pkg.github.com/:_authToken=ghp_YOUR_TOKEN_HERE" >> ~/.npmrc
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Replace `ghp_YOUR_TOKEN_HERE` with the token from step 1.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 3. Install the package
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```sh
+npm install @tcmms/flock-ds
 ```
+
+### Troubleshooting
+
+- **`401 Unauthorized`** — token is missing, expired, or doesn't have `read:packages`. Regenerate it.
+- **`E404 Not Found`** — `@tcmms` registry isn't set in `~/.npmrc`. Re-run the first command in step 2.
+
+For a step-by-step walkthrough, see the **Get Started** tab in [Storybook](https://tcmms.github.io/Flock/).
+
+---
+
+## Usage
+
+```tsx
+import { Button, InputField, FlockProvider } from '@tcmms/flock-ds'
+import '@tcmms/flock-ds/tokens'
+
+export function App() {
+  return (
+    <FlockProvider>
+      <Button variant="primary">Save</Button>
+    </FlockProvider>
+  )
+}
+```
+
+The `tokens` import registers Flock's CSS custom properties (`--flock-color-*`, `--flock-spacing-*`, etc.). Import it once at your app root.
+
+---
+
+## Local development
+
+```sh
+npm install
+npm run storybook       # dev server on :6006
+npm run build:lib       # build the npm package locally
+npm run lint
+```
+
+Releases publish automatically on every push to `main` (see [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)). To cut a new version: bump `package.json`, commit, and push.
